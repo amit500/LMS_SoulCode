@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RTTiLZIqMFk=",
+  "dgSpecHash": "rmaOcdS25gU=",
   "success": true,
-  "projectFilePath": "D:\\AbhishekDotNet\\LMS_SoulCodess\\LMS_SoulCode\\LMS_SoulCode.csproj",
+  "projectFilePath": "D:\\AbhishekDotNet\\Git Clone NEw\\LMS_SoulCode\\LMS_SoulCode\\LMS_SoulCode.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Abhishek\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Abhishek\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

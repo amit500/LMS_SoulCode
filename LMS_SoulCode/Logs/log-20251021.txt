@@ -1,0 +1,29 @@
+2025-10-21 22:19:37.747 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-21 22:19:38.474 +05:30 [INF] Now listening on: http://localhost:5209
+2025-10-21 22:19:38.607 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-21 22:19:38.610 +05:30 [INF] Hosting environment: Development
+2025-10-21 22:19:38.612 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCodess\LMS_SoulCode
+2025-10-21 22:19:47.443 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-10-21 22:19:48.589 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 1167.0657ms
+2025-10-21 22:19:48.643 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.js - null null
+2025-10-21 22:19:48.653 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.js - 200 null application/javascript;charset=utf-8 11.0317ms
+2025-10-21 22:19:48.658 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-10-21 22:19:48.661 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-21 22:19:48.679 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 17.651ms
+2025-10-21 22:19:48.846 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 188.1092ms
+2025-10-21 22:19:48.931 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-10-21 22:19:49.302 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 371.5368ms
+2025-10-21 22:38:44.703 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/UserRole/2 - null null
+2025-10-21 22:38:46.606 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-10-21 22:38:57.954 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.UserPermissions.Controllers.UserRoleController.GetRoles (LMS_SoulCode)'
+2025-10-21 22:38:58.381 +05:30 [INF] Route matched with {action = "GetRoles", controller = "UserRole"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(Int32) on controller LMS_SoulCode.Features.UserPermissions.Controllers.UserRoleController (LMS_SoulCode).
+2025-10-21 22:39:05.584 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-10-21 22:39:18.302 +05:30 [INF] Executed DbCommand (911ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Name]
+FROM [UserRoles] AS [u]
+INNER JOIN [Roles] AS [r] ON [u].[RoleId] = [r].[Id]
+WHERE [u].[UserId] = @__userId_0
+2025-10-21 22:39:18.828 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.UserPermissions.Entities.Role, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-21 22:39:19.022 +05:30 [INF] Executed action LMS_SoulCode.Features.UserPermissions.Controllers.UserRoleController.GetRoles (LMS_SoulCode) in 20610.7032ms
+2025-10-21 22:39:19.037 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.UserPermissions.Controllers.UserRoleController.GetRoles (LMS_SoulCode)'
+2025-10-21 22:39:19.086 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/UserRole/2 - 200 null application/json; charset=utf-8 34403.2318ms

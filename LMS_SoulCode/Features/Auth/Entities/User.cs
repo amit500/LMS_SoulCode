@@ -9,14 +9,10 @@
         public string Mobile { get; set; } = null!;        
         public string Email { get; set; } = null!;
         public string PasswordHash { get; set; } = null!;
-
-        // Forgot Password ke liye
-        public string ResetToken { get; set; } = null!; // Token store
-        public DateTime? ResetTokenExpiry { get; set; } // Expiry time (nullable)
-
-        // Refresh Token ke liye
-        public string RefreshToken { get; set; } = null!; // Refresh token store
-        public DateTime? RefreshTokenExpiry { get; set; } // Expiry time (nullable)
+        public string? ResetToken { get; set; }  
+        public DateTime? ResetTokenExpiry { get; set; } 
+        public string? RefreshToken { get; set; } 
+        public DateTime? RefreshTokenExpiry { get; set; } 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
     }

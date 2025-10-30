@@ -13,6 +13,8 @@ namespace LMS_SoulCode.Features.Auth.Repositories
         Task<string> GenerateRefreshTokenAsync(string email);
         Task<bool> ValidateRefreshTokenAsync(string refreshToken);
         Task UpdateRefreshTokenAsync(string email, string newRefreshToken);
+        Task<User?> GetUserByResetTokenAsync(string token);
+        Task UpdatePasswordAsync(User user);
 
     }
 }

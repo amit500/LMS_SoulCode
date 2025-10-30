@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LMS_SoulCode")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+893365e7440017f684337f743144e8eedc572275")]
 [assembly: System.Reflection.AssemblyProductAttribute("LMS_SoulCode")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LMS_SoulCode")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

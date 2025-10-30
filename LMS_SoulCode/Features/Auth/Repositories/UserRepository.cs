@@ -1,22 +1,30 @@
 ﻿using LMS_SoulCode.Features.Auth.Entities;
 using LMS_SoulCode.Data;
 using Microsoft.EntityFrameworkCore;
-using Azure.Core;
 
 namespace LMS_SoulCode.Features.Auth.Repositories
 {
     public class UserRepository : IUserRepository
     {
         private readonly LmsDbContext _context;
-        public UserRepository(LmsDbContext context) => _context = context;
 
-        public async Task<User?> GetByUsernameOrEmailAsync(string Email)
+        public UserRepository(LmsDbContext context)
         {
-            return await _context.Users.AsNoTracking().FirstOrDefaultAsync(u => u.Email == Email);
+            _context = context;
         }
-        public async Task<bool> IsEmailTakenAsync(string Email)
+
+        public async Task<User?> GetByUsernameOrEmailAsync(string email)
         {
-            return await _context.Users.AsNoTracking().AnyAsync(u => u.Email == Email);
+            return await _context.Users
+                .AsNoTracking()
+                .FirstOrDefaultAsync(u => u.Email == email);
+        }
+
+        public async Task<bool> IsEmailTakenAsync(string email)
+        {
+            return await _context.Users
+                .AsNoTracking()
+                .AnyAsync(u => u.Email == email);
         }
 
         public async Task AddAsync(User user)
@@ -25,63 +33,86 @@ namespace LMS_SoulCode.Features.Auth.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task<string> GenerateResetTokenAsync(string email)
+        public async Task<string?> GenerateResetTokenAsync(string email)
         {
             var user = await GetByUsernameOrEmailAsync(email);
             if (user == null) return null;
+
             var token = Guid.NewGuid().ToString();
             user.ResetToken = token;
-            user.ResetTokenExpiry = DateTime.UtcNow.AddHours(1); // 1 hour expiry
+            user.ResetTokenExpiry = DateTime.UtcNow.AddHours(1);
+
+            _context.Users.Update(user);
             await _context.SaveChangesAsync();
+
             return token;
         }
 
         public async Task<bool> ValidateResetTokenAsync(string token)
         {
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.ResetToken == token && u.ResetTokenExpiry > DateTime.UtcNow);
-            return user != null;
+            return await _context.Users.AnyAsync(
+                u => u.ResetToken == token && u.ResetTokenExpiry > DateTime.UtcNow
+            );
         }
 
         public async Task UpdatePasswordAsync(string email, string newPassword)
         {
             var user = await GetByUsernameOrEmailAsync(email);
-            if (user != null)
-            {
-                user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(newPassword);
-                user.ResetToken = null;
-                user.ResetTokenExpiry = null;
-                await _context.SaveChangesAsync();
-            }
+            if (user == null) return;
+
+            user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(newPassword);
+            user.ResetToken = null;
+            user.ResetTokenExpiry = null;
+
+            _context.Users.Update(user);
+            await _context.SaveChangesAsync();
         }
 
-        // Refresh Token 
-        public async Task<string> GenerateRefreshTokenAsync(string email)
+        public async Task<string?> GenerateRefreshTokenAsync(string email)
         {
             var user = await GetByUsernameOrEmailAsync(email);
             if (user == null) return null;
+
             var token = Guid.NewGuid().ToString();
             user.RefreshToken = token;
-            user.RefreshTokenExpiry = DateTime.UtcNow.AddDays(7); // 7 days expiry
+            user.RefreshTokenExpiry = DateTime.UtcNow.AddDays(7);
+
+            _context.Users.Update(user); 
             await _context.SaveChangesAsync();
+
             return token;
         }
 
         public async Task<bool> ValidateRefreshTokenAsync(string refreshToken)
         {
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.RefreshToken == refreshToken && u.RefreshTokenExpiry > DateTime.UtcNow);
-            return user != null;
+            return await _context.Users.AnyAsync(
+                u => u.RefreshToken == refreshToken && u.RefreshTokenExpiry > DateTime.UtcNow
+            );
         }
 
         public async Task UpdateRefreshTokenAsync(string email, string newRefreshToken)
         {
             var user = await GetByUsernameOrEmailAsync(email);
-            if (user != null)
-            {
-                user.RefreshToken = newRefreshToken;
-                user.RefreshTokenExpiry = DateTime.UtcNow.AddDays(7);
-                await _context.SaveChangesAsync();
-            }
+            if (user == null) return;
+
+            user.RefreshToken = newRefreshToken;
+            user.RefreshTokenExpiry = DateTime.UtcNow.AddDays(7);
+
+            _context.Users.Update(user); 
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task<User?> GetUserByResetTokenAsync(string token)
+        {
+            return await _context.Users.FirstOrDefaultAsync(
+                u => u.ResetToken == token && u.ResetTokenExpiry > DateTime.UtcNow
+            );
+        }
+
+        public async Task UpdatePasswordAsync(User user)
+        {
+            _context.Users.Update(user);
+            await _context.SaveChangesAsync();
         }
     }
-
 }

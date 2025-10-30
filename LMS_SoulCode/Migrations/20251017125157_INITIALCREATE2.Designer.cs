@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LMS_SoulCode.Migrations
 {
     [DbContext(typeof(LmsDbContext))]
-    [Migration("20251015035507_forgetpassword")]
-    partial class forgetpassword
+    [Migration("20251017125157_INITIALCREATE2")]
+    partial class INITIALCREATE2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

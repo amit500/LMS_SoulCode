@@ -1,0 +1,570 @@
+2025-10-16 00:06:59.313 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-16 00:07:00.447 +05:30 [INF] Now listening on: http://localhost:5209
+2025-10-16 00:07:02.561 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-10-16 00:07:02.747 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-16 00:07:02.762 +05:30 [INF] Hosting environment: Development
+2025-10-16 00:07:02.851 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-10-16 00:07:04.237 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 1700.793ms
+2025-10-16 00:07:04.312 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-16 00:07:04.313 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.js - null null
+2025-10-16 00:07:04.384 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 88.2412ms
+2025-10-16 00:07:04.412 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.js - 200 null application/javascript;charset=utf-8 111.7017ms
+2025-10-16 00:07:05.871 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-10-16 00:07:06.055 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 183.899ms
+2025-10-16 00:07:07.584 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-10-16 00:07:08.018 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 437.6301ms
+2025-10-16 00:07:46.927 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Auth/reset-password - application/json 81
+2025-10-16 00:07:46.967 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-10-16 00:07:53.510 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode)'
+2025-10-16 00:07:53.620 +05:30 [INF] Route matched with {action = "ResetPassword", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(LMS_SoulCode.Features.Auth.Models.ResetPasswordRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-10-16 00:07:55.893 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.ResetPasswordResponse'.
+2025-10-16 00:07:55.932 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode) in 2274.8747ms
+2025-10-16 00:07:55.946 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode)'
+2025-10-16 00:07:55.957 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Auth/reset-password - 200 null application/json; charset=utf-8 9033.2488ms
+2025-10-16 00:55:29.320 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-16 00:55:30.354 +05:30 [INF] Now listening on: http://localhost:5209
+2025-10-16 00:55:30.716 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-16 00:55:30.762 +05:30 [INF] Hosting environment: Development
+2025-10-16 00:55:30.778 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-10-16 00:55:31.503 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-10-16 00:55:32.214 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 753.1039ms
+2025-10-16 00:55:32.287 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.js - null null
+2025-10-16 00:55:32.323 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-16 00:55:32.367 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.js - 200 null application/javascript;charset=utf-8 99.3635ms
+2025-10-16 00:55:32.390 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 67.2227ms
+2025-10-16 00:55:33.744 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-10-16 00:55:33.835 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 90.6333ms
+2025-10-16 00:55:35.846 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-10-16 00:55:36.197 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 351.7119ms
+2025-10-16 00:56:50.836 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Auth/forgot-password - application/json 30
+2025-10-16 00:56:50.880 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-10-16 00:56:56.064 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode)'
+2025-10-16 00:56:56.246 +05:30 [INF] Route matched with {action = "ForgotPassword", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(LMS_SoulCode.Features.Auth.Models.ForgotPasswordRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-10-16 00:57:16.696 +05:30 [INF] Executed DbCommand (994ms) [Parameters=[@__Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__Email_0
+2025-10-16 00:57:53.530 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.ForgotPasswordResponse'.
+2025-10-16 00:57:53.674 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode) in 57392.759ms
+2025-10-16 00:57:53.687 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode)'
+2025-10-16 00:57:53.728 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Auth/forgot-password - 200 null application/json; charset=utf-8 62892.2094ms
+2025-10-16 00:59:23.313 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Auth/forgot-password - application/json 30
+2025-10-16 00:59:23.401 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode)'
+2025-10-16 00:59:23.420 +05:30 [INF] Route matched with {action = "ForgotPassword", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(LMS_SoulCode.Features.Auth.Models.ForgotPasswordRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-10-16 00:59:33.901 +05:30 [INF] Executed DbCommand (86ms) [Parameters=[@__Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__Email_0
+2025-10-16 01:03:49.378 +05:30 [INF] Executed DbCommand (841ms) [Parameters=[@p11='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (Size = 4000), @p9='?' (DbType = DateTime2), @p10='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [CreatedAt] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Mobile] = @p4, [PasswordHash] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiry] = @p7, [ResetToken] = @p8, [ResetTokenExpiry] = @p9, [UserName] = @p10
+OUTPUT 1
+WHERE [Id] = @p11;
+2025-10-16 01:03:52.627 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.ForgotPasswordResponse'.
+2025-10-16 01:03:52.641 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode) in 269196.5443ms
+2025-10-16 01:03:52.690 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode)'
+2025-10-16 01:03:52.700 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Auth/forgot-password - 200 null application/json; charset=utf-8 269393.1141ms
+2025-10-16 01:05:35.376 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-10-16 01:05:35.507 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 134.9449ms
+2025-10-16 01:05:36.933 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-16 01:05:36.934 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.js - null null
+2025-10-16 01:05:36.951 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 17.8244ms
+2025-10-16 01:05:36.960 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.js - 200 null application/javascript;charset=utf-8 26.4265ms
+2025-10-16 01:05:37.069 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-10-16 01:05:37.182 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 111.8576ms
+2025-10-16 01:05:39.956 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-10-16 01:05:40.000 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 44.0961ms
+2025-10-16 01:06:24.575 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Auth/forgot-password - application/json 30
+2025-10-16 01:06:24.673 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode)'
+2025-10-16 01:06:24.740 +05:30 [INF] Route matched with {action = "ForgotPassword", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(LMS_SoulCode.Features.Auth.Models.ForgotPasswordRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-10-16 01:06:43.654 +05:30 [INF] Executed DbCommand (273ms) [Parameters=[@__Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__Email_0
+2025-10-16 01:06:58.945 +05:30 [INF] Executed DbCommand (139ms) [Parameters=[@p11='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (Size = 4000), @p9='?' (DbType = DateTime2), @p10='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [CreatedAt] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Mobile] = @p4, [PasswordHash] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiry] = @p7, [ResetToken] = @p8, [ResetTokenExpiry] = @p9, [UserName] = @p10
+OUTPUT 1
+WHERE [Id] = @p11;
+2025-10-16 01:07:13.165 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.ForgotPasswordResponse'.
+2025-10-16 01:07:15.902 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode) in 51125.6334ms
+2025-10-16 01:07:15.922 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode)'
+2025-10-16 01:07:15.942 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Auth/forgot-password - 200 null application/json; charset=utf-8 51368.0872ms
+2025-10-16 01:08:01.125 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Auth/reset-password - application/json 126
+2025-10-16 01:08:01.190 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode)'
+2025-10-16 01:08:01.225 +05:30 [INF] Route matched with {action = "ResetPassword", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(LMS_SoulCode.Features.Auth.Models.ResetPasswordRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-10-16 01:08:13.923 +05:30 [INF] Executed DbCommand (491ms) [Parameters=[@__token_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[ResetToken] = @__token_0 AND [u].[ResetTokenExpiry] > GETUTCDATE()
+2025-10-16 01:08:41.924 +05:30 [INF] Executed DbCommand (72ms) [Parameters=[@__Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__Email_0
+2025-10-16 01:29:38.386 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.ResetPasswordResponse'.
+2025-10-16 01:29:38.489 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode) in 1297232.0937ms
+2025-10-16 01:29:38.502 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode)'
+2025-10-16 01:29:38.513 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Auth/reset-password - 200 null application/json; charset=utf-8 1297388.7883ms
+2025-10-16 01:35:24.463 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-10-16 01:35:24.534 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 75.0842ms
+2025-10-16 01:35:24.681 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.js - null null
+2025-10-16 01:35:24.759 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-16 01:35:24.769 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.js - 200 null application/javascript;charset=utf-8 88.3546ms
+2025-10-16 01:35:24.787 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 28.1101ms
+2025-10-16 01:35:29.650 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-10-16 01:35:29.712 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.7518ms
+2025-10-16 01:35:29.963 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-10-16 01:35:29.995 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 31.7403ms
+2025-10-16 01:35:51.387 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Auth/forgot-password - application/json 30
+2025-10-16 01:35:51.434 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode)'
+2025-10-16 01:35:51.472 +05:30 [INF] Route matched with {action = "ForgotPassword", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(LMS_SoulCode.Features.Auth.Models.ForgotPasswordRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-10-16 01:35:56.447 +05:30 [INF] Executed DbCommand (730ms) [Parameters=[@__Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__Email_0
+2025-10-16 01:35:56.739 +05:30 [INF] Executed DbCommand (258ms) [Parameters=[@p11='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (Size = 4000), @p9='?' (DbType = DateTime2), @p10='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [CreatedAt] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Mobile] = @p4, [PasswordHash] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiry] = @p7, [ResetToken] = @p8, [ResetTokenExpiry] = @p9, [UserName] = @p10
+OUTPUT 1
+WHERE [Id] = @p11;
+2025-10-16 01:35:56.817 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.ForgotPasswordResponse'.
+2025-10-16 01:35:56.847 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode) in 5363.7571ms
+2025-10-16 01:35:56.864 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode)'
+2025-10-16 01:35:56.873 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Auth/forgot-password - 200 null application/json; charset=utf-8 5485.8306ms
+2025-10-16 01:36:24.480 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Auth/reset-password - application/json 116
+2025-10-16 01:36:24.539 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode)'
+2025-10-16 01:36:24.559 +05:30 [INF] Route matched with {action = "ResetPassword", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(LMS_SoulCode.Features.Auth.Models.ResetPasswordRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-10-16 01:36:27.518 +05:30 [INF] Executed DbCommand (154ms) [Parameters=[@__token_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[ResetToken] = @__token_0 AND [u].[ResetTokenExpiry] > GETUTCDATE()
+2025-10-16 01:36:36.703 +05:30 [INF] Executed DbCommand (60ms) [Parameters=[@__ResetToken_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[ResetToken] = @__ResetToken_0
+2025-10-16 01:36:55.345 +05:30 [INF] Executed DbCommand (236ms) [Parameters=[@p11='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (Size = 4000), @p9='?' (DbType = DateTime2), @p10='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [CreatedAt] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Mobile] = @p4, [PasswordHash] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiry] = @p7, [ResetToken] = @p8, [ResetTokenExpiry] = @p9, [UserName] = @p10
+OUTPUT 1
+WHERE [Id] = @p11;
+2025-10-16 01:36:55.479 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'LMS_SoulCode.Data.LmsDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'ResetToken', table 'LmsSoulCodeDb.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:16aadf63-edfc-4faf-8c6b-f3153e25d94c
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'ResetToken', table 'LmsSoulCodeDb.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:16aadf63-edfc-4faf-8c6b-f3153e25d94c
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-10-16 01:36:55.997 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-10-16 01:36:56.005 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode) in 31434.8945ms
+2025-10-16 01:36:56.014 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode)'
+2025-10-16 01:36:56.021 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Auth/reset-password - 400 null text/plain; charset=utf-8 31541.1441ms
+2025-10-16 01:40:56.444 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Auth/reset-password - application/json 116
+2025-10-16 01:40:56.476 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode)'
+2025-10-16 01:40:56.498 +05:30 [INF] Route matched with {action = "ResetPassword", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(LMS_SoulCode.Features.Auth.Models.ResetPasswordRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-10-16 01:40:59.797 +05:30 [INF] Executed DbCommand (140ms) [Parameters=[@__token_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[ResetToken] = @__token_0 AND [u].[ResetTokenExpiry] > GETUTCDATE()
+2025-10-16 01:41:05.263 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@__resetToken_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[ResetToken] = @__resetToken_0 AND [u].[ResetTokenExpiry] > GETUTCDATE()
+2025-10-16 01:41:25.629 +05:30 [INF] Executed DbCommand (111ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [PasswordHash] = @p0, [ResetToken] = @p1, [ResetTokenExpiry] = @p2
+OUTPUT 1
+WHERE [Id] = @p3;
+2025-10-16 01:41:25.662 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'LMS_SoulCode.Data.LmsDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'ResetToken', table 'LmsSoulCodeDb.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:16aadf63-edfc-4faf-8c6b-f3153e25d94c
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'ResetToken', table 'LmsSoulCodeDb.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:16aadf63-edfc-4faf-8c6b-f3153e25d94c
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-10-16 01:41:26.193 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-10-16 01:41:26.199 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode) in 29688.5202ms
+2025-10-16 01:41:26.206 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode)'
+2025-10-16 01:41:26.217 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Auth/reset-password - 400 null text/plain; charset=utf-8 29853.604ms
+2025-10-16 01:45:00.034 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Auth/reset-password - application/json 116
+2025-10-16 01:45:00.092 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode)'
+2025-10-16 01:45:00.156 +05:30 [INF] Route matched with {action = "ResetPassword", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(LMS_SoulCode.Features.Auth.Models.ResetPasswordRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-10-16 01:45:01.437 +05:30 [INF] Executed DbCommand (1,184ms) [Parameters=[@__token_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[ResetToken] = @__token_0 AND [u].[ResetTokenExpiry] > GETUTCDATE()
+2025-10-16 01:45:01.481 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@__resetToken_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[ResetToken] = @__resetToken_0 AND [u].[ResetTokenExpiry] > GETUTCDATE()
+2025-10-16 01:45:05.702 +05:30 [INF] Executed DbCommand (453ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [PasswordHash] = @p0, [ResetToken] = @p1, [ResetTokenExpiry] = @p2
+OUTPUT 1
+WHERE [Id] = @p3;
+2025-10-16 01:45:05.726 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'LMS_SoulCode.Data.LmsDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'ResetToken', table 'LmsSoulCodeDb.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:16aadf63-edfc-4faf-8c6b-f3153e25d94c
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'ResetToken', table 'LmsSoulCodeDb.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:16aadf63-edfc-4faf-8c6b-f3153e25d94c
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-10-16 01:45:06.196 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-10-16 01:45:06.212 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode) in 6046.5549ms
+2025-10-16 01:45:06.219 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode)'
+2025-10-16 01:45:06.227 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Auth/reset-password - 400 null text/plain; charset=utf-8 6203.0433ms
+2025-10-16 01:45:06.283 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-10-16 01:45:06.405 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 121.8314ms
+2025-10-16 01:45:07.818 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-16 01:45:07.819 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.js - null null
+2025-10-16 01:45:07.853 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-10-16 01:45:07.873 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 55.9373ms
+2025-10-16 01:45:07.886 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.js - 200 null application/javascript;charset=utf-8 67.4067ms
+2025-10-16 01:45:07.921 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.392ms
+2025-10-16 01:45:09.206 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-10-16 01:45:09.233 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 27.6242ms
+2025-10-16 01:45:47.417 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Auth/forgot-password - application/json 31
+2025-10-16 01:45:47.453 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode)'
+2025-10-16 01:45:47.481 +05:30 [INF] Route matched with {action = "ForgotPassword", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(LMS_SoulCode.Features.Auth.Models.ForgotPasswordRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-10-16 01:45:47.604 +05:30 [INF] Executed DbCommand (100ms) [Parameters=[@__Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__Email_0
+2025-10-16 01:45:47.670 +05:30 [INF] Executed DbCommand (36ms) [Parameters=[@p11='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (Size = 4000), @p9='?' (DbType = DateTime2), @p10='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [CreatedAt] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Mobile] = @p4, [PasswordHash] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiry] = @p7, [ResetToken] = @p8, [ResetTokenExpiry] = @p9, [UserName] = @p10
+OUTPUT 1
+WHERE [Id] = @p11;
+2025-10-16 01:45:47.692 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.ForgotPasswordResponse'.
+2025-10-16 01:45:47.706 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode) in 214.4268ms
+2025-10-16 01:45:47.713 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode)'
+2025-10-16 01:45:47.718 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Auth/forgot-password - 200 null application/json; charset=utf-8 301.4131ms
+2025-10-16 01:46:16.628 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Auth/reset-password - application/json 116
+2025-10-16 01:46:16.703 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode)'
+2025-10-16 01:46:16.731 +05:30 [INF] Route matched with {action = "ResetPassword", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(LMS_SoulCode.Features.Auth.Models.ResetPasswordRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-10-16 01:46:16.776 +05:30 [INF] Executed DbCommand (20ms) [Parameters=[@__token_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[ResetToken] = @__token_0 AND [u].[ResetTokenExpiry] > GETUTCDATE()
+2025-10-16 01:46:16.794 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@__resetToken_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[ResetToken] = @__resetToken_0 AND [u].[ResetTokenExpiry] > GETUTCDATE()
+2025-10-16 01:46:35.105 +05:30 [INF] Executed DbCommand (64ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [PasswordHash] = @p0, [ResetToken] = @p1, [ResetTokenExpiry] = @p2
+OUTPUT 1
+WHERE [Id] = @p3;
+2025-10-16 01:46:35.119 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'LMS_SoulCode.Data.LmsDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'ResetToken', table 'LmsSoulCodeDb.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:16aadf63-edfc-4faf-8c6b-f3153e25d94c
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'ResetToken', table 'LmsSoulCodeDb.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:16aadf63-edfc-4faf-8c6b-f3153e25d94c
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-10-16 01:46:35.599 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-10-16 01:46:35.607 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode) in 18864.1345ms
+2025-10-16 01:46:35.614 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode)'
+2025-10-16 01:46:35.629 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Auth/reset-password - 400 null text/plain; charset=utf-8 19001.6484ms
+2025-10-16 01:49:26.967 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-10-16 01:49:26.998 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 31.6323ms
+2025-10-16 01:49:28.337 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.js - null null
+2025-10-16 01:49:28.337 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-16 01:49:28.343 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-10-16 01:49:28.349 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.js - 200 null application/javascript;charset=utf-8 12.5105ms
+2025-10-16 01:49:28.378 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.4651ms
+2025-10-16 01:49:28.356 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 19.1441ms
+2025-10-16 01:49:30.692 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-10-16 01:49:30.746 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 51.1337ms
+2025-10-16 01:49:47.043 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Auth/forgot-password - application/json 31
+2025-10-16 01:49:47.088 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode)'
+2025-10-16 01:49:47.114 +05:30 [INF] Route matched with {action = "ForgotPassword", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(LMS_SoulCode.Features.Auth.Models.ForgotPasswordRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-10-16 01:49:47.326 +05:30 [INF] Executed DbCommand (169ms) [Parameters=[@__Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__Email_0
+2025-10-16 01:49:47.374 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[@p11='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (Size = 4000), @p9='?' (DbType = DateTime2), @p10='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [CreatedAt] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Mobile] = @p4, [PasswordHash] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiry] = @p7, [ResetToken] = @p8, [ResetTokenExpiry] = @p9, [UserName] = @p10
+OUTPUT 1
+WHERE [Id] = @p11;
+2025-10-16 01:49:47.390 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.ForgotPasswordResponse'.
+2025-10-16 01:49:47.400 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode) in 276.4028ms
+2025-10-16 01:49:47.409 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode)'
+2025-10-16 01:49:47.414 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Auth/forgot-password - 200 null application/json; charset=utf-8 370.281ms
+2025-10-16 01:50:15.111 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Auth/reset-password - application/json 116
+2025-10-16 01:50:15.130 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode)'
+2025-10-16 01:50:15.150 +05:30 [INF] Route matched with {action = "ResetPassword", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(LMS_SoulCode.Features.Auth.Models.ResetPasswordRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-10-16 01:50:15.181 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__token_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[ResetToken] = @__token_0 AND [u].[ResetTokenExpiry] > GETUTCDATE()
+2025-10-16 01:50:15.202 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@__resetToken_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[ResetToken] = @__resetToken_0 AND [u].[ResetTokenExpiry] > GETUTCDATE()
+2025-10-16 01:50:22.095 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [PasswordHash] = @p0, [ResetToken] = @p1, [ResetTokenExpiry] = @p2
+OUTPUT 1
+WHERE [Id] = @p3;
+2025-10-16 01:50:22.113 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'LMS_SoulCode.Data.LmsDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'ResetToken', table 'LmsSoulCodeDb.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:16aadf63-edfc-4faf-8c6b-f3153e25d94c
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'ResetToken', table 'LmsSoulCodeDb.dbo.Users'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:16aadf63-edfc-4faf-8c6b-f3153e25d94c
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-10-16 01:50:22.488 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-10-16 01:50:22.493 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode) in 7331.2236ms
+2025-10-16 01:50:22.499 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode)'
+2025-10-16 01:50:22.503 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Auth/reset-password - 400 null text/plain; charset=utf-8 7392.2729ms
