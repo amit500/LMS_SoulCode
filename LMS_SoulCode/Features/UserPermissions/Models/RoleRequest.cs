@@ -4,7 +4,14 @@ namespace LMS_SoulCode.Features.UserPermissions.Models
 {
     public record RoleRequest
     {
-        public string Name { get; set; } = string.Empty;
+        public string RoleName { get; set; } = string.Empty;
         public List<RolePermission>? RolePermissions { get; set; }
+        public List<int>? PermissionIds { get; set; }
+
+    }
+    public class CreateRoleRequest
+    {
+        public string RoleName { get; set; } = string.Empty;
+        public List<int>? PermissionIds { get; set; }
     }
 }

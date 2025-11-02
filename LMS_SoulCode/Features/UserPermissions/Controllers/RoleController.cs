@@ -3,7 +3,12 @@ using LMS_SoulCode.Features.UserPermissions.Models;
 using LMS_SoulCode.Features.UserPermissions.Validators;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
+using RoleRequest= LMS_SoulCode.Features.UserPermissions.Models.RoleRequest;
+using CreateRoleRequest = LMS_SoulCode.Features.UserPermissions.Models.CreateRoleRequest;
+using Microsoft.AspNetCore.Authorization;
+using LMS_SoulCode.Features.UserPermissions.Entities;
 
+//using UpdateRoleRequest = LMS_SoulCode.Features.UserPermissions.Models.UpdateRoleRequest;
 namespace LMS_SoulCode.Features.UserPermissions.Controllers
 {
     [ApiController]
@@ -26,21 +31,26 @@ namespace LMS_SoulCode.Features.UserPermissions.Controllers
             if (!result.IsValid)
                 return BadRequest(result.Errors.Select(e => e.ErrorMessage));
 
-            var role = await _roleService.CreateAsync(request.Name, request.PermissionIds);
-            return CreatedAtAction(nameof(GetById), new { id = role.Id }, role);
+            var role = await _roleService.CreateAsync(request);
+            var response = new RoleResponse(role.Id, "Role created successfully!");
+
+            return CreatedAtAction(nameof(GetById), new { id = role.Id }, response);
+
         }
 
         [HttpPut("update/{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] UpdateRoleRequest request)
+        public async Task<IActionResult> Update(int id, [FromBody] CreateRoleRequest request)
         {
-            var validator = new RoleValidators.UpdateRoleRequestValidator();
+            var validator = new RoleValidators.CreateRoleRequestValidator();
             ValidationResult result = await validator.ValidateAsync(request);
 
             if (!result.IsValid)
                 return BadRequest(result.Errors.Select(e => e.ErrorMessage));
 
-            await _roleService.UpdateAsync(id, request.Name, request.PermissionIds);
-            return NoContent();
+            await _roleService.UpdateAsync(id, request);
+            var response = new RoleResponse(id, "Role Updated successfully!");
+
+            return Ok(response);
         }
 
         [HttpGet("list")]
@@ -64,19 +74,10 @@ namespace LMS_SoulCode.Features.UserPermissions.Controllers
         public async Task<IActionResult> Delete(int id)
         {
             await _roleService.DeleteAsync(id);
-            return NoContent();
+            var response = new RoleResponse(id, "Role Deleted successfully!");
+            return Ok(response);
         }
     }
 
-    public class CreateRoleRequest
-    {
-        public string Name { get; set; } = string.Empty;
-        public List<int>? PermissionIds { get; set; }
-    }
-
-    public class UpdateRoleRequest
-    {
-        public string Name { get; set; } = string.Empty;
-        public List<int>? PermissionIds { get; set; }
-    }
+    
 }

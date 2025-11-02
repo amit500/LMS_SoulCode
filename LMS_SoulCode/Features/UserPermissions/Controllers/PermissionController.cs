@@ -1,5 +1,8 @@
-﻿using LMS_SoulCode.Features.UserPermissions.Services;
+﻿using LMS_SoulCode.Features.UserPermissions.Entities;
+using LMS_SoulCode.Features.UserPermissions.Models;
+using LMS_SoulCode.Features.UserPermissions.Services;
 using Microsoft.AspNetCore.Mvc;
+using System.Security;
 
 namespace LMS_SoulCode.Features.UserPermissions.Controllers
 {
@@ -35,21 +38,27 @@ namespace LMS_SoulCode.Features.UserPermissions.Controllers
         public async Task<IActionResult> Create([FromBody] CreatePermissionRequest request)
         {
             var permission = await _permissionService.CreateAsync(request.Name);
-            return CreatedAtAction(nameof(GetById), new { id = permission.Id }, permission);
+            var response = new RoleResponse(permission.Id, "Permission created successfully!");
+
+            return CreatedAtAction(nameof(GetById), new { id = permission.Id }, response);
         }
 
         [HttpPut("update/{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] UpdatePermissionRequest request)
         {
             await _permissionService.UpdateAsync(id, request.Name);
-            return NoContent();
+            var response = new RoleResponse(id, "Permission updated successfully!");
+
+            return Ok(response);
         }
 
         [HttpDelete("delete/{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             await _permissionService.DeleteAsync(id);
-            return NoContent();
+            var response = new RoleResponse(id, "Permission deleted successfully!");
+
+            return Ok(response);
         }
     }
 

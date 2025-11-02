@@ -29,7 +29,8 @@ namespace LMS_SoulCode.Features.UserPermissions.Services
         public async Task<Permission> CreateAsync(string name)
         {
             var permission = new Permission { Name = name };
-            return await _permission.AddAsync(permission);
+             await _permission.AddAsync(permission);
+            return permission;
         }
 
         public async Task UpdateAsync(int id, string newName)

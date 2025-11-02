@@ -1,4 +1,6 @@
-﻿using LMS_SoulCode.Features.UserPermissions.Services;
+﻿using LMS_SoulCode.Features.UserPermissions.Entities;
+using LMS_SoulCode.Features.UserPermissions.Models;
+using LMS_SoulCode.Features.UserPermissions.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LMS_SoulCode.Features.UserPermissions.Controllers
@@ -17,15 +19,19 @@ namespace LMS_SoulCode.Features.UserPermissions.Controllers
         [HttpPost("assign")]
         public async Task<IActionResult> AssignRole([FromQuery] int userId, [FromQuery] int roleId)
         {
-            await _userRoleService.AssignRoleAsync(userId, roleId);
-            return Ok(new { Message = "Role assigned successfully!" });
+                await _userRoleService.AssignRoleAsync(userId, roleId);
+            var response = new RoleResponse(roleId, "UserRole assigned successfully!");
+
+            return Ok(response);
         }
 
         [HttpDelete("remove")]
         public async Task<IActionResult> RemoveRole([FromQuery] int userId, [FromQuery] int roleId)
         {
             await _userRoleService.RemoveRoleAsync(userId, roleId);
-            return Ok(new { Message = "Role removed successfully!" });
+            var response = new RoleResponse(roleId, "UserRole removed successfully!");
+
+            return Ok(response);
         }
 
         [HttpGet("{userId}")]

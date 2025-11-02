@@ -27,12 +27,14 @@ namespace LMS_SoulCode.Data
             modelBuilder.Entity<UserRole>()
                 .HasOne(ur => ur.User)
                 .WithMany()
-                .HasForeignKey(ur => ur.UserId);
+                .HasForeignKey(ur => ur.UserId).OnDelete(DeleteBehavior.Cascade);
+
 
             modelBuilder.Entity<UserRole>()
                 .HasOne(ur => ur.Role)
                 .WithMany()
-                .HasForeignKey(ur => ur.RoleId);
+                .HasForeignKey(ur => ur.RoleId).OnDelete(DeleteBehavior.Cascade);
+
 
             modelBuilder.Entity<RolePermission>()
                 .HasKey(rp => new { rp.RoleId, rp.PermissionId });

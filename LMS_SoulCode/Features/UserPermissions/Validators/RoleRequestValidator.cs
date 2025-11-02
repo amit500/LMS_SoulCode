@@ -11,7 +11,7 @@ namespace LMS_SoulCode.Features.UserPermissions.Validators
         {
             public RoleRequestValidator()
             {
-                RuleFor(r => r.Name)
+                RuleFor(r => r.RoleName)
                     .NotEmpty().WithMessage("Role name is required")
                     .MaximumLength(50).WithMessage("Role name cannot exceed 50 characters");
 
@@ -36,7 +36,7 @@ namespace LMS_SoulCode.Features.UserPermissions.Validators
         {
             public CreateRoleRequestValidator()
             {
-                RuleFor(x => x.Name)
+                RuleFor(x => x.RoleName)
                     .NotEmpty().WithMessage("Role name is required")
                     .MaximumLength(50).WithMessage("Role name cannot exceed 50 characters");
 
@@ -46,18 +46,6 @@ namespace LMS_SoulCode.Features.UserPermissions.Validators
             }
         }
 
-        public class UpdateRoleRequestValidator : AbstractValidator<UpdateRoleRequest>
-        {
-            public UpdateRoleRequestValidator()
-            {
-                RuleFor(x => x.Name)
-                    .NotEmpty().WithMessage("Role name is required")
-                    .MaximumLength(50).WithMessage("Role name cannot exceed 50 characters");
-
-                RuleForEach(x => x.PermissionIds)
-                           .NotNull().WithMessage("Permission Id is required")
-                           .GreaterThan(0).WithMessage("Permission Id must be greater than 0");
-            }
-        }
+       
     }
 }

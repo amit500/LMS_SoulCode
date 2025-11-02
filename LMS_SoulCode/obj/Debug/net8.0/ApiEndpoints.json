@@ -168,7 +168,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "LMS_SoulCode.Features.UserPermissions.Controllers.CreateRoleRequest",
+        "Type": "LMS_SoulCode.Features.UserPermissions.Models.CreateRoleRequest",
         "IsRequired": true
       }
     ],
@@ -215,7 +215,7 @@
       },
       {
         "Name": "request",
-        "Type": "LMS_SoulCode.Features.UserPermissions.Controllers.UpdateRoleRequest",
+        "Type": "LMS_SoulCode.Features.UserPermissions.Models.CreateRoleRequest",
         "IsRequired": true
       }
     ],
