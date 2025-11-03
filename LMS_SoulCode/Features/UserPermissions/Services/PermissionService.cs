@@ -16,9 +16,8 @@ namespace LMS_SoulCode.Features.UserPermissions.Services
         private readonly IPermissionRepository _permission;
 
         public PermissionService(IPermissionRepository permissionRepo)
-        {
-            _permission = permissionRepo;
-        }
+            =>_permission = permissionRepo;
+        
 
         public async Task<IEnumerable<Permission>> GetAllAsync()
             => await _permission.GetAllAsync();

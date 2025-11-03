@@ -9,46 +9,61 @@ namespace LMS_SoulCode.Features.UserPermissions.Repositories
         private readonly LmsDbContext _context;
 
         public UserRoleRepository(LmsDbContext context)
-        {
-            _context = context;
-        }
+            => _context = context;
 
         public async Task AssignRoleAsync(int userId, int roleId)
         {
-            var exists = await _context.UserRoles
-                .AnyAsync(ur => ur.UserId == userId && ur.RoleId == roleId);
+            var userExists = await _context.Users.AnyAsync(u => u.Id == userId);
+            if (!userExists)
+                throw new Exception($"User with Id {userId} not found.");
 
-            if (!exists)
-            {
-                var userRole = new UserRole
+            var roleExists = await _context.Roles.AnyAsync(r => r.Id == roleId);
+            if (!roleExists)
+                throw new Exception($"Role with Id {roleId} not found.");
+
+            var alreadyAssigned = await _context.UserRoles
+                .AnyAsync(ur => ur.UserId == userId && ur.RoleId == roleId);
+            if (alreadyAssigned)
+                throw new Exception($"Role with Id {roleId} is already assigned to User with Id {userId}.");
+
+            var userRole = new UserRole
                 {
                     UserId = userId,
                     RoleId = roleId
                 };
 
                 _context.UserRoles.Add(userRole);
-                await _context.SaveChangesAsync(); 
-            }
+                await _context.SaveChangesAsync();
         }
 
         public async Task RemoveRoleAsync(int userId, int roleId)
         {
-            var userRole = await _context.UserRoles
-                .FirstOrDefaultAsync(ur => ur.UserId == userId && ur.RoleId == roleId);
+            var userExists = await _context.Users.AnyAsync(u => u.Id == userId);
+            if (!userExists)
+                throw new Exception($"User with Id {userId} not found.");
 
-            if (userRole != null)
+            var roleExists = await _context.Roles.AnyAsync(r => r.Id == roleId);
+            if (!roleExists)
+                throw new Exception($"Role with Id {roleId} not found.");
+
+            var alreadyAssigned = await _context.UserRoles
+                .AnyAsync(ur => ur.UserId == userId && ur.RoleId == roleId);
+          
+            var userRole = new UserRole
             {
-                _context.UserRoles.Remove(userRole);
-                await _context.SaveChangesAsync();
-            }
+                UserId = userId,
+                RoleId = roleId
+            };
+
+            _context.UserRoles.Remove(userRole);
+            await _context.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<Role>> GetUserRolesAsync(int userId)
-        {
-            return await _context.UserRoles
+        public async Task<IEnumerable<Role>> GetUserRolesAsync(int userId)        
+            => await _context.UserRoles
                 .Where(ur => ur.UserId == userId)
                 .Select(ur => ur.Role)
                 .ToListAsync();
-        }
+        
     }
 }

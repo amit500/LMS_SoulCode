@@ -89,7 +89,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "LMS_SoulCode.Features.UserPermissions.Controllers.CreatePermissionRequest",
+        "Type": "LMS_SoulCode.Features.UserPermissions.Models.CreatePermissionRequest",
         "IsRequired": true
       }
     ],
@@ -136,7 +136,7 @@
       },
       {
         "Name": "request",
-        "Type": "LMS_SoulCode.Features.UserPermissions.Controllers.UpdatePermissionRequest",
+        "Type": "LMS_SoulCode.Features.UserPermissions.Models.CreatePermissionRequest",
         "IsRequired": true
       }
     ],

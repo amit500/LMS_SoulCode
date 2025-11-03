@@ -14,9 +14,8 @@ namespace LMS_SoulCode.Features.UserPermissions.Services
         private readonly IUserRoleRepository _userRoleRepository;
 
         public UserRoleService(IUserRoleRepository userRoleRepository)
-        {
-            _userRoleRepository = userRoleRepository;
-        }
+        => _userRoleRepository = userRoleRepository;
+        
 
         public async Task AssignRoleAsync(int userId, int roleId)
         {

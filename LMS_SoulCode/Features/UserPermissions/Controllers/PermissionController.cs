@@ -1,5 +1,6 @@
 ﻿using LMS_SoulCode.Features.UserPermissions.Entities;
 using LMS_SoulCode.Features.UserPermissions.Models;
+using CreatePermissionRequest = LMS_SoulCode.Features.UserPermissions.Models.CreatePermissionRequest;
 using LMS_SoulCode.Features.UserPermissions.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Security;
@@ -12,11 +13,9 @@ namespace LMS_SoulCode.Features.UserPermissions.Controllers
     {
         private readonly IPermissionService _permissionService;
 
-        public PermissionController(IPermissionService permissionService)
-        {
-            _permissionService = permissionService;
-        }
-
+        public PermissionController(IPermissionService permissionService) 
+            => _permissionService = permissionService;
+        
         [HttpGet("list")]
         public async Task<IActionResult> GetAll()
         {
@@ -37,16 +36,16 @@ namespace LMS_SoulCode.Features.UserPermissions.Controllers
         [HttpPost("create")]
         public async Task<IActionResult> Create([FromBody] CreatePermissionRequest request)
         {
-            var permission = await _permissionService.CreateAsync(request.Name);
+            var permission = await _permissionService.CreateAsync(request.PermissionName);
             var response = new RoleResponse(permission.Id, "Permission created successfully!");
 
             return CreatedAtAction(nameof(GetById), new { id = permission.Id }, response);
         }
 
         [HttpPut("update/{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] UpdatePermissionRequest request)
+        public async Task<IActionResult> Update(int id, [FromBody] CreatePermissionRequest request)
         {
-            await _permissionService.UpdateAsync(id, request.Name);
+            await _permissionService.UpdateAsync(id, request.PermissionName);
             var response = new RoleResponse(id, "Permission updated successfully!");
 
             return Ok(response);
@@ -60,15 +59,5 @@ namespace LMS_SoulCode.Features.UserPermissions.Controllers
 
             return Ok(response);
         }
-    }
-
-    public class CreatePermissionRequest
-    {
-        public string Name { get; set; } = string.Empty;
-    }
-
-    public class UpdatePermissionRequest
-    {
-        public string Name { get; set; } = string.Empty;
-    }
+    }    
 }
