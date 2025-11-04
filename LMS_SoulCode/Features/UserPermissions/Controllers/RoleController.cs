@@ -18,9 +18,7 @@ namespace LMS_SoulCode.Features.UserPermissions.Controllers
         private readonly IRoleService _roleService;
 
         public RoleController(IRoleService roleService)
-        {
-            _roleService = roleService;
-        }
+            => _roleService = roleService;
 
         [HttpPost("create")]
         public async Task<IActionResult> Create([FromBody] CreateRoleRequest request)

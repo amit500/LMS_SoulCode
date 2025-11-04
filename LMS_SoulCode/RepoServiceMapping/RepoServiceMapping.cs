@@ -2,6 +2,10 @@
 using LMS_SoulCode.Features.Auth.Services;
 using LMS_SoulCode.Features.UserPermissions.Repositories;
 using LMS_SoulCode.Features.UserPermissions.Services;
+using LMS_SoulCode.Features.Course.Repositories;
+
+using LMS_SoulCode.Features.Course.Services;
+
 
 namespace LMS_SoulCode.RepositoryMapping
 {
@@ -9,7 +13,7 @@ namespace LMS_SoulCode.RepositoryMapping
     {
         public static void AddRepoServiceMapping(this IServiceCollection services)
         {
-            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IRoleRepository, RoleRepository>();
             services.AddScoped<IRoleService, RoleService>();
@@ -17,7 +21,11 @@ namespace LMS_SoulCode.RepositoryMapping
             services.AddScoped<IPermissionService, PermissionService>();
             services.AddScoped<IUserRoleRepository, UserRoleRepository>();
             services.AddScoped<IUserRoleService, UserRoleService>();
-            services.AddScoped<IEmailService, EmailService>();
+            services.AddScoped<IEmailService, EmailService>();    
+            services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
+
 
 
         }

@@ -64,6 +64,85 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "LMS_SoulCode.Features.Course.Controllers.CategoryController",
+    "Method": "GetById",
+    "RelativePath": "api/Category/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS_SoulCode.Features.Course.Controllers.CategoryController",
+    "Method": "Create",
+    "RelativePath": "api/Category/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LMS_SoulCode.Features.Course.Models.CategoryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS_SoulCode.Features.Course.Controllers.CategoryController",
+    "Method": "Delete",
+    "RelativePath": "api/Category/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS_SoulCode.Features.Course.Controllers.CategoryController",
+    "Method": "GetAll",
+    "RelativePath": "api/Category/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS_SoulCode.Features.Course.Controllers.CategoryController",
+    "Method": "Update",
+    "RelativePath": "api/Category/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "LMS_SoulCode.Features.Course.Models.CategoryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController",
     "Method": "GetById",
     "RelativePath": "api/Permission/{id}",
@@ -89,7 +168,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "LMS_SoulCode.Features.UserPermissions.Controllers.CreatePermissionRequest",
+        "Type": "LMS_SoulCode.Features.UserPermissions.Models.CreatePermissionRequest",
         "IsRequired": true
       }
     ],
@@ -136,7 +215,7 @@
       },
       {
         "Name": "request",
-        "Type": "LMS_SoulCode.Features.UserPermissions.Controllers.UpdatePermissionRequest",
+        "Type": "LMS_SoulCode.Features.UserPermissions.Models.CreatePermissionRequest",
         "IsRequired": true
       }
     ],

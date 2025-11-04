@@ -1,5 +1,7 @@
 ﻿using LMS_SoulCode.Features.Auth.Entities;
 using LMS_SoulCode.Features.UserPermissions.Entities;
+using LMS_SoulCode.Features.Course.Entities;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace LMS_SoulCode.Data
@@ -16,6 +18,7 @@ namespace LMS_SoulCode.Data
         public DbSet<Permission> Permissions { get; set; }
         public DbSet<UserRole> UserRoles { get; set; }
         public DbSet<RolePermission> RolePermissions { get; set; }
+        public DbSet<Category> Categories { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
