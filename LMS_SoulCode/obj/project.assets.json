@@ -4895,11 +4895,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AbhishekDotNet\\LMS_SoulCode\\LMS_SoulCode\\LMS_SoulCode.csproj",
+      "projectUniqueName": "D:\\AbhishekDotNet\\Git Clone NEw\\LMS_SoulCode\\LMS_SoulCode\\LMS_SoulCode.csproj",
       "projectName": "LMS_SoulCode",
-      "projectPath": "D:\\AbhishekDotNet\\LMS_SoulCode\\LMS_SoulCode\\LMS_SoulCode.csproj",
+      "projectPath": "D:\\AbhishekDotNet\\Git Clone NEw\\LMS_SoulCode\\LMS_SoulCode\\LMS_SoulCode.csproj",
       "packagesPath": "C:\\Users\\Abhishek\\.nuget\\packages\\",
-      "outputPath": "D:\\AbhishekDotNet\\LMS_SoulCode\\LMS_SoulCode\\obj\\",
+      "outputPath": "D:\\AbhishekDotNet\\Git Clone NEw\\LMS_SoulCode\\LMS_SoulCode\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Abhishek\\AppData\\Roaming\\NuGet\\NuGet.Config",
