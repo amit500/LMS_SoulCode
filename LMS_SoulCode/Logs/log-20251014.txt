@@ -1,0 +1,64 @@
+2025-10-14 21:33:14.427 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-14 21:33:15.169 +05:30 [INF] Now listening on: http://localhost:5209
+2025-10-14 21:33:15.412 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-14 21:33:15.415 +05:30 [INF] Hosting environment: Development
+2025-10-14 21:33:15.418 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCodess\LMS_SoulCode
+2025-10-14 21:33:18.126 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-10-14 21:33:23.461 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 5345.9817ms
+2025-10-14 21:33:27.853 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-10-14 21:33:27.853 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-14 21:33:27.885 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.js - null null
+2025-10-14 21:33:27.983 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 133.3861ms
+2025-10-14 21:33:28.016 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.js - 200 null application/javascript;charset=utf-8 131.6737ms
+2025-10-14 21:33:28.080 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 230.5294ms
+2025-10-14 21:33:31.553 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-10-14 21:33:32.840 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1286.2453ms
+2025-10-14 21:35:36.974 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/auth/register - application/json 167
+2025-10-14 21:35:37.278 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-10-14 21:35:42.554 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode)'
+2025-10-14 21:35:42.740 +05:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(LMS_SoulCode.Features.Auth.Models.RegisterRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-10-14 21:35:53.615 +05:30 [INF] Executed DbCommand (1,068ms) [Parameters=[@__Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = @__Email_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-10-14 21:35:54.148 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode) in 11370.5736ms
+2025-10-14 21:35:54.172 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode)'
+2025-10-14 21:35:54.187 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: User already exists
+   at LMS_SoulCode.Features.Auth.Services.AuthService.RegisterAsync(RegisterRequest request) in D:\AbhishekDotNet\LMS_SoulCodess\LMS_SoulCode\Features\Auth\Services\AuthService.cs:line 41
+   at LMS_SoulCode.Features.Auth.Controllers.AuthController.Register(RegisterRequest request) in D:\AbhishekDotNet\LMS_SoulCodess\LMS_SoulCode\Features\Auth\Controllers\AuthController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-10-14 21:35:54.402 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/auth/register - 500 null text/plain; charset=utf-8 17437.7604ms
+2025-10-14 21:40:37.739 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-14 21:40:39.052 +05:30 [INF] Now listening on: http://localhost:5209
+2025-10-14 21:40:39.340 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-14 21:40:39.350 +05:30 [INF] Hosting environment: Development
+2025-10-14 21:40:39.357 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCodess\LMS_SoulCode
+2025-10-14 21:40:40.306 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-10-14 21:40:41.638 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 1379.5372ms
+2025-10-14 21:40:41.682 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.js - null null
+2025-10-14 21:40:41.702 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.js - 200 null application/javascript;charset=utf-8 19.8065ms
+2025-10-14 21:40:42.823 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-10-14 21:40:42.823 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-14 21:40:42.867 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 44.4129ms
+2025-10-14 21:40:42.928 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 104.8789ms
+2025-10-14 21:40:44.907 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-10-14 21:40:45.399 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 491.5555ms

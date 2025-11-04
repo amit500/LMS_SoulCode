@@ -1,0 +1,88 @@
+2025-10-15 09:25:22.304 +05:30 [INF] Executed DbCommand (70ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-10-15 09:25:22.654 +05:30 [INF] Executed DbCommand (184ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-10-15 09:25:22.662 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-10-15 09:25:22.666 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-10-15 09:25:23.130 +05:30 [INF] Executed DbCommand (363ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-10-15 09:25:23.159 +05:30 [INF] Applying migration '20251015035507_forgetpassword'.
+2025-10-15 09:25:23.668 +05:30 [INF] Executed DbCommand (445ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Users] ADD [RefreshToken] nvarchar(max) NOT NULL DEFAULT N'';
+2025-10-15 09:25:23.676 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Users] ADD [RefreshTokenExpiry] datetime2 NULL;
+2025-10-15 09:25:23.703 +05:30 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Users] ADD [ResetToken] nvarchar(max) NOT NULL DEFAULT N'';
+2025-10-15 09:25:23.710 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Users] ADD [ResetTokenExpiry] datetime2 NULL;
+2025-10-15 09:25:23.781 +05:30 [INF] Executed DbCommand (71ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20251015035507_forgetpassword', N'8.0.0');
+2025-10-15 20:22:00.274 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-15 20:22:01.248 +05:30 [INF] Now listening on: http://localhost:5209
+2025-10-15 20:22:01.634 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-15 20:22:01.639 +05:30 [INF] Hosting environment: Development
+2025-10-15 20:22:01.645 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCodess\LMS_SoulCode
+2025-10-15 20:22:03.469 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-10-15 20:22:04.763 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 1277.982ms
+2025-10-15 20:22:04.768 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.js - null null
+2025-10-15 20:22:04.864 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.js - 200 null application/javascript;charset=utf-8 103.2966ms
+2025-10-15 20:22:07.530 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-15 20:22:07.531 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-10-15 20:22:07.545 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 15.2463ms
+2025-10-15 20:22:07.677 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 145.9022ms
+2025-10-15 20:22:09.433 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-10-15 20:22:10.036 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 602.6277ms
+2025-10-15 22:30:39.752 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-10-15 22:30:39.835 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 84.4325ms
+2025-10-15 22:30:39.922 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-15 22:30:39.927 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.js - null null
+2025-10-15 22:30:39.958 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 36.6939ms
+2025-10-15 22:30:39.966 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.js - 200 null application/javascript;charset=utf-8 39.3717ms
+2025-10-15 22:30:40.681 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-10-15 22:30:40.732 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.1276ms
+2025-10-15 22:30:42.082 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-10-15 22:30:42.107 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.6852ms
+2025-10-15 22:30:42.133 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/favicon-32x32.png - null null
+2025-10-15 22:30:42.185 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-10-15 22:30:42.262 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/favicon-32x32.png - 200 628 image/png 129.3698ms
+2025-10-15 22:30:59.898 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Auth/forgot-password - application/json 30
+2025-10-15 22:30:59.939 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-10-15 22:31:01.962 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode)'
+2025-10-15 22:31:02.041 +05:30 [INF] Route matched with {action = "ForgotPassword", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(LMS_SoulCode.Features.Auth.Models.ForgotPasswordRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-10-15 22:31:02.864 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.ForgotPasswordResponse'.
+2025-10-15 22:31:02.890 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode) in 835.1874ms
+2025-10-15 22:31:02.895 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode)'
+2025-10-15 22:31:02.902 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Auth/forgot-password - 200 null application/json; charset=utf-8 3004.3707ms
+2025-10-15 22:31:26.608 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Auth/forgot-password - application/json 30
+2025-10-15 22:31:26.641 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode)'
+2025-10-15 22:31:26.693 +05:30 [INF] Route matched with {action = "ForgotPassword", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(LMS_SoulCode.Features.Auth.Models.ForgotPasswordRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-10-15 22:31:26.715 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.ForgotPasswordResponse'.
+2025-10-15 22:31:26.723 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode) in 21.4798ms
+2025-10-15 22:31:26.731 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode)'
+2025-10-15 22:31:26.737 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Auth/forgot-password - 200 null application/json; charset=utf-8 128.9429ms
+2025-10-15 22:32:11.652 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Auth/reset-password - application/json 107
+2025-10-15 22:32:11.679 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode)'
+2025-10-15 22:32:11.689 +05:30 [INF] Route matched with {action = "ResetPassword", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(LMS_SoulCode.Features.Auth.Models.ResetPasswordRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-10-15 22:32:11.725 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[FluentValidation.Results.ValidationFailure, FluentValidation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-15 22:32:11.735 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode) in 34.9236ms
+2025-10-15 22:32:11.741 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode)'
+2025-10-15 22:32:11.747 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Auth/reset-password - 400 null application/json; charset=utf-8 94.9211ms
+2025-10-15 22:32:15.538 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Auth/reset-password - application/json 107
+2025-10-15 22:32:15.549 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode)'
+2025-10-15 22:32:15.556 +05:30 [INF] Route matched with {action = "ResetPassword", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(LMS_SoulCode.Features.Auth.Models.ResetPasswordRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-10-15 22:32:15.567 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[FluentValidation.Results.ValidationFailure, FluentValidation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-15 22:32:15.574 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode) in 9.269ms
+2025-10-15 22:32:15.579 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode)'
+2025-10-15 22:32:15.583 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Auth/reset-password - 400 null application/json; charset=utf-8 45.079ms
+2025-10-15 22:32:28.420 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Auth/reset-password - application/json 111
+2025-10-15 22:32:28.437 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode)'
+2025-10-15 22:32:28.447 +05:30 [INF] Route matched with {action = "ResetPassword", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(LMS_SoulCode.Features.Auth.Models.ResetPasswordRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-10-15 22:32:28.458 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.ResetPasswordResponse'.
+2025-10-15 22:32:28.465 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode) in 9.0898ms
+2025-10-15 22:32:28.471 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ResetPassword (LMS_SoulCode)'
+2025-10-15 22:32:28.474 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Auth/reset-password - 200 null application/json; charset=utf-8 54.776ms

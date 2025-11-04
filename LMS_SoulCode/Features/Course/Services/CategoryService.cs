@@ -1,13 +1,14 @@
 ﻿using LMS_SoulCode.Features.Course.Entities;
+using CategoryEntity= LMS_SoulCode.Features.Course.Entities.Category;
 using LMS_SoulCode.Features.Course.Repositories;
 
 namespace LMS_SoulCode.Features.Course.Services
 {
     public interface ICategoryService
     {
-        Task<IEnumerable<Category>> GetAllAsync();
-        Task<Category?> GetByIdAsync(int id);
-        Task<Category> CreateAsync(string name);
+        Task<IEnumerable<CategoryEntity>> GetAllAsync();
+        Task<CategoryEntity?> GetByIdAsync(int id);
+        Task<CategoryEntity> CreateAsync(string name);
         Task UpdateAsync(int id, string newName);
         Task DeleteAsync(int id);
     }
@@ -19,10 +20,10 @@ namespace LMS_SoulCode.Features.Course.Services
             => _category = cateogryRepo;
 
 
-        public async Task<IEnumerable<Category>> GetAllAsync()
+        public async Task<IEnumerable<CategoryEntity>> GetAllAsync()
             => await _category.GetAllAsync();
 
-        public async Task<Category?> GetByIdAsync(int id)
+        public async Task<CategoryEntity?> GetByIdAsync(int id)
             => await _category.GetByIdAsync(id);
 
         public async Task<Category> CreateAsync(string name)

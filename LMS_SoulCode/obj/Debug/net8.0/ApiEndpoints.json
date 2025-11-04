@@ -143,6 +143,35 @@
     "ReturnTypes": []
   },
   {
+<<<<<<< HEAD
+    "ContainingType": "LMS_SoulCode.Features.Course.Controllers.CourseController",
+    "Method": "GetAll",
+    "RelativePath": "api/Course",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS_SoulCode.Features.Course.Controllers.CourseController",
+    "Method": "Create",
+    "RelativePath": "api/Course",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LMS_SoulCode.Features.Course.Models.CourseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+=======
+>>>>>>> daab18d7bd13b4d22e0a66c6db21715614b502dc
     "ContainingType": "LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController",
     "Method": "GetById",
     "RelativePath": "api/Permission/{id}",

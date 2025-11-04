@@ -3,6 +3,11 @@ using LMS_SoulCode.Features.Auth.Services;
 using LMS_SoulCode.Features.UserPermissions.Repositories;
 using LMS_SoulCode.Features.UserPermissions.Services;
 using LMS_SoulCode.Features.Course.Repositories;
+using LMS_SoulCode.Features.Course.Services;
+
+using Microsoft.AspNetCore.Cors.Infrastructure;
+
+
 
 using LMS_SoulCode.Features.Course.Services;
 
@@ -25,7 +30,9 @@ namespace LMS_SoulCode.RepositoryMapping
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
-
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ICourseRepository, CourseRepository>();
+            services.AddScoped<ICourseService, CourseService>();
 
 
         }
