@@ -2,21 +2,27 @@
 using LMS_SoulCode.Features.Course.Models;
 using LMS_SoulCode.Features.Course.Repositories;
 using Microsoft.AspNetCore.Cors.Infrastructure;
-
+using LMS_SoulCode.Features.CourseVideos.Entities;
+using Microsoft.EntityFrameworkCore;
 namespace LMS_SoulCode.Features.Course.Services
 {
     public interface ICourseService
     {
         Task<IEnumerable<CourseResponse>> GetAllAsync();
         Task AddAsync(CourseRequest request);
+        Task<bool> UploadVideoAsync(int courseId, IFormFile file);
+        Task<IEnumerable<CourseVideo>> GetCourseVideosAsync(int courseId);
+
     }
     public class CourseService : ICourseService
     {
         private readonly ICourseRepository _repository;
+        private readonly IWebHostEnvironment _env;
 
-        public CourseService(ICourseRepository repository)
+        public CourseService(ICourseRepository repository, IWebHostEnvironment env)
         {
             _repository = repository;
+            _env = env;
         }
 
         public async Task<IEnumerable<CourseResponse>> GetAllAsync()
@@ -54,6 +60,43 @@ namespace LMS_SoulCode.Features.Course.Services
             };
 
             await _repository.AddAsync(course);
+        }
+
+        public async Task<bool> UploadVideoAsync(int courseId, IFormFile file)
+        {
+            var course = await _repository.GetByIdAsync(courseId);
+            if (course == null)
+                throw new Exception("Course not found");
+
+            var rootPath = _env.WebRootPath ?? Path.Combine(_env.ContentRootPath, "wwwroot");
+            var folderPath = Path.Combine(rootPath, "uploads", "courses", courseId.ToString());
+            if (!Directory.Exists(folderPath))
+                Directory.CreateDirectory(folderPath);
+
+            var fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+            var filePath = Path.Combine(folderPath, fileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await file.CopyToAsync(stream);
+            }
+
+            var video = new CourseVideo
+            {
+                CourseId = courseId,
+                Title = Path.GetFileNameWithoutExtension(file.FileName),
+                VideoUrl = $"/uploads/courses/{courseId}/{fileName}"
+            };
+
+            await _repository.AddVideoAsync(video);
+            //await _repository.SaveChangesAsync();
+
+            return true;
+        }
+
+        public async Task<IEnumerable<CourseVideo>> GetCourseVideosAsync(int courseId)
+        {
+            return await _repository.GetVideosByCourseIdAsync(courseId);
         }
     }
 }
