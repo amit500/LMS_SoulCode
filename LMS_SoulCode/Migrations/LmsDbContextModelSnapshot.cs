@@ -185,6 +185,7 @@ namespace LMS_SoulCode.Migrations
                 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             modelBuilder.Entity("LMS_SoulCode.Features.SubscribedCourse.Entities.UserCourse", b =>
                 {
                     b.Property<int>("UserId")
@@ -208,6 +209,8 @@ namespace LMS_SoulCode.Migrations
                     b.ToTable("UserCourses");
                 });
 
+=======
+>>>>>>> 695d9a84ec067e90d0561fc504f0ad01d6228d89
 =======
 >>>>>>> 695d9a84ec067e90d0561fc504f0ad01d6228d89
             modelBuilder.Entity("LMS_SoulCode.Features.UserPermissions.Entities.Permission", b =>
@@ -291,6 +294,7 @@ namespace LMS_SoulCode.Migrations
                 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             modelBuilder.Entity("LMS_SoulCode.Features.SubscribedCourse.Entities.UserCourse", b =>
                 {
                     b.HasOne("LMS_SoulCode.Features.Course.Entities.Course", "Course")
@@ -310,6 +314,8 @@ namespace LMS_SoulCode.Migrations
                     b.Navigation("User");
                 });
 
+=======
+>>>>>>> 695d9a84ec067e90d0561fc504f0ad01d6228d89
 =======
 >>>>>>> 695d9a84ec067e90d0561fc504f0ad01d6228d89
             modelBuilder.Entity("LMS_SoulCode.Features.UserPermissions.Entities.RolePermission", b =>

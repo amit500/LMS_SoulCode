@@ -19,6 +19,9 @@ namespace LMS_SoulCode.Features.CourseVideos.Services
         {
             return await _repository.GetByCourseIdAsync(courseId);
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 695d9a84ec067e90d0561fc504f0ad01d6228d89
     }
 }
