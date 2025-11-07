@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "0x6yoefd1Ezqded2fQGwdOqBtBZxNzCoqW9N4zcT0Rw=",
+  "Hash": "wtUSVBCXGf+lI+zr71W3kehP/RBQwfT0yizHJOEh6bE=",
   "Source": "LMS_SoulCode",
   "BasePath": "_content/LMS_SoulCode",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "LMS_SoulCode\\wwwroot",
+      "Source": "LMS_SoulCode",
+      "ContentRoot": "D:\\AbhishekDotNet\\LMS_SoulCode\\LMS_SoulCode\\wwwroot\\",
+      "BasePath": "_content/LMS_SoulCode",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\AbhishekDotNet\\LMS_SoulCode\\LMS_SoulCode\\wwwroot\\uploads\\courses\\1\\8f59fabe-b15c-4d56-a874-3445337d3e9d.mp4",
+      "SourceId": "LMS_SoulCode",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AbhishekDotNet\\LMS_SoulCode\\LMS_SoulCode\\wwwroot\\",
+      "BasePath": "_content/LMS_SoulCode",
+      "RelativePath": "uploads/courses/1/8f59fabe-b15c-4d56-a874-3445337d3e9d.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\courses\\1\\8f59fabe-b15c-4d56-a874-3445337d3e9d.mp4"
+    }
+  ]
 }

@@ -155,6 +155,61 @@ namespace LMS_SoulCode.Migrations
                     b.ToTable("Courses");
                 });
 
+            modelBuilder.Entity("LMS_SoulCode.Features.CourseVideos.Entities.CourseVideo", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CourseId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UploadedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("VideoUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CourseId");
+
+                    b.ToTable("CourseVideos");
+                });
+
+<<<<<<< HEAD
+            modelBuilder.Entity("LMS_SoulCode.Features.SubscribedCourse.Entities.UserCourse", b =>
+                {
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CourseId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("SubscribedAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("GETUTCDATE()");
+
+                    b.HasKey("UserId", "CourseId");
+
+                    b.HasIndex("CourseId");
+
+                    b.ToTable("UserCourses");
+                });
+
+=======
+>>>>>>> 695d9a84ec067e90d0561fc504f0ad01d6228d89
             modelBuilder.Entity("LMS_SoulCode.Features.UserPermissions.Entities.Permission", b =>
                 {
                     b.Property<int>("Id")
@@ -224,6 +279,39 @@ namespace LMS_SoulCode.Migrations
                     b.ToTable("UserRoles");
                 });
 
+            modelBuilder.Entity("LMS_SoulCode.Features.CourseVideos.Entities.CourseVideo", b =>
+                {
+                    b.HasOne("LMS_SoulCode.Features.Course.Entities.Course", "Course")
+                        .WithMany("Videos")
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Course");
+                });
+
+<<<<<<< HEAD
+            modelBuilder.Entity("LMS_SoulCode.Features.SubscribedCourse.Entities.UserCourse", b =>
+                {
+                    b.HasOne("LMS_SoulCode.Features.Course.Entities.Course", "Course")
+                        .WithMany()
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("LMS_SoulCode.Features.Auth.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Course");
+
+                    b.Navigation("User");
+                });
+
+=======
+>>>>>>> 695d9a84ec067e90d0561fc504f0ad01d6228d89
             modelBuilder.Entity("LMS_SoulCode.Features.UserPermissions.Entities.RolePermission", b =>
                 {
                     b.HasOne("LMS_SoulCode.Features.UserPermissions.Entities.Permission", "Permission")
@@ -264,6 +352,11 @@ namespace LMS_SoulCode.Migrations
                     b.Navigation("Role");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("LMS_SoulCode.Features.Course.Entities.Course", b =>
+                {
+                    b.Navigation("Videos");
                 });
 
             modelBuilder.Entity("LMS_SoulCode.Features.UserPermissions.Entities.Permission", b =>
