@@ -143,20 +143,46 @@
     "ReturnTypes": []
   },
   {
-<<<<<<< HEAD
     "ContainingType": "LMS_SoulCode.Features.Course.Controllers.CourseController",
-    "Method": "GetAll",
-    "RelativePath": "api/Course",
+    "Method": "UploadVideo",
+    "RelativePath": "api/Course/{courseId}/upload-video",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS_SoulCode.Features.Course.Controllers.CourseController",
+    "Method": "GetVideos",
+    "RelativePath": "api/Course/{courseId}/videos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "LMS_SoulCode.Features.Course.Controllers.CourseController",
     "Method": "Create",
-    "RelativePath": "api/Course",
+    "RelativePath": "api/Course/create",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -170,8 +196,64 @@
     "ReturnTypes": []
   },
   {
-=======
->>>>>>> daab18d7bd13b4d22e0a66c6db21715614b502dc
+    "ContainingType": "LMS_SoulCode.Features.Course.Controllers.CourseController",
+    "Method": "GetAll",
+    "RelativePath": "api/Course/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS_SoulCode.Features.CourseVideos.Controllers.CourseVideoController",
+    "Method": "GetVideos",
+    "RelativePath": "api/CourseVideo/list/{courseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS_SoulCode.Features.Security.Controllers.CryptoController",
+    "Method": "DownloadDecryptedFile",
+    "RelativePath": "api/Crypto/download/{fileName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS_SoulCode.Features.Security.Controllers.CryptoController",
+    "Method": "UploadFile",
+    "RelativePath": "api/Crypto/upload-file",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController",
     "Method": "GetById",
     "RelativePath": "api/Permission/{id}",
@@ -324,6 +406,64 @@
       {
         "Name": "request",
         "Type": "LMS_SoulCode.Features.UserPermissions.Models.CreateRoleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController",
+    "Method": "Check",
+    "RelativePath": "api/UserCourse/check/{courseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController",
+    "Method": "MyCourses",
+    "RelativePath": "api/UserCourse/my-courses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController",
+    "Method": "Subscribe",
+    "RelativePath": "api/UserCourse/subscribe",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "LMS_SoulCode.Features.SubscribedCourse.Controllers.SubscribeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController",
+    "Method": "Unsubscribe",
+    "RelativePath": "api/UserCourse/unsubscribe",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "LMS_SoulCode.Features.SubscribedCourse.Controllers.SubscribeRequest",
         "IsRequired": true
       }
     ],
