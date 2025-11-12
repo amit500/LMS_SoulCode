@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "9IkaVHhW+/NfcHpRD3+V6BFCDLtTaWWEIuPq3fS2axY=",
+=======
+  "Hash": "wtUSVBCXGf+lI+zr71W3kehP/RBQwfT0yizHJOEh6bE=",
+>>>>>>> 7e9274270c74a7cc161bd33285a53ce048ca3f1f
   "Source": "LMS_SoulCode",
   "BasePath": "_content/LMS_SoulCode",
   "Mode": "Default",
@@ -17,6 +21,7 @@
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "D:\\AbhishekDotNet\\LMS_SoulCode\\LMS_SoulCode\\wwwroot\\uploads\\AbhiLakeAlpi.jpg.enc",
       "SourceId": "LMS_SoulCode",
       "SourceType": "Discovered",
@@ -36,6 +41,8 @@
       "OriginalItemSpec": "wwwroot\\uploads\\AbhiLakeAlpi.jpg.enc"
     },
     {
+=======
+>>>>>>> 7e9274270c74a7cc161bd33285a53ce048ca3f1f
       "Identity": "D:\\AbhishekDotNet\\LMS_SoulCode\\LMS_SoulCode\\wwwroot\\uploads\\courses\\1\\8f59fabe-b15c-4d56-a874-3445337d3e9d.mp4",
       "SourceId": "LMS_SoulCode",
       "SourceType": "Discovered",
@@ -53,6 +60,7 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\courses\\1\\8f59fabe-b15c-4d56-a874-3445337d3e9d.mp4"
+<<<<<<< HEAD
     },
     {
       "Identity": "D:\\AbhishekDotNet\\LMS_SoulCode\\LMS_SoulCode\\wwwroot\\uploads\\images\\AbhiLakeAlpi.jpg.enc",
@@ -72,6 +80,8 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\images\\AbhiLakeAlpi.jpg.enc"
+=======
+>>>>>>> 7e9274270c74a7cc161bd33285a53ce048ca3f1f
     }
   ]
 }

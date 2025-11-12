@@ -184,6 +184,11 @@ namespace LMS_SoulCode.Migrations
                     b.ToTable("CourseVideos");
                 });
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 7e9274270c74a7cc161bd33285a53ce048ca3f1f
             modelBuilder.Entity("LMS_SoulCode.Features.SubscribedCourse.Entities.UserCourse", b =>
                 {
                     b.Property<int>("UserId")
@@ -207,7 +212,14 @@ namespace LMS_SoulCode.Migrations
                     b.ToTable("UserCourses");
                 });
 
+<<<<<<< HEAD
 
+=======
+=======
+>>>>>>> 695d9a84ec067e90d0561fc504f0ad01d6228d89
+=======
+>>>>>>> 695d9a84ec067e90d0561fc504f0ad01d6228d89
+>>>>>>> 7e9274270c74a7cc161bd33285a53ce048ca3f1f
             modelBuilder.Entity("LMS_SoulCode.Features.UserPermissions.Entities.Permission", b =>
                 {
                     b.Property<int>("Id")
@@ -288,7 +300,12 @@ namespace LMS_SoulCode.Migrations
                     b.Navigation("Course");
                 });
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 7e9274270c74a7cc161bd33285a53ce048ca3f1f
             modelBuilder.Entity("LMS_SoulCode.Features.SubscribedCourse.Entities.UserCourse", b =>
                 {
                     b.HasOne("LMS_SoulCode.Features.Course.Entities.Course", "Course")
@@ -308,7 +325,14 @@ namespace LMS_SoulCode.Migrations
                     b.Navigation("User");
                 });
 
+<<<<<<< HEAD
 
+=======
+=======
+>>>>>>> 695d9a84ec067e90d0561fc504f0ad01d6228d89
+=======
+>>>>>>> 695d9a84ec067e90d0561fc504f0ad01d6228d89
+>>>>>>> 7e9274270c74a7cc161bd33285a53ce048ca3f1f
             modelBuilder.Entity("LMS_SoulCode.Features.UserPermissions.Entities.RolePermission", b =>
                 {
                     b.HasOne("LMS_SoulCode.Features.UserPermissions.Entities.Permission", "Permission")

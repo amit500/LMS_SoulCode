@@ -222,6 +222,7 @@
     "ReturnTypes": []
   },
   {
+<<<<<<< HEAD
     "ContainingType": "LMS_SoulCode.Features.Security.Controllers.CryptoController",
     "Method": "DownloadDecryptedFile",
     "RelativePath": "api/Crypto/download/{fileName}",
@@ -254,6 +255,8 @@
     "ReturnTypes": []
   },
   {
+=======
+>>>>>>> 7e9274270c74a7cc161bd33285a53ce048ca3f1f
     "ContainingType": "LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController",
     "Method": "GetById",
     "RelativePath": "api/Permission/{id}",

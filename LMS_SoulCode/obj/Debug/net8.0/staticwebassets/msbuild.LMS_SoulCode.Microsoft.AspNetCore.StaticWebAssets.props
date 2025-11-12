@@ -1,5 +1,6 @@
 ﻿<Project>
   <ItemGroup>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\AbhiLakeAlpi.jpg.enc))">
       <SourceType>Package</SourceType>
       <SourceId>LMS_SoulCode</SourceId>
@@ -16,6 +17,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\AbhiLakeAlpi.jpg.enc))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 7e9274270c74a7cc161bd33285a53ce048ca3f1f
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\courses\1\8f59fabe-b15c-4d56-a874-3445337d3e9d.mp4))">
       <SourceType>Package</SourceType>
       <SourceId>LMS_SoulCode</SourceId>
@@ -32,6 +35,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\courses\1\8f59fabe-b15c-4d56-a874-3445337d3e9d.mp4))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\images\AbhiLakeAlpi.jpg.enc))">
       <SourceType>Package</SourceType>
       <SourceId>LMS_SoulCode</SourceId>
@@ -48,5 +52,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\images\AbhiLakeAlpi.jpg.enc))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 7e9274270c74a7cc161bd33285a53ce048ca3f1f
   </ItemGroup>
 </Project>
