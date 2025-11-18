@@ -1,8 +1,9 @@
 ﻿using LMS_SoulCode.Features.Auth.Entities;
 using LMS_SoulCode.Features.UserPermissions.Entities;
 using LMS_SoulCode.Features.Course.Entities;
-
+using LMS_SoulCode.Features.CourseVideos.Entities;
 using Microsoft.EntityFrameworkCore;
+using LMS_SoulCode.Features.SubscribedCourse.Entities;
 
 namespace LMS_SoulCode.Data
 {
@@ -20,6 +21,9 @@ namespace LMS_SoulCode.Data
         public DbSet<RolePermission> RolePermissions { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Course> Courses { get; set; }
+        public DbSet<CourseVideo> CourseVideos { get; set; }
+        public DbSet<UserCourse> UserCourses { get; set; } = null!;
+        public DbSet<UserVideoProgress> UserVideoProgresses { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -52,6 +56,27 @@ namespace LMS_SoulCode.Data
                 .HasOne(rp => rp.Permission)
                 .WithMany(p => p.RolePermissions)
                 .HasForeignKey(rp => rp.PermissionId);
+
+
+            modelBuilder.Entity<UserCourse>()
+           .HasKey(uc => new { uc.UserId, uc.CourseId });
+
+            modelBuilder.Entity<UserCourse>()
+                .HasOne(uc => uc.User)
+                .WithMany() // or define collection property on User if present
+                .HasForeignKey(uc => uc.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<UserCourse>()
+                .HasOne(uc => uc.Course)
+                .WithMany() // or define collection property on Course if present
+                .HasForeignKey(uc => uc.CourseId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // optional: map SubscribedAt default SQL value
+            modelBuilder.Entity<UserCourse>()
+                .Property(uc => uc.SubscribedAt)
+                .HasDefaultValueSql("GETUTCDATE()");
         }
     }
 }

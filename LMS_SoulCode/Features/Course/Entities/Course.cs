@@ -1,4 +1,5 @@
-﻿namespace LMS_SoulCode.Features.Course.Entities
+﻿using LMS_SoulCode.Features.CourseVideos.Entities;
+namespace LMS_SoulCode.Features.Course.Entities
 {
     public class Course
     {
@@ -19,6 +20,8 @@
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
         public bool IsActive { get; set; } = true;
+        public ICollection<CourseVideo> Videos { get; set; } = new List<CourseVideo>();
+
     }
 
 }

@@ -4,12 +4,12 @@ using LMS_SoulCode.Features.UserPermissions.Repositories;
 using LMS_SoulCode.Features.UserPermissions.Services;
 using LMS_SoulCode.Features.Course.Repositories;
 using LMS_SoulCode.Features.Course.Services;
-
-using Microsoft.AspNetCore.Cors.Infrastructure;
-
-
-
-using LMS_SoulCode.Features.Course.Services;
+using LMS_SoulCode.Features.CourseVideos.Repositories;
+using LMS_SoulCode.Features.CourseVideos.Services;
+using LMS_SoulCode.Features.SubscribedCourse.Repositories;
+using LMS_SoulCode.Features.SubscribedCourse.Services;
+using LMS_SoulCode.Features.Security.Services;
+using LMS_SoulCode.Features.Reports.Services;
 
 
 namespace LMS_SoulCode.RepositoryMapping
@@ -33,6 +33,12 @@ namespace LMS_SoulCode.RepositoryMapping
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<ICourseRepository, CourseRepository>();
             services.AddScoped<ICourseService, CourseService>();
+            services.AddScoped<ICourseVideoRepository, CourseVideoRepository>();
+            services.AddScoped<CourseVideoService>();
+            services.AddScoped<IUserCourseRepository, UserCourseRepository>();
+            services.AddScoped<IUserCourseService, UserCourseService>();
+            services.AddScoped<CryptographyService>();
+            services.AddScoped<CourseReportService>();
 
 
         }

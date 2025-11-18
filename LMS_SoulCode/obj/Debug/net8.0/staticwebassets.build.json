@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "0x6yoefd1Ezqded2fQGwdOqBtBZxNzCoqW9N4zcT0Rw=",
+  "Hash": "ChEUcx2xNHl+fOQyu6E71sjOF1rdM0tKQmyNbIs/RFY=",
   "Source": "LMS_SoulCode",
   "BasePath": "_content/LMS_SoulCode",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "LMS_SoulCode\\wwwroot",
+      "Source": "LMS_SoulCode",
+      "ContentRoot": "D:\\AbhishekDotNet\\LMS_SoulCode\\LMS_SoulCode\\wwwroot\\",
+      "BasePath": "_content/LMS_SoulCode",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\AbhishekDotNet\\LMS_SoulCode\\LMS_SoulCode\\wwwroot\\uploads\\videos\\file_example_MP4_480_1_5MG (1).mp4.enc",
+      "SourceId": "LMS_SoulCode",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AbhishekDotNet\\LMS_SoulCode\\LMS_SoulCode\\wwwroot\\",
+      "BasePath": "_content/LMS_SoulCode",
+      "RelativePath": "uploads/videos/file_example_MP4_480_1_5MG (1).mp4.enc",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\videos\\file_example_MP4_480_1_5MG (1).mp4.enc"
+    }
+  ]
 }

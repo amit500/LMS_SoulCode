@@ -37,7 +37,17 @@ namespace LMS_SoulCode.Features.Auth.Services
                 throw new Exception("Invalid username or password");
 
             var (token, expires) = _jwt.CreateToken(user);
-            return new LoginResponse(token, expires);
+            var userDto = new UserDto
+            {
+                Id = user.Id,
+                UserName = user.UserName,
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                Mobile = user.Mobile,
+                Email = user.Email,
+                CreatedAt = user.CreatedAt
+            };
+            return new LoginResponse(token, expires, userDto);
         }
 
         public async Task<LoginResponse> RegisterAsync(RegisterModel request)
@@ -60,7 +70,17 @@ namespace LMS_SoulCode.Features.Auth.Services
             await _users.AddAsync(user);
 
             var (token, expires) = _jwt.CreateToken(user);
-            return new LoginResponse(token, expires);
+            var userDto = new UserDto
+            {
+                Id = user.Id,
+                UserName = user.UserName,
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                Mobile = user.Mobile,
+                Email = user.Email,
+                CreatedAt = user.CreatedAt
+            };
+            return new LoginResponse(token, expires, userDto);
         }
 
         public async Task<ForgotPasswordResponse> ForgotPasswordAsync(ForgotPasswordModel request)

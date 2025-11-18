@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\AbhishekDotNet\\LMS_SoulCode\\LMS_SoulCode\\wwwroot\\uploads\\videos\\file_example_MP4_480_1_5MG (1).mp4.enc",
+      "PackagePath": "staticwebassets\\uploads\\videos\\file_example_MP4_480_1_5MG (1).mp4.enc"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LMS_SoulCode.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LMS_SoulCode.props",
+      "PackagePath": "build\\LMS_SoulCode.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LMS_SoulCode.props",
+      "PackagePath": "buildMultiTargeting\\LMS_SoulCode.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LMS_SoulCode.props",
+      "PackagePath": "buildTransitive\\LMS_SoulCode.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

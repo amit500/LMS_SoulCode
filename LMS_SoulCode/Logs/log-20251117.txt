@@ -1,0 +1,1181 @@
+2025-11-17 21:24:27.245 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-17 21:24:27.686 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-17 21:24:27.782 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-17 21:24:27.786 +05:30 [INF] Hosting environment: Development
+2025-11-17 21:24:27.787 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-17 21:24:28.700 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-17 21:24:29.119 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 442.2997ms
+2025-11-17 21:24:29.149 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-17 21:24:29.149 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-17 21:24:29.220 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-17 21:24:29.229 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-17 21:24:29.238 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 17.4524ms
+2025-11-17 21:24:31.193 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 2043.8741ms
+2025-11-17 21:24:31.193 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 2060.1049ms
+2025-11-17 21:24:31.203 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-17 21:24:31.205 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-17 21:24:31.208 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-17 21:24:31.283 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.4068ms
+2025-11-17 21:24:31.338 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-17 21:24:31.532 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 193.8495ms
+2025-11-17 21:31:09.251 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/ - null null
+2025-11-17 21:31:09.330 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/ - 404 0 null 81.2918ms
+2025-11-17 21:31:09.336 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/, Response status code: 404
+2025-11-17 21:31:13.257 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - application/json 61
+2025-11-17 21:31:13.267 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:31:13.313 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LMS_SoulCode.Features.Auth.Models.LoginRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 21:31:15.274 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-17 21:31:15.313 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-17 21:31:17.157 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-17 21:31:17.170 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 13.2159ms
+2025-11-17 21:31:17.281 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - null null
+2025-11-17 21:31:17.323 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-17 21:31:17.364 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - 404 0 null 82.8617ms
+2025-11-17 21:31:17.369 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 46.6768ms
+2025-11-17 21:31:17.377 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css, Response status code: 404
+2025-11-17 21:31:17.450 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - null null
+2025-11-17 21:31:17.454 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - null null
+2025-11-17 21:31:17.470 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - 404 0 null 17.8322ms
+2025-11-17 21:31:17.475 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.7597ms
+2025-11-17 21:31:17.477 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js, Response status code: 404
+2025-11-17 21:31:17.633 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-17 21:31:17.662 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 28.7901ms
+2025-11-17 21:31:20.387 +05:30 [INF] Executed DbCommand (1,520ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-11-17 21:31:20.900 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.LoginResponse'.
+2025-11-17 21:31:20.946 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode) in 7626.5606ms
+2025-11-17 21:31:20.950 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:31:20.965 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 200 null application/json; charset=utf-8 7708.0598ms
+2025-11-17 21:31:23.914 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-17 21:31:23.921 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 7.0117ms
+2025-11-17 21:31:24.020 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - null null
+2025-11-17 21:31:24.024 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - null null
+2025-11-17 21:31:24.024 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-17 21:31:24.037 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - 404 0 null 16.2685ms
+2025-11-17 21:31:24.042 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - 404 0 null 17.8087ms
+2025-11-17 21:31:24.046 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 22.2269ms
+2025-11-17 21:31:24.050 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css, Response status code: 404
+2025-11-17 21:31:24.054 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js, Response status code: 404
+2025-11-17 21:31:24.154 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - null null
+2025-11-17 21:31:24.178 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.6978ms
+2025-11-17 21:31:24.888 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-17 21:31:24.920 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 32.1964ms
+2025-11-17 21:31:35.966 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - null null
+2025-11-17 21:31:35.974 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:31:35.976 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:31:35.978 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 405 0 null 11.8448ms
+2025-11-17 21:31:51.792 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - null null
+2025-11-17 21:31:51.807 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:31:51.813 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:31:51.816 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 405 0 null 24.7786ms
+2025-11-17 21:32:12.821 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - null null
+2025-11-17 21:32:12.830 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:32:12.831 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:32:12.833 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 405 0 null 12.4222ms
+2025-11-17 21:32:21.022 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - null null
+2025-11-17 21:32:21.036 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:32:21.039 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:32:21.042 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 405 0 null 21.1129ms
+2025-11-17 21:33:57.452 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - null null
+2025-11-17 21:33:57.462 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:33:57.464 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:33:57.465 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 405 0 null 13.7922ms
+2025-11-17 21:34:27.208 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-17 21:34:27.228 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 20.3327ms
+2025-11-17 21:34:27.295 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - null null
+2025-11-17 21:34:27.334 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - null null
+2025-11-17 21:34:27.315 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-17 21:34:27.349 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - 404 0 null 54.0386ms
+2025-11-17 21:34:27.354 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - 404 0 null 20.5611ms
+2025-11-17 21:34:27.358 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 43.2242ms
+2025-11-17 21:34:27.370 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css, Response status code: 404
+2025-11-17 21:34:27.381 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js, Response status code: 404
+2025-11-17 21:34:27.391 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - null null
+2025-11-17 21:34:27.408 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.9842ms
+2025-11-17 21:34:27.519 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-17 21:34:27.531 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.6752ms
+2025-11-17 21:34:32.623 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - null null
+2025-11-17 21:34:32.632 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:34:32.634 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:34:32.636 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 405 0 null 12.7869ms
+2025-11-17 21:34:38.252 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-17 21:34:38.274 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 21.3255ms
+2025-11-17 21:34:38.355 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - null null
+2025-11-17 21:34:38.364 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - 404 0 null 8.3859ms
+2025-11-17 21:34:38.373 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css, Response status code: 404
+2025-11-17 21:34:38.378 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - null null
+2025-11-17 21:34:38.379 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-17 21:34:38.389 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - 404 0 null 10.6372ms
+2025-11-17 21:34:38.395 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 16.2032ms
+2025-11-17 21:34:38.400 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js, Response status code: 404
+2025-11-17 21:34:38.472 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - null null
+2025-11-17 21:34:38.483 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.9162ms
+2025-11-17 21:34:38.663 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-17 21:34:38.674 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.656ms
+2025-11-17 21:35:03.342 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - null null
+2025-11-17 21:35:03.385 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:35:03.390 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:35:03.393 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 405 0 null 51.7555ms
+2025-11-17 21:35:17.429 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - null null
+2025-11-17 21:35:17.433 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:35:17.435 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:35:17.437 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 405 0 null 7.9405ms
+2025-11-17 21:36:03.124 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - null null
+2025-11-17 21:36:03.128 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:36:03.131 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:36:03.133 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 405 0 null 9.1047ms
+2025-11-17 21:37:18.554 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - null null
+2025-11-17 21:37:18.558 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:37:18.560 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:37:18.561 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 405 0 null 7.592ms
+2025-11-17 21:37:20.923 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - null null
+2025-11-17 21:37:20.928 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:37:20.929 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:37:20.931 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 405 0 null 7.8368ms
+2025-11-17 21:37:30.750 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - null null
+2025-11-17 21:37:30.755 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:37:30.756 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:37:30.758 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 405 0 null 8.2032ms
+2025-11-17 21:37:50.088 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-17 21:37:50.106 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 18.4831ms
+2025-11-17 21:37:50.230 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - null null
+2025-11-17 21:37:50.275 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - null null
+2025-11-17 21:37:50.334 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - 404 0 null 58.7432ms
+2025-11-17 21:37:50.324 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - 404 0 null 94.2051ms
+2025-11-17 21:37:50.363 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js, Response status code: 404
+2025-11-17 21:37:50.370 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css, Response status code: 404
+2025-11-17 21:37:50.417 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-17 21:37:50.452 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 35.0176ms
+2025-11-17 21:37:50.494 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - null null
+2025-11-17 21:37:50.540 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.0826ms
+2025-11-17 21:37:50.855 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-17 21:37:50.871 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.4243ms
+2025-11-17 21:38:09.980 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - null null
+2025-11-17 21:38:09.997 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:38:10.002 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:38:10.006 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 405 0 null 26.7076ms
+2025-11-17 21:38:33.808 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - null null
+2025-11-17 21:38:33.815 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:38:33.817 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:38:33.819 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 405 0 null 11.4922ms
+2025-11-17 21:38:46.471 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - application/json 61
+2025-11-17 21:38:46.478 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:38:46.485 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LMS_SoulCode.Features.Auth.Models.LoginRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 21:38:46.652 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode) in 163.426ms
+2025-11-17 21:38:46.656 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:38:46.659 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.MissingMethodException: Attempted to invoke a deleted lambda or local function implementation. This can happen when lambda or local function is deleted while the application is running.
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(UserPolicyService options)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-17 21:38:46.704 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 500 null text/plain; charset=utf-8 233.0183ms
+2025-11-17 21:38:54.957 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - application/json 61
+2025-11-17 21:38:54.967 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:38:54.969 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LMS_SoulCode.Features.Auth.Models.LoginRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 21:38:54.972 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode) in 1.333ms
+2025-11-17 21:38:54.974 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:38:54.976 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.MissingMethodException: Attempted to invoke a deleted lambda or local function implementation. This can happen when lambda or local function is deleted while the application is running.
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(UserPolicyService options)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-17 21:38:54.985 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 500 null text/plain; charset=utf-8 28.0874ms
+2025-11-17 21:39:03.178 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/Auth/login - application/json 47
+2025-11-17 21:39:03.183 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:39:03.185 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LMS_SoulCode.Features.Auth.Models.LoginRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 21:39:03.189 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode) in 1.3953ms
+2025-11-17 21:39:03.192 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:39:03.195 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.MissingMethodException: Attempted to invoke a deleted lambda or local function implementation. This can happen when lambda or local function is deleted while the application is running.
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(UserPolicyService options)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-17 21:39:03.206 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/Auth/login - 500 null text/plain; charset=utf-8 28.532ms
+2025-11-17 21:39:23.375 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/Auth/login - application/json 59
+2025-11-17 21:39:23.380 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:39:23.382 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LMS_SoulCode.Features.Auth.Models.LoginRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 21:39:23.385 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode) in 0.9939ms
+2025-11-17 21:39:23.387 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:39:23.390 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.MissingMethodException: Attempted to invoke a deleted lambda or local function implementation. This can happen when lambda or local function is deleted while the application is running.
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(UserPolicyService options)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-17 21:39:23.403 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/Auth/login - 500 null text/plain; charset=utf-8 28.1681ms
+2025-11-17 21:39:32.100 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/Auth/login - application/*+json 59
+2025-11-17 21:39:32.105 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:39:32.107 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LMS_SoulCode.Features.Auth.Models.LoginRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 21:39:32.111 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode) in 1.0945ms
+2025-11-17 21:39:32.114 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:39:32.116 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.MissingMethodException: Attempted to invoke a deleted lambda or local function implementation. This can happen when lambda or local function is deleted while the application is running.
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(UserPolicyService options)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-17 21:39:32.127 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/Auth/login - 500 null text/plain; charset=utf-8 27.7659ms
+2025-11-17 21:39:39.226 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/Auth/login - text/json 59
+2025-11-17 21:39:39.246 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:39:39.253 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LMS_SoulCode.Features.Auth.Models.LoginRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 21:39:39.319 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode) in 5.1148ms
+2025-11-17 21:39:39.324 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:39:39.333 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.MissingMethodException: Attempted to invoke a deleted lambda or local function implementation. This can happen when lambda or local function is deleted while the application is running.
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(UserPolicyService options)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-17 21:39:39.368 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/Auth/login - 500 null text/plain; charset=utf-8 142.9844ms
+2025-11-17 21:39:44.368 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - application/json 61
+2025-11-17 21:39:44.375 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:39:44.378 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LMS_SoulCode.Features.Auth.Models.LoginRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 21:39:44.383 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode) in 1.8108ms
+2025-11-17 21:39:44.385 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:39:44.389 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.MissingMethodException: Attempted to invoke a deleted lambda or local function implementation. This can happen when lambda or local function is deleted while the application is running.
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(UserPolicyService options)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-17 21:39:44.403 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 500 null text/plain; charset=utf-8 35.4112ms
+2025-11-17 21:40:21.965 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-17 21:40:21.996 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 30.9553ms
+2025-11-17 21:40:22.071 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - null null
+2025-11-17 21:40:22.082 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - 404 0 null 10.8599ms
+2025-11-17 21:40:22.090 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css, Response status code: 404
+2025-11-17 21:40:22.093 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - null null
+2025-11-17 21:40:22.092 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-17 21:40:22.105 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - 404 0 null 12.4703ms
+2025-11-17 21:40:22.109 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 16.5727ms
+2025-11-17 21:40:22.114 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js, Response status code: 404
+2025-11-17 21:40:22.160 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - null null
+2025-11-17 21:40:22.189 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.1047ms
+2025-11-17 21:40:22.454 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-17 21:40:22.472 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.5453ms
+2025-11-17 21:40:25.791 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-17 21:40:25.805 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.1275ms
+2025-11-17 21:41:10.566 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - null null
+2025-11-17 21:41:10.575 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:41:10.577 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:41:10.579 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - 405 0 null 13.0528ms
+2025-11-17 21:41:20.950 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - null null
+2025-11-17 21:41:20.955 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:41:20.957 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:41:20.959 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - 405 0 null 8.6198ms
+2025-11-17 21:42:38.500 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - application/json 151
+2025-11-17 21:42:38.504 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode)'
+2025-11-17 21:42:38.508 +05:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(LMS_SoulCode.Features.Auth.Models.RegisterRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 21:42:38.512 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode) in 0.704ms
+2025-11-17 21:42:38.514 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode)'
+2025-11-17 21:42:38.516 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.MissingMethodException: Attempted to invoke a deleted lambda or local function implementation. This can happen when lambda or local function is deleted while the application is running.
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(UserPolicyService options)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method50(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-17 21:42:38.525 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - 500 null text/plain; charset=utf-8 25.8093ms
+2025-11-17 21:44:46.720 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - application/json 61
+2025-11-17 21:44:46.743 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:44:46.746 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LMS_SoulCode.Features.Auth.Models.LoginRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 21:44:46.753 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode) in 2.7457ms
+2025-11-17 21:44:46.757 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:44:46.759 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.MissingMethodException: Attempted to invoke a deleted lambda or local function implementation. This can happen when lambda or local function is deleted while the application is running.
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(UserPolicyService options)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-17 21:44:46.773 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 500 null text/plain; charset=utf-8 52.9243ms
+2025-11-17 21:44:57.714 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - application/json 61
+2025-11-17 21:44:57.720 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:44:57.722 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LMS_SoulCode.Features.Auth.Models.LoginRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 21:44:57.725 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode) in 0.8642ms
+2025-11-17 21:44:57.728 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:44:57.730 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.MissingMethodException: Attempted to invoke a deleted lambda or local function implementation. This can happen when lambda or local function is deleted while the application is running.
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(UserPolicyService options)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-17 21:44:57.739 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 500 null text/plain; charset=utf-8 24.466ms
+2025-11-17 21:45:21.472 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/Auth/login - application/json 47
+2025-11-17 21:45:21.478 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:45:21.479 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LMS_SoulCode.Features.Auth.Models.LoginRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 21:45:21.482 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode) in 0.7531ms
+2025-11-17 21:45:21.484 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:45:21.486 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.MissingMethodException: Attempted to invoke a deleted lambda or local function implementation. This can happen when lambda or local function is deleted while the application is running.
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(UserPolicyService options)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-17 21:45:21.495 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/Auth/login - 500 null text/plain; charset=utf-8 23.0002ms
+2025-11-17 21:45:47.442 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-17 21:45:47.458 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 16.961ms
+2025-11-17 21:45:47.564 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - null null
+2025-11-17 21:45:47.569 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - 404 0 null 4.7416ms
+2025-11-17 21:45:47.572 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css, Response status code: 404
+2025-11-17 21:45:47.596 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - null null
+2025-11-17 21:45:47.597 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-17 21:45:47.609 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - 404 0 null 13.3734ms
+2025-11-17 21:45:47.614 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 16.6361ms
+2025-11-17 21:45:47.618 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js, Response status code: 404
+2025-11-17 21:45:47.679 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - null null
+2025-11-17 21:45:47.689 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.3493ms
+2025-11-17 21:45:47.961 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-17 21:45:47.979 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.8025ms
+2025-11-17 21:45:54.461 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/Auth/login - application/json 47
+2025-11-17 21:45:54.468 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:45:54.469 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LMS_SoulCode.Features.Auth.Models.LoginRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 21:45:54.473 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode) in 0.7112ms
+2025-11-17 21:45:54.475 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:45:54.477 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.MissingMethodException: Attempted to invoke a deleted lambda or local function implementation. This can happen when lambda or local function is deleted while the application is running.
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(UserPolicyService options)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-17 21:45:54.487 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/Auth/login - 500 null text/plain; charset=utf-8 26.1029ms
+2025-11-17 21:48:12.772 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - application/json 61
+2025-11-17 21:48:12.781 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:48:12.783 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LMS_SoulCode.Features.Auth.Models.LoginRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 21:48:12.787 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode) in 0.828ms
+2025-11-17 21:48:12.789 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:48:12.792 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.MissingMethodException: Attempted to invoke a deleted lambda or local function implementation. This can happen when lambda or local function is deleted while the application is running.
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__1(UserPolicyService options)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider _, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-17 21:48:12.801 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 500 null text/plain; charset=utf-8 29.929ms
+2025-11-17 21:48:43.105 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - null null
+2025-11-17 21:48:43.110 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:48:43.111 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:48:43.112 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - 405 0 null 6.7139ms
+2025-11-17 21:49:01.834 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - null null
+2025-11-17 21:49:01.842 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:49:01.845 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:49:01.847 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 405 0 null 13.311ms
+2025-11-17 21:49:05.747 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - null null
+2025-11-17 21:49:05.752 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:49:05.753 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-11-17 21:49:05.755 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 405 0 null 7.351ms
+2025-11-17 21:50:15.433 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-17 21:50:15.908 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-17 21:50:15.986 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-17 21:50:15.989 +05:30 [INF] Hosting environment: Development
+2025-11-17 21:50:15.990 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-17 21:50:16.533 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-17 21:50:16.845 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 331.7341ms
+2025-11-17 21:50:16.857 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-17 21:50:16.861 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-17 21:50:16.861 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-17 21:50:16.917 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-17 21:50:16.921 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 59.8556ms
+2025-11-17 21:50:18.745 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 1888.412ms
+2025-11-17 21:50:18.745 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 1883.3904ms
+2025-11-17 21:50:18.758 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-17 21:50:18.762 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-17 21:50:18.770 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-17 21:50:18.830 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.9132ms
+2025-11-17 21:50:18.876 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-17 21:50:19.019 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 142.9793ms
+2025-11-17 21:50:48.523 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/ - null null
+2025-11-17 21:50:48.545 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/ - 404 0 null 22.106ms
+2025-11-17 21:50:48.552 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/, Response status code: 404
+2025-11-17 21:50:51.403 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-17 21:50:51.412 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 9.8925ms
+2025-11-17 21:50:51.711 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - null null
+2025-11-17 21:50:51.715 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - null null
+2025-11-17 21:50:51.725 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - 404 0 null 13.8742ms
+2025-11-17 21:50:51.730 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - 404 0 null 14.6299ms
+2025-11-17 21:50:51.735 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js, Response status code: 404
+2025-11-17 21:50:51.739 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css, Response status code: 404
+2025-11-17 21:50:51.763 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-17 21:50:51.769 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - null null
+2025-11-17 21:50:51.770 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 6.7214ms
+2025-11-17 21:50:51.802 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.945ms
+2025-11-17 21:50:52.402 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-17 21:50:52.438 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 36.9697ms
+2025-11-17 21:51:11.137 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - null null
+2025-11-17 21:51:11.192 +05:30 [INF] CORS policy execution successful.
+2025-11-17 21:51:11.196 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 204 null null 59.043ms
+2025-11-17 21:51:11.312 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - application/json 50
+2025-11-17 21:51:11.334 +05:30 [INF] CORS policy execution successful.
+2025-11-17 21:51:11.342 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:51:11.453 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LMS_SoulCode.Features.Auth.Models.LoginRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 21:51:15.366 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-17 21:51:15.442 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-17 21:51:25.889 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - application/json 61
+2025-11-17 21:51:25.893 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:51:25.895 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LMS_SoulCode.Features.Auth.Models.LoginRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 21:51:28.781 +05:30 [INF] Executed DbCommand (2,826ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-11-17 21:51:28.781 +05:30 [INF] Executed DbCommand (3,964ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-11-17 21:51:29.394 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.LoginResponse'.
+2025-11-17 21:51:29.394 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.LoginResponse'.
+2025-11-17 21:51:29.453 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode) in 3549.3851ms
+2025-11-17 21:51:29.453 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode) in 17985.0248ms
+2025-11-17 21:51:29.457 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:51:29.457 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:51:29.550 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 200 null application/json; charset=utf-8 18237.8306ms
+2025-11-17 21:51:29.550 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 200 null application/json; charset=utf-8 3660.8728ms
+2025-11-17 21:51:42.023 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - application/json 62
+2025-11-17 21:51:42.028 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:51:42.031 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LMS_SoulCode.Features.Auth.Models.LoginRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 21:51:42.269 +05:30 [INF] Executed DbCommand (92ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-11-17 21:51:42.419 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.LoginResponse'.
+2025-11-17 21:51:42.424 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode) in 385.8561ms
+2025-11-17 21:51:42.428 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 21:51:42.434 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 200 null application/json; charset=utf-8 411.4661ms
+2025-11-17 21:53:04.539 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/me - null null
+2025-11-17 21:53:04.555 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/me - null null
+2025-11-17 21:53:04.574 +05:30 [INF] CORS policy execution successful.
+2025-11-17 21:53:04.590 +05:30 [INF] CORS policy execution successful.
+2025-11-17 21:53:04.596 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/me - 204 null null 56.9171ms
+2025-11-17 21:53:04.600 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/me - 204 null null 44.916ms
+2025-11-17 21:53:04.678 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/me - null null
+2025-11-17 21:53:05.225 +05:30 [INF] CORS policy execution successful.
+2025-11-17 21:53:05.231 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/me - 404 0 null 553.3007ms
+2025-11-17 21:53:05.253 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/me, Response status code: 404
+2025-11-17 21:53:05.385 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/me - null null
+2025-11-17 21:53:05.424 +05:30 [INF] CORS policy execution successful.
+2025-11-17 21:53:05.429 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/me - 404 0 null 44.5525ms
+2025-11-17 21:53:05.454 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/me, Response status code: 404
+2025-11-17 22:05:38.944 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - null null
+2025-11-17 22:05:39.196 +05:30 [INF] CORS policy execution successful.
+2025-11-17 22:05:39.203 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - 204 null null 261.7124ms
+2025-11-17 22:05:39.394 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - application/json 106
+2025-11-17 22:05:39.404 +05:30 [INF] CORS policy execution successful.
+2025-11-17 22:05:39.408 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode)'
+2025-11-17 22:05:39.512 +05:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(LMS_SoulCode.Features.Auth.Models.RegisterRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 22:05:39.680 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-11-17 22:05:39.843 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode) in 323.6345ms
+2025-11-17 22:05:39.846 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode)'
+2025-11-17 22:05:39.851 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - 400 null application/problem+json; charset=utf-8 456.7953ms
+2025-11-17 22:09:51.257 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - null null
+2025-11-17 22:09:51.347 +05:30 [INF] CORS policy execution successful.
+2025-11-17 22:09:51.379 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - 204 null null 121.3497ms
+2025-11-17 22:09:51.468 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - application/json 106
+2025-11-17 22:09:51.485 +05:30 [INF] CORS policy execution successful.
+2025-11-17 22:09:51.489 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode)'
+2025-11-17 22:09:51.496 +05:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(LMS_SoulCode.Features.Auth.Models.RegisterRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 22:09:51.515 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-11-17 22:09:51.525 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode) in 18.7046ms
+2025-11-17 22:09:51.571 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode)'
+2025-11-17 22:09:51.578 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - 400 null application/problem+json; charset=utf-8 109.6679ms
+2025-11-17 22:12:13.228 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - null null
+2025-11-17 22:12:13.287 +05:30 [INF] CORS policy execution successful.
+2025-11-17 22:12:13.309 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - 204 null null 80.8791ms
+2025-11-17 22:12:13.388 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - application/json 106
+2025-11-17 22:12:13.471 +05:30 [INF] CORS policy execution successful.
+2025-11-17 22:12:13.473 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode)'
+2025-11-17 22:12:13.477 +05:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(LMS_SoulCode.Features.Auth.Models.RegisterRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 22:12:13.485 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-11-17 22:12:13.517 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode) in 35.2952ms
+2025-11-17 22:12:13.546 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode)'
+2025-11-17 22:12:13.550 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - 400 null application/problem+json; charset=utf-8 162.4794ms
+2025-11-17 22:16:29.549 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - null null
+2025-11-17 22:16:29.566 +05:30 [INF] CORS policy execution successful.
+2025-11-17 22:16:29.572 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - 204 null null 22.9986ms
+2025-11-17 22:16:29.622 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - application/json 119
+2025-11-17 22:16:29.647 +05:30 [INF] CORS policy execution successful.
+2025-11-17 22:16:29.651 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode)'
+2025-11-17 22:16:29.664 +05:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(LMS_SoulCode.Features.Auth.Models.RegisterRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 22:16:29.684 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-11-17 22:16:29.692 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode) in 15.391ms
+2025-11-17 22:16:29.697 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode)'
+2025-11-17 22:16:29.701 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - 400 null application/problem+json; charset=utf-8 80.7087ms
+2025-11-17 22:20:17.409 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - null null
+2025-11-17 22:20:17.439 +05:30 [INF] CORS policy execution successful.
+2025-11-17 22:20:17.447 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - 204 null null 39.331ms
+2025-11-17 22:20:17.545 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - application/json 130
+2025-11-17 22:20:17.561 +05:30 [INF] CORS policy execution successful.
+2025-11-17 22:20:17.567 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode)'
+2025-11-17 22:20:17.574 +05:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(LMS_SoulCode.Features.Auth.Models.RegisterRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 22:20:19.392 +05:30 [INF] Executed DbCommand (1,169ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = @__email_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-11-17 22:20:19.863 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-11-17 22:20:19.871 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode) in 2286.0727ms
+2025-11-17 22:20:19.877 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode)'
+2025-11-17 22:20:19.882 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - 400 null text/plain; charset=utf-8 2337.4526ms
+2025-11-17 22:20:29.966 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - null null
+2025-11-17 22:20:29.981 +05:30 [INF] CORS policy execution successful.
+2025-11-17 22:20:29.993 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - 204 null null 27.6039ms
+2025-11-17 22:20:30.141 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - application/json 131
+2025-11-17 22:20:30.157 +05:30 [INF] CORS policy execution successful.
+2025-11-17 22:20:30.162 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode)'
+2025-11-17 22:20:30.169 +05:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(LMS_SoulCode.Features.Auth.Models.RegisterRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 22:20:30.825 +05:30 [INF] Executed DbCommand (639ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = @__email_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-11-17 22:20:33.338 +05:30 [INF] Executed DbCommand (725ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (Size = 4000), @p9='?' (DbType = DateTime2), @p10='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedAt], [Email], [FirstName], [LastName], [Mobile], [PasswordHash], [RefreshToken], [RefreshTokenExpiry], [ResetToken], [ResetTokenExpiry], [UserName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10);
+2025-11-17 22:20:33.430 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.LoginResponse'.
+2025-11-17 22:20:33.436 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode) in 3256.6596ms
+2025-11-17 22:20:33.441 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Register (LMS_SoulCode)'
+2025-11-17 22:20:33.446 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/register - 200 null application/json; charset=utf-8 3305.6159ms
+2025-11-17 22:23:55.516 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/Auth/forgot-password - application/json 32
+2025-11-17 22:23:55.560 +05:30 [INF] CORS policy execution failed.
+2025-11-17 22:23:55.567 +05:30 [INF] Request origin https://keratometric-autotypic-collin.ngrok-free.dev does not have permission to access the resource.
+2025-11-17 22:23:55.574 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode)'
+2025-11-17 22:23:55.597 +05:30 [INF] Route matched with {action = "ForgotPassword", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(LMS_SoulCode.Features.Auth.Models.ForgotPasswordRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 22:23:55.758 +05:30 [INF] Executed DbCommand (59ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-11-17 22:23:55.782 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-11-17 22:23:55.910 +05:30 [INF] Executed DbCommand (39ms) [Parameters=[@p11='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (Size = 4000), @p9='?' (DbType = DateTime2), @p10='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [CreatedAt] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Mobile] = @p4, [PasswordHash] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiry] = @p7, [ResetToken] = @p8, [ResetTokenExpiry] = @p9, [UserName] = @p10
+OUTPUT 1
+WHERE [Id] = @p11;
+2025-11-17 22:24:01.425 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.ForgotPasswordResponse'.
+2025-11-17 22:24:01.438 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode) in 5829.6931ms
+2025-11-17 22:24:01.446 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode)'
+2025-11-17 22:24:01.457 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/Auth/forgot-password - 200 null application/json; charset=utf-8 5941.0043ms
+2025-11-17 22:26:01.575 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/forgot-password - null null
+2025-11-17 22:26:01.589 +05:30 [INF] CORS policy execution successful.
+2025-11-17 22:26:01.594 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/forgot-password - 204 null null 18.4514ms
+2025-11-17 22:26:01.642 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/forgot-password - application/json 26
+2025-11-17 22:26:01.700 +05:30 [INF] CORS policy execution successful.
+2025-11-17 22:26:01.702 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode)'
+2025-11-17 22:26:01.707 +05:30 [INF] Route matched with {action = "ForgotPassword", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(LMS_SoulCode.Features.Auth.Models.ForgotPasswordRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 22:26:01.730 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-11-17 22:26:01.743 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-11-17 22:26:01.812 +05:30 [INF] Executed DbCommand (41ms) [Parameters=[@p11='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (Size = 4000), @p9='?' (DbType = DateTime2), @p10='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [CreatedAt] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Mobile] = @p4, [PasswordHash] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiry] = @p7, [ResetToken] = @p8, [ResetTokenExpiry] = @p9, [UserName] = @p10
+OUTPUT 1
+WHERE [Id] = @p11;
+2025-11-17 22:26:05.963 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.ForgotPasswordResponse'.
+2025-11-17 22:26:05.971 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode) in 4260.9349ms
+2025-11-17 22:26:05.978 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.ForgotPassword (LMS_SoulCode)'
+2025-11-17 22:26:05.984 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/forgot-password - 200 null application/json; charset=utf-8 4342.0066ms
+2025-11-17 22:31:14.073 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Course/list - null null
+2025-11-17 22:31:14.131 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetAll (LMS_SoulCode)'
+2025-11-17 22:31:14.246 +05:30 [INF] Route matched with {action = "GetAll", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller LMS_SoulCode.Features.Course.Controllers.CourseController (LMS_SoulCode).
+2025-11-17 22:31:15.978 +05:30 [INF] Executed DbCommand (1,439ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[CreatedAt], [c].[Description], [c].[Difficulty], [c].[DurationHours], [c].[EnrolledCount], [c].[Instructor], [c].[IsActive], [c].[Lectures], [c].[Materials], [c].[Price], [c].[Rating], [c].[Tags], [c].[ThumbnailUrl], [c].[Title], [c].[UpdatedAt]
+FROM [Courses] AS [c]
+2025-11-17 22:31:16.116 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[LMS_SoulCode.Features.Course.Entities.Course, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[LMS_SoulCode.Features.Course.Models.CourseResponse, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-17 22:31:16.177 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CourseController.GetAll (LMS_SoulCode) in 1926.5083ms
+2025-11-17 22:31:16.179 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetAll (LMS_SoulCode)'
+2025-11-17 22:31:16.182 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Course/list - 200 null application/json; charset=utf-8 2110.6638ms
+2025-11-17 22:34:43.312 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/me - null null
+2025-11-17 22:34:43.322 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/me - null null
+2025-11-17 22:34:43.595 +05:30 [INF] CORS policy execution successful.
+2025-11-17 22:34:43.595 +05:30 [INF] CORS policy execution successful.
+2025-11-17 22:34:43.598 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/me - 204 null null 285.1693ms
+2025-11-17 22:34:43.598 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/me - 204 null null 275.7205ms
+2025-11-17 22:34:43.762 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/me - null null
+2025-11-17 22:34:43.850 +05:30 [INF] CORS policy execution successful.
+2025-11-17 22:34:43.851 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/me - 404 0 null 88.9556ms
+2025-11-17 22:34:43.858 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/me, Response status code: 404
+2025-11-17 22:34:43.958 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/me - null null
+2025-11-17 22:34:43.973 +05:30 [INF] CORS policy execution successful.
+2025-11-17 22:34:43.976 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/me - 404 0 null 18.3909ms
+2025-11-17 22:34:43.988 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/me, Response status code: 404
+2025-11-17 22:35:09.383 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-17 22:35:09.431 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 48.7169ms
+2025-11-17 22:49:07.938 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-17 22:49:10.126 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 2221.9116ms
+2025-11-17 22:49:10.263 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - null null
+2025-11-17 22:49:10.272 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - null null
+2025-11-17 22:49:10.298 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-17 22:49:10.394 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - 404 0 null 131.2057ms
+2025-11-17 22:49:10.394 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - 404 0 null 122.8245ms
+2025-11-17 22:49:10.409 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 111.2389ms
+2025-11-17 22:49:10.414 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css, Response status code: 404
+2025-11-17 22:49:10.419 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js, Response status code: 404
+2025-11-17 22:49:10.460 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - null null
+2025-11-17 22:49:10.798 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - 200 null text/javascript; charset=UTF-8 337.5749ms
+2025-11-17 22:49:11.041 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-17 22:49:11.678 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 636.4848ms
+2025-11-17 22:58:28.752 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-17 22:58:28.927 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 175.325ms
+2025-11-17 22:58:29.094 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - null null
+2025-11-17 22:58:29.113 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - null null
+2025-11-17 22:58:29.132 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - 404 0 null 37.416ms
+2025-11-17 22:58:29.136 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - 404 0 null 23.4149ms
+2025-11-17 22:58:29.141 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js, Response status code: 404
+2025-11-17 22:58:29.146 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css, Response status code: 404
+2025-11-17 22:58:29.178 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-17 22:58:29.182 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - null null
+2025-11-17 22:58:29.184 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 5.5391ms
+2025-11-17 22:58:29.206 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.277ms
+2025-11-17 22:58:29.367 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-17 22:58:29.431 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 64.2456ms
+2025-11-17 22:58:39.953 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - application/json 62
+2025-11-17 22:58:39.973 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 22:58:40.032 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LMS_SoulCode.Features.Auth.Models.LoginRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 22:58:41.973 +05:30 [INF] Executed DbCommand (898ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-11-17 22:58:42.197 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.LoginResponse'.
+2025-11-17 22:58:42.220 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode) in 2184.7436ms
+2025-11-17 22:58:42.231 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 22:58:42.246 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.TypeLoadException: Could not load type 'LMS_SoulCode.Features.Reports.Services.CourseReportService' from assembly 'LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' due to value type mismatch.
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimeConstructorInfo.<get_Signature>g__LazyCreateSignature|21_0()
+   at System.Reflection.RuntimeConstructorInfo.GetParameters()
+   at System.Text.Json.Reflection.ReflectionExtensions.TryGetDeserializationConstructor(Type type, Boolean useDefaultCtorInAnnotatedStructs, ConstructorInfo& deserializationCtor)
+   at System.Text.Json.Serialization.Converters.ObjectConverterFactory.CreateConverter(Type typeToConvert, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializerOptions.ExpandConverterFactory(JsonConverter converter, Type typeToConvert)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.GetConverterForType(Type typeToConvert, JsonSerializerOptions options, Boolean resolveJsonConverterAttribute)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreateJsonTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.GetTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializerOptions.CachingContext.CreateCacheEntry(Type type, CachingContext context)
+--- End of stack trace from previous location ---
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfoInternal(Type type, Boolean ensureConfigured, Nullable`1 ensureNotNull, Boolean resolveIfMutable, Boolean fallBackToNearestAncestorType)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfo(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-17 22:58:42.471 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 500 null text/plain; charset=utf-8 2518.324ms
+2025-11-17 22:58:59.720 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - application/json 62
+2025-11-17 22:58:59.733 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 22:58:59.737 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LMS_SoulCode.Features.Auth.Models.LoginRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 22:58:59.883 +05:30 [INF] Executed DbCommand (133ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-11-17 22:59:35.281 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.LoginResponse'.
+2025-11-17 22:59:35.288 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode) in 35544.6369ms
+2025-11-17 22:59:35.291 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 22:59:35.296 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.TypeLoadException: Could not load type 'LMS_SoulCode.Features.Reports.Services.CourseReportService' from assembly 'LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' due to value type mismatch.
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimeConstructorInfo.<get_Signature>g__LazyCreateSignature|21_0()
+   at System.Reflection.RuntimeConstructorInfo.GetParameters()
+   at System.Text.Json.Reflection.ReflectionExtensions.TryGetDeserializationConstructor(Type type, Boolean useDefaultCtorInAnnotatedStructs, ConstructorInfo& deserializationCtor)
+   at System.Text.Json.Serialization.Converters.ObjectConverterFactory.CreateConverter(Type typeToConvert, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializerOptions.ExpandConverterFactory(JsonConverter converter, Type typeToConvert)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.GetConverterForType(Type typeToConvert, JsonSerializerOptions options, Boolean resolveJsonConverterAttribute)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreateJsonTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.GetTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializerOptions.CachingContext.CreateCacheEntry(Type type, CachingContext context)
+--- End of stack trace from previous location ---
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfoInternal(Type type, Boolean ensureConfigured, Nullable`1 ensureNotNull, Boolean resolveIfMutable, Boolean fallBackToNearestAncestorType)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfo(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-17 22:59:35.317 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 500 null text/plain; charset=utf-8 35596.8551ms
+2025-11-17 22:59:39.188 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - application/json 62
+2025-11-17 22:59:39.200 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 22:59:39.204 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LMS_SoulCode.Features.Auth.Models.LoginRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 22:59:39.264 +05:30 [INF] Executed DbCommand (47ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-11-17 22:59:42.088 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.LoginResponse'.
+2025-11-17 22:59:42.093 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode) in 2882.8439ms
+2025-11-17 22:59:42.096 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 22:59:42.099 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.TypeLoadException: Could not load type 'LMS_SoulCode.Features.Reports.Services.CourseReportService' from assembly 'LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' due to value type mismatch.
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimeConstructorInfo.<get_Signature>g__LazyCreateSignature|21_0()
+   at System.Reflection.RuntimeConstructorInfo.GetParameters()
+   at System.Text.Json.Reflection.ReflectionExtensions.TryGetDeserializationConstructor(Type type, Boolean useDefaultCtorInAnnotatedStructs, ConstructorInfo& deserializationCtor)
+   at System.Text.Json.Serialization.Converters.ObjectConverterFactory.CreateConverter(Type typeToConvert, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializerOptions.ExpandConverterFactory(JsonConverter converter, Type typeToConvert)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.GetConverterForType(Type typeToConvert, JsonSerializerOptions options, Boolean resolveJsonConverterAttribute)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreateJsonTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.GetTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializerOptions.CachingContext.CreateCacheEntry(Type type, CachingContext context)
+--- End of stack trace from previous location ---
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfoInternal(Type type, Boolean ensureConfigured, Nullable`1 ensureNotNull, Boolean resolveIfMutable, Boolean fallBackToNearestAncestorType)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfo(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-17 22:59:42.118 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 500 null text/plain; charset=utf-8 2929.9978ms
+2025-11-17 23:01:56.181 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-17 23:01:56.499 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-17 23:01:56.617 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-17 23:01:56.619 +05:30 [INF] Hosting environment: Development
+2025-11-17 23:01:56.621 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-17 23:01:58.265 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-17 23:01:59.052 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 794.4442ms
+2025-11-17 23:01:59.801 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-17 23:01:59.801 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-17 23:01:59.803 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-17 23:01:59.815 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 18.6864ms
+2025-11-17 23:01:59.820 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-17 23:02:01.496 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 1693.0103ms
+2025-11-17 23:02:01.496 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 1699.4347ms
+2025-11-17 23:02:01.504 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-17 23:02:01.506 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-17 23:02:01.511 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-17 23:02:01.555 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.0116ms
+2025-11-17 23:02:01.657 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-17 23:02:02.313 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 656.5453ms
+2025-11-17 23:02:25.351 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - application/json 62
+2025-11-17 23:02:25.374 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 23:02:25.467 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LMS_SoulCode.Features.Auth.Models.LoginRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-17 23:02:29.916 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-17 23:02:29.965 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-17 23:02:35.263 +05:30 [INF] Executed DbCommand (941ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-11-17 23:02:36.318 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.LoginResponse'.
+2025-11-17 23:02:36.371 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode) in 10794.9972ms
+2025-11-17 23:02:36.378 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-17 23:02:36.412 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/auth/login - 200 null application/json; charset=utf-8 11061.9441ms
