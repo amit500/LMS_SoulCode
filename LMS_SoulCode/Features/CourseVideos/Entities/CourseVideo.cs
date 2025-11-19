@@ -9,6 +9,7 @@ namespace LMS_SoulCode.Features.CourseVideos.Entities
         public string Title { get; set; } = string.Empty;
         public string VideoUrl { get; set; } = string.Empty;
         public DateTime UploadedAt { get; set; } = DateTime.UtcNow;
+
         public CourseEntity Course { get; set; }
     }
 

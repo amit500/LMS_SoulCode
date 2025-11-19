@@ -4,6 +4,7 @@ using LMS_SoulCode.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LMS_SoulCode.Migrations
 {
     [DbContext(typeof(LmsDbContext))]
-    partial class LmsDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251105184633_CourseVideo")]
+    partial class CourseVideo
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -184,80 +187,6 @@ namespace LMS_SoulCode.Migrations
                     b.ToTable("CourseVideos");
                 });
 
-<<<<<<< HEAD
-            modelBuilder.Entity("LMS_SoulCode.Features.CourseVideos.Entities.UserVideoProgress", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<bool>("IsCompleted")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTime>("LastWatchedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("VideoId")
-                        .HasColumnType("int");
-
-                    b.Property<double>("WatchedPercentage")
-                        .HasColumnType("float");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId");
-
-                    b.HasIndex("VideoId");
-
-                    b.ToTable("UserVideoProgresses");
-                });
-
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 7e9274270c74a7cc161bd33285a53ce048ca3f1f
->>>>>>> 10f432b2adc2dcccb25dc8a21f25856a1f419bb1
-            modelBuilder.Entity("LMS_SoulCode.Features.SubscribedCourse.Entities.UserCourse", b =>
-                {
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("CourseId")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("IsActive")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTime>("SubscribedAt")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2")
-                        .HasDefaultValueSql("GETUTCDATE()");
-
-                    b.HasKey("UserId", "CourseId");
-
-                    b.HasIndex("CourseId");
-
-                    b.ToTable("UserCourses");
-                });
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
-=======
->>>>>>> 695d9a84ec067e90d0561fc504f0ad01d6228d89
-=======
->>>>>>> 695d9a84ec067e90d0561fc504f0ad01d6228d89
->>>>>>> 7e9274270c74a7cc161bd33285a53ce048ca3f1f
->>>>>>> 10f432b2adc2dcccb25dc8a21f25856a1f419bb1
             modelBuilder.Entity("LMS_SoulCode.Features.UserPermissions.Entities.Permission", b =>
                 {
                     b.Property<int>("Id")
@@ -338,64 +267,6 @@ namespace LMS_SoulCode.Migrations
                     b.Navigation("Course");
                 });
 
-<<<<<<< HEAD
-            modelBuilder.Entity("LMS_SoulCode.Features.CourseVideos.Entities.UserVideoProgress", b =>
-                {
-                    b.HasOne("LMS_SoulCode.Features.Auth.Entities.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("LMS_SoulCode.Features.CourseVideos.Entities.CourseVideo", "Video")
-                        .WithMany()
-                        .HasForeignKey("VideoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-
-                    b.Navigation("Video");
-                });
-
-=======
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 7e9274270c74a7cc161bd33285a53ce048ca3f1f
->>>>>>> 10f432b2adc2dcccb25dc8a21f25856a1f419bb1
-            modelBuilder.Entity("LMS_SoulCode.Features.SubscribedCourse.Entities.UserCourse", b =>
-                {
-                    b.HasOne("LMS_SoulCode.Features.Course.Entities.Course", "Course")
-                        .WithMany()
-                        .HasForeignKey("CourseId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("LMS_SoulCode.Features.Auth.Entities.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Course");
-
-                    b.Navigation("User");
-                });
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
-=======
->>>>>>> 695d9a84ec067e90d0561fc504f0ad01d6228d89
-=======
->>>>>>> 695d9a84ec067e90d0561fc504f0ad01d6228d89
->>>>>>> 7e9274270c74a7cc161bd33285a53ce048ca3f1f
->>>>>>> 10f432b2adc2dcccb25dc8a21f25856a1f419bb1
             modelBuilder.Entity("LMS_SoulCode.Features.UserPermissions.Entities.RolePermission", b =>
                 {
                     b.HasOne("LMS_SoulCode.Features.UserPermissions.Entities.Permission", "Permission")

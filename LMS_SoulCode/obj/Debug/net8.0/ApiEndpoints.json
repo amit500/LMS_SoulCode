@@ -177,6 +177,7 @@
         "IsRequired": true
       }
     ],
+<<<<<<< HEAD
     "ReturnTypes": []
   },
   {
@@ -193,6 +194,8 @@
         "IsRequired": true
       }
     ],
+=======
+>>>>>>> 10f432b2adc2dcccb25dc8a21f25856a1f419bb1
     "ReturnTypes": []
   },
   {
@@ -238,6 +241,10 @@
     "ReturnTypes": []
   },
   {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 10f432b2adc2dcccb25dc8a21f25856a1f419bb1
     "ContainingType": "LMS_SoulCode.Features.Security.Controllers.CryptoController",
     "Method": "DownloadDecryptedFile",
     "RelativePath": "api/Crypto/download/{fileName}",
@@ -255,6 +262,7 @@
   },
   {
     "ContainingType": "LMS_SoulCode.Features.Security.Controllers.CryptoController",
+<<<<<<< HEAD
     "Method": "StreamDecryptedVideo",
     "RelativePath": "api/Crypto/stream/{fileName}",
     "HttpMethod": "GET",
@@ -271,6 +279,8 @@
   },
   {
     "ContainingType": "LMS_SoulCode.Features.Security.Controllers.CryptoController",
+=======
+>>>>>>> 10f432b2adc2dcccb25dc8a21f25856a1f419bb1
     "Method": "UploadFile",
     "RelativePath": "api/Crypto/upload-file",
     "HttpMethod": "POST",
@@ -286,6 +296,11 @@
     "ReturnTypes": []
   },
   {
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7e9274270c74a7cc161bd33285a53ce048ca3f1f
+>>>>>>> 10f432b2adc2dcccb25dc8a21f25856a1f419bb1
     "ContainingType": "LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController",
     "Method": "GetById",
     "RelativePath": "api/Permission/{id}",

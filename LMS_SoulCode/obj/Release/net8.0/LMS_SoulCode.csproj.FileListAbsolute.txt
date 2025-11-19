@@ -1,0 +1,8 @@
+D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\obj\Release\net8.0\LMS_SoulCode.csproj.AssemblyReference.cache
+D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\obj\Release\net8.0\LMS_SoulCode.GeneratedMSBuildEditorConfig.editorconfig
+D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\obj\Release\net8.0\LMS_SoulCode.AssemblyInfoInputs.cache
+D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\obj\Release\net8.0\LMS_SoulCode.AssemblyInfo.cs
+D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\obj\Release\net8.0\LMS_SoulCode.csproj.CoreCompileInputs.cache
+D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\obj\Release\net8.0\LMS_SoulCode.MvcApplicationPartsAssemblyInfo.cs
+D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\obj\Release\net8.0\LMS_SoulCode.MvcApplicationPartsAssemblyInfo.cache
+D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\obj\Release\net8.0\LMS_SoulCode.sourcelink.json

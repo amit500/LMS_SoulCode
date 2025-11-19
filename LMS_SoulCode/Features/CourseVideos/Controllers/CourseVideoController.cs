@@ -13,6 +13,7 @@ namespace LMS_SoulCode.Features.CourseVideos.Controllers
         private readonly CourseVideoService _videoService;
         private readonly IUserCourseService _userCourseService; 
 
+
         public CourseVideoController(CourseVideoService videoService,IUserCourseService userCourseService)
         {
             _videoService = videoService;
@@ -26,6 +27,9 @@ namespace LMS_SoulCode.Features.CourseVideos.Controllers
             var videos = await _videoService.GetByCourseAsync(courseId);
             return Ok(videos);
         }
+
+
+
 
         //[HttpGet("{videoId}/stream")]
         //[Authorize]

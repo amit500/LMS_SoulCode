@@ -1,0 +1,29 @@
+2025-11-09 00:05:14.812 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-09 00:05:15.397 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-09 00:05:15.493 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-09 00:05:15.495 +05:30 [INF] Hosting environment: Development
+2025-11-09 00:05:15.497 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-09 00:05:18.079 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-09 00:05:18.607 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 581.6303ms
+2025-11-09 00:05:18.652 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.js - null null
+2025-11-09 00:05:18.652 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-09 00:05:18.664 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 12.1169ms
+2025-11-09 00:05:18.747 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.js - 200 null application/javascript;charset=utf-8 95.2155ms
+2025-11-09 00:05:18.778 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-09 00:05:18.999 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 221.9278ms
+2025-11-09 00:05:19.101 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-09 00:05:19.304 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 203.4099ms
+2025-11-09 00:19:52.983 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/CourseVideo/list/1 - null null
+2025-11-09 00:19:53.011 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-09 00:19:56.683 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.CourseVideos.Controllers.CourseVideoController.GetVideos (LMS_SoulCode)'
+2025-11-09 00:19:56.732 +05:30 [INF] Route matched with {action = "GetVideos", controller = "CourseVideo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVideos(Int32) on controller LMS_SoulCode.Features.CourseVideos.Controllers.CourseVideoController (LMS_SoulCode).
+2025-11-09 00:19:58.347 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-09 00:19:58.390 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-09 00:20:03.775 +05:30 [INF] Executed DbCommand (1,388ms) [Parameters=[@__courseId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CourseId], [c].[Title], [c].[UploadedAt], [c].[VideoUrl]
+FROM [CourseVideos] AS [c]
+WHERE [c].[CourseId] = @__courseId_0
+2025-11-09 00:20:03.887 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.CourseVideos.Entities.CourseVideo, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-09 00:20:03.930 +05:30 [INF] Executed action LMS_SoulCode.Features.CourseVideos.Controllers.CourseVideoController.GetVideos (LMS_SoulCode) in 7188.2141ms
+2025-11-09 00:20:03.933 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.CourseVideos.Controllers.CourseVideoController.GetVideos (LMS_SoulCode)'
+2025-11-09 00:20:03.945 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/CourseVideo/list/1 - 200 null application/json; charset=utf-8 10963.3452ms

@@ -1,0 +1,151 @@
+2025-11-11 22:47:19.873 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-11 22:47:20.808 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-11 22:47:21.003 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-11 22:47:21.008 +05:30 [INF] Hosting environment: Development
+2025-11-11 22:47:21.012 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-11 22:47:22.864 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-11 22:47:24.100 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 1290.5663ms
+2025-11-11 22:47:24.726 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.js - null null
+2025-11-11 22:47:24.743 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-11 22:47:24.797 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 53.5107ms
+2025-11-11 22:47:24.824 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-11 22:47:24.880 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.js - 200 null application/javascript;charset=utf-8 155.7574ms
+2025-11-11 22:47:24.963 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 139.2669ms
+2025-11-11 22:47:25.411 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-11 22:47:27.557 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2146.5084ms
+2025-11-11 22:51:24.895 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Crypto/encrypt - application/json 10
+2025-11-11 22:51:25.052 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-11 22:51:29.949 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Security.Controllers.CryptoController.Encrypt (LMS_SoulCode)'
+2025-11-11 22:51:30.140 +05:30 [INF] Route matched with {action = "Encrypt", controller = "Crypto"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Encrypt(System.Object) on controller LMS_SoulCode.Features.Security.Controllers.CryptoController (LMS_SoulCode).
+2025-11-11 22:51:30.281 +05:30 [INF] Executed action LMS_SoulCode.Features.Security.Controllers.CryptoController.Encrypt (LMS_SoulCode) in 11.3629ms
+2025-11-11 22:51:30.289 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Security.Controllers.CryptoController.Encrypt (LMS_SoulCode)'
+2025-11-11 22:51:30.298 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'LMS_SoulCode.Features.Security.Services.CryptographyService' while attempting to activate 'LMS_SoulCode.Features.Security.Controllers.CryptoController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method3(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-11 22:51:30.484 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Crypto/encrypt - 500 null text/plain; charset=utf-8 5590.1471ms
+2025-11-11 22:52:22.956 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-11 22:52:23.119 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 162.5387ms
+2025-11-11 22:52:23.262 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-11 22:52:23.265 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.js - null null
+2025-11-11 22:52:23.309 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-11 22:52:23.568 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 306.2448ms
+2025-11-11 22:52:23.806 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 496.8882ms
+2025-11-11 22:52:23.652 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.js - 200 null application/javascript;charset=utf-8 386.8439ms
+2025-11-11 22:52:24.027 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-11 22:52:24.210 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/favicon-32x32.png - null null
+2025-11-11 22:52:24.321 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 294.0106ms
+2025-11-11 22:52:24.400 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-11-11 22:52:26.011 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/favicon-32x32.png - 200 628 image/png 1801.8929ms
+2025-11-11 22:52:37.305 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Crypto/encrypt - application/json 10
+2025-11-11 22:52:37.364 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Security.Controllers.CryptoController.Encrypt (LMS_SoulCode)'
+2025-11-11 22:52:37.381 +05:30 [INF] Route matched with {action = "Encrypt", controller = "Crypto"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Encrypt(System.Object) on controller LMS_SoulCode.Features.Security.Controllers.CryptoController (LMS_SoulCode).
+2025-11-11 22:52:37.397 +05:30 [INF] Executed action LMS_SoulCode.Features.Security.Controllers.CryptoController.Encrypt (LMS_SoulCode) in 1.9645ms
+2025-11-11 22:52:37.403 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Security.Controllers.CryptoController.Encrypt (LMS_SoulCode)'
+2025-11-11 22:52:37.414 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'LMS_SoulCode.Features.Security.Services.CryptographyService' while attempting to activate 'LMS_SoulCode.Features.Security.Controllers.CryptoController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method5(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-11 22:52:37.438 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Crypto/encrypt - 500 null text/plain; charset=utf-8 132.9421ms
+2025-11-11 22:53:27.027 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Crypto/encrypt - application/json 10
+2025-11-11 22:53:27.059 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Security.Controllers.CryptoController.Encrypt (LMS_SoulCode)'
+2025-11-11 22:53:27.063 +05:30 [INF] Route matched with {action = "Encrypt", controller = "Crypto"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Encrypt(System.Object) on controller LMS_SoulCode.Features.Security.Controllers.CryptoController (LMS_SoulCode).
+2025-11-11 22:53:27.075 +05:30 [INF] Executed action LMS_SoulCode.Features.Security.Controllers.CryptoController.Encrypt (LMS_SoulCode) in 1.672ms
+2025-11-11 22:53:27.082 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Security.Controllers.CryptoController.Encrypt (LMS_SoulCode)'
+2025-11-11 22:53:27.089 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'LMS_SoulCode.Features.Security.Services.CryptographyService' while attempting to activate 'LMS_SoulCode.Features.Security.Controllers.CryptoController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method5(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-11 22:53:27.110 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Crypto/encrypt - 500 null text/plain; charset=utf-8 83.177ms
+2025-11-11 22:54:42.100 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-11 22:54:42.835 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-11 22:54:43.033 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-11 22:54:43.065 +05:30 [INF] Hosting environment: Development
+2025-11-11 22:54:43.074 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-11 22:54:43.978 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-11 22:54:44.757 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 802.3247ms
+2025-11-11 22:54:44.925 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-11 22:54:44.929 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-11 22:54:44.931 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.js - null null
+2025-11-11 22:54:45.006 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 158.3404ms
+2025-11-11 22:54:45.020 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.js - 200 null application/javascript;charset=utf-8 89.5091ms
+2025-11-11 22:54:45.083 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 187.2996ms
+2025-11-11 22:54:45.176 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-11 22:54:45.604 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 428.0645ms
+2025-11-11 22:55:02.464 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Crypto/encrypt - application/json 10
+2025-11-11 22:55:02.497 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-11 22:55:06.501 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Security.Controllers.CryptoController.Encrypt (LMS_SoulCode)'
+2025-11-11 22:55:06.606 +05:30 [INF] Route matched with {action = "Encrypt", controller = "Crypto"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Encrypt(System.Object) on controller LMS_SoulCode.Features.Security.Controllers.CryptoController (LMS_SoulCode).
+2025-11-11 22:57:47.350 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-11-11 22:57:47.392 +05:30 [INF] Executed action LMS_SoulCode.Features.Security.Controllers.CryptoController.Encrypt (LMS_SoulCode) in 160756.6098ms
+2025-11-11 22:57:47.397 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Security.Controllers.CryptoController.Encrypt (LMS_SoulCode)'
+2025-11-11 22:57:47.399 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Crypto/encrypt - 200 null text/plain; charset=utf-8 164935.652ms
+2025-11-11 23:04:56.340 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Crypto/decrypt - application/json 54
+2025-11-11 23:04:56.406 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Security.Controllers.CryptoController.Decrypt (LMS_SoulCode)'
+2025-11-11 23:04:56.442 +05:30 [INF] Route matched with {action = "Decrypt", controller = "Crypto"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Decrypt(System.String) on controller LMS_SoulCode.Features.Security.Controllers.CryptoController (LMS_SoulCode).
+2025-11-11 23:07:18.102 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-11-11 23:07:18.138 +05:30 [INF] Executed action LMS_SoulCode.Features.Security.Controllers.CryptoController.Decrypt (LMS_SoulCode) in 141689.5331ms
+2025-11-11 23:07:18.162 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Security.Controllers.CryptoController.Decrypt (LMS_SoulCode)'
+2025-11-11 23:07:18.164 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Crypto/decrypt - 200 null text/plain; charset=utf-8 141824.9743ms
+2025-11-11 23:48:52.978 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-11 23:48:53.766 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-11 23:48:53.926 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-11 23:48:53.957 +05:30 [INF] Hosting environment: Development
+2025-11-11 23:48:53.961 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-11 23:48:57.294 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-11 23:48:58.242 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 964.6334ms
+2025-11-11 23:48:58.301 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.js - null null
+2025-11-11 23:48:58.368 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-11 23:48:58.471 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-11 23:48:58.480 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.js - 200 null application/javascript;charset=utf-8 219.0254ms
+2025-11-11 23:48:58.557 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 83.8397ms
+2025-11-11 23:48:58.642 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 274.1216ms
+2025-11-11 23:48:58.791 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-11 23:48:59.209 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 417.2885ms
+2025-11-11 23:50:21.736 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Crypto/upload-image - multipart/form-data; boundary=----WebKitFormBoundarycpBrZsHAAaVouxH3 947503
+2025-11-11 23:50:21.806 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-11 23:50:25.839 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Security.Controllers.CryptoController.UploadImage (LMS_SoulCode)'
+2025-11-11 23:50:25.917 +05:30 [INF] Route matched with {action = "UploadImage", controller = "Crypto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadImage(Microsoft.AspNetCore.Http.IFormFile) on controller LMS_SoulCode.Features.Security.Controllers.CryptoController (LMS_SoulCode).
+2025-11-11 23:51:46.293 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-11-11 23:51:46.315 +05:30 [INF] Executed action LMS_SoulCode.Features.Security.Controllers.CryptoController.UploadImage (LMS_SoulCode) in 80374.2096ms
+2025-11-11 23:51:46.322 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Security.Controllers.CryptoController.UploadImage (LMS_SoulCode)'
+2025-11-11 23:51:46.335 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Crypto/upload-image - 200 null text/plain; charset=utf-8 84599.839ms
