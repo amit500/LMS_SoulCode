@@ -10,6 +10,7 @@ using LMS_SoulCode.Features.SubscribedCourse.Repositories;
 using LMS_SoulCode.Features.SubscribedCourse.Services;
 using LMS_SoulCode.Features.Security.Services;
 using LMS_SoulCode.Features.Reports.Services;
+using LMS_SoulCode.Common;
 
 
 namespace LMS_SoulCode.RepositoryMapping
@@ -39,7 +40,7 @@ namespace LMS_SoulCode.RepositoryMapping
             services.AddScoped<IUserCourseService, UserCourseService>();
             services.AddScoped<CryptographyService>();
             services.AddScoped<CourseReportService>();
-
+            services.AddScoped<PermissionHelper>();
 
         }
     }

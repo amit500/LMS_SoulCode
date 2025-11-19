@@ -64,6 +64,7 @@ namespace LMS_SoulCode.Features.UserPermissions.Repositories
                 .Where(ur => ur.UserId == userId)
                 .Select(ur => ur.Role)
                 .ToListAsync();
-        
+
     }
+
 }

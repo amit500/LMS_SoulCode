@@ -15,6 +15,6 @@ namespace LMS_SoulCode.Features.Auth.Repositories
         Task UpdateRefreshTokenAsync(string email, string newRefreshToken);
         Task<User?> GetUserByResetTokenAsync(string token);
         Task UpdatePasswordAsync(User user);
-
+        Task<bool> UserHasPermission(int userId, string key);
     }
 }

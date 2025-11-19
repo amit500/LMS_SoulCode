@@ -151,6 +151,7 @@ D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\obj\Debug\net8.0\LMS_SoulCode.Assemb
 D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\obj\Debug\net8.0\LMS_SoulCode.csproj.CoreCompileInputs.cache
 D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\obj\Debug\net8.0\LMS_SoulCode.MvcApplicationPartsAssemblyInfo.cs
 D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\obj\Debug\net8.0\LMS_SoulCode.MvcApplicationPartsAssemblyInfo.cache
+D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\obj\Debug\net8.0\LMS_SoulCode.sourcelink.json
 D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\obj\Debug\net8.0\staticwebassets.build.json
 D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\obj\Debug\net8.0\staticwebassets.development.json
 D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\obj\Debug\net8.0\staticwebassets\msbuild.LMS_SoulCode.Microsoft.AspNetCore.StaticWebAssets.props
@@ -165,4 +166,3 @@ D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\obj\Debug\net8.0\refint\LMS_SoulCode
 D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\obj\Debug\net8.0\LMS_SoulCode.pdb
 D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\obj\Debug\net8.0\LMS_SoulCode.genruntimeconfig.cache
 D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\obj\Debug\net8.0\ref\LMS_SoulCode.dll
-D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\obj\Debug\net8.0\LMS_SoulCode.sourcelink.json

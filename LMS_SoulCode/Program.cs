@@ -24,6 +24,7 @@ builder.Host.UseSerilog();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddSwaggerGen(c =>
 {
@@ -64,7 +65,6 @@ builder.Services.AddDbContext<LmsDbContext>(options =>
 
 builder.Services.AddRepoServiceMapping();
 builder.Services.AddUserPolicies();
-
 builder.Services.AddSingleton<JwtTokenService>();
 
 builder.Services.AddValidatorsFromAssemblyContaining<LoginRequestValidator>();

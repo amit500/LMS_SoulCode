@@ -1,4 +1,5 @@
-﻿using LMS_SoulCode.Features.Course.Models;
+﻿using LMS_SoulCode.Common;
+using LMS_SoulCode.Features.Course.Models;
 using LMS_SoulCode.Features.Course.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,15 +10,18 @@ namespace LMS_SoulCode.Features.Course.Controllers
     public class CourseController : ControllerBase
     {
         private readonly ICourseService _courseService;
-
-        public CourseController(ICourseService courseService)
+        private readonly PermissionHelper _permissionHelper;
+        public CourseController(ICourseService courseService, PermissionHelper permissionHelper)
         {
             _courseService = courseService;
+            _permissionHelper= permissionHelper;
         }
 
         [HttpGet("list")]
         public async Task<IActionResult> GetAll()
         {
+            if (!await _permissionHelper.CheckPermission("CourseList"))
+                return Forbid("Permission Denied");
             var courses = await _courseService.GetAllAsync();
             return Ok(courses);
         }
@@ -25,6 +29,8 @@ namespace LMS_SoulCode.Features.Course.Controllers
         [HttpPost("create")]
         public async Task<IActionResult> Create([FromBody] CourseRequest request)
         {
+            if (!await _permissionHelper.CheckPermission("CreateCourse"))
+                return Forbid("Permission Denied");
             await _courseService.AddAsync(request);
             return Ok("Course created successfully");
         }
