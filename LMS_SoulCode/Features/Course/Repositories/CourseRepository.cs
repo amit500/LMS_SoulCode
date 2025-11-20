@@ -52,21 +52,6 @@ namespace LMS_SoulCode.Features.Course.Repositories
                 .Where(v => v.CourseId == courseId)
                 .ToListAsync();
         }
-     
-        //Course Video 
-        public async Task AddVideoAsync(CourseVideo video)
-        {
-             _context.CourseVideos.Add(video);
-            await _context.SaveChangesAsync();
-
-        }
-
-        public async Task<IEnumerable<CourseVideo>> GetVideosByCourseIdAsync(int courseId)
-        {
-            return await _context.CourseVideos
-                .Where(v => v.CourseId == courseId)
-                .ToListAsync();
-        }
-      
+           
     }
 }

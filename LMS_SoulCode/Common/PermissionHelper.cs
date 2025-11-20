@@ -22,19 +22,16 @@ namespace LMS_SoulCode.Common
         }
         public async Task<bool> CheckPermission(string configKey)
         {
-            // 1. read key from appsettings
             string keyFromConfig = _config[$"PermissionKeys:{configKey}"];
-            // 2. get userId from JWT
-            //var userId = int.Parse(_httpContext.HttpContext.User.FindFirst("UserId").Value);
+
             var userIdClaim = _httpContext.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier);
             if (userIdClaim == null)
-            {
-                throw new InvalidOperationException("UserId claim not found in JWT.");
-            }
-            var userId = int.Parse(userIdClaim.Value);
-            // 3. call repo → match config key with DB permissionName
+                return false;
+            int userId = int.Parse(userIdClaim.Value);
+
             return await _userRepo.UserHasPermission(userId, keyFromConfig);
         }
+
     }
 
 }

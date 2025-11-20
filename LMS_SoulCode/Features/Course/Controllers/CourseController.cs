@@ -18,10 +18,10 @@ namespace LMS_SoulCode.Features.Course.Controllers
         }
 
         [HttpGet("list")]
+        [CheckPermission("CourseList")]
+
         public async Task<IActionResult> GetAll()
-        {
-            if (!await _permissionHelper.CheckPermission("CourseList"))
-                return Forbid("Permission Denied");
+        {           
             var courses = await _courseService.GetAllAsync();
             return Ok(courses);
         }
