@@ -445,6 +445,16 @@
   },
   {
     "ContainingType": "LMS_SoulCode.Features.UserPermissions.Controllers.RoleController",
+    "Method": "GetAllRolePermissionAsync",
+    "RelativePath": "api/Role/RolePermissionlist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS_SoulCode.Features.UserPermissions.Controllers.RoleController",
     "Method": "Update",
     "RelativePath": "api/Role/update/{id}",
     "HttpMethod": "PUT",
@@ -504,6 +514,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController",
+    "Method": "GetAllSubscribed",
+    "RelativePath": "api/UserCourse/Subscribed-List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

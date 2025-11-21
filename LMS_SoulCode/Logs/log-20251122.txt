@@ -1,0 +1,392 @@
+2025-11-22 00:06:45.438 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/Category/list - null null
+2025-11-22 00:06:45.488 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CategoryController.GetAll (LMS_SoulCode)'
+2025-11-22 00:06:45.809 +05:30 [INF] Route matched with {action = "GetAll", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller LMS_SoulCode.Features.Course.Controllers.CategoryController (LMS_SoulCode).
+2025-11-22 00:06:47.911 +05:30 [INF] Executed DbCommand (618ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+2025-11-22 00:06:48.160 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.Course.Entities.Category, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-22 00:06:48.193 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CategoryController.GetAll (LMS_SoulCode) in 2377.0495ms
+2025-11-22 00:06:48.200 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CategoryController.GetAll (LMS_SoulCode)'
+2025-11-22 00:06:48.206 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/Category/list - 200 null application/json; charset=utf-8 2768.2325ms
+2025-11-22 00:07:10.279 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/Permission/list - null null
+2025-11-22 00:07:10.298 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController.GetAll (LMS_SoulCode)'
+2025-11-22 00:07:10.316 +05:30 [INF] Route matched with {action = "GetAll", controller = "Permission"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController (LMS_SoulCode).
+2025-11-22 00:07:10.910 +05:30 [INF] Executed DbCommand (165ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name]
+FROM [Permissions] AS [p]
+2025-11-22 00:07:10.994 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.UserPermissions.Entities.Permission, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-22 00:07:11.074 +05:30 [INF] Executed action LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController.GetAll (LMS_SoulCode) in 727.0328ms
+2025-11-22 00:07:11.085 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController.GetAll (LMS_SoulCode)'
+2025-11-22 00:07:11.091 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/Permission/list - 200 null application/json; charset=utf-8 811.7465ms
+2025-11-22 01:04:11.690 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-22 01:04:13.129 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-22 01:04:13.467 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-22 01:04:13.472 +05:30 [INF] Hosting environment: Development
+2025-11-22 01:04:13.476 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-22 01:04:37.603 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-22 01:04:39.292 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 1711.0063ms
+2025-11-22 01:04:39.687 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-22 01:04:39.697 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-22 01:04:39.697 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-22 01:04:39.899 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-22 01:04:40.037 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 299.7994ms
+2025-11-22 01:04:40.468 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 770.7472ms
+2025-11-22 01:04:40.468 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 781.9036ms
+2025-11-22 01:04:40.479 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-22 01:04:40.507 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-22 01:04:40.519 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-22 01:04:41.241 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 722.2991ms
+2025-11-22 01:04:41.410 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-22 01:04:41.762 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 351.3405ms
+2025-11-22 01:05:06.738 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/Permission/list - null null
+2025-11-22 01:05:06.821 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController.GetAll (LMS_SoulCode)'
+2025-11-22 01:05:06.978 +05:30 [INF] Route matched with {action = "GetAll", controller = "Permission"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController (LMS_SoulCode).
+2025-11-22 01:05:10.806 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-22 01:05:10.922 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-22 01:05:17.981 +05:30 [INF] Executed DbCommand (2,652ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name]
+FROM [Permissions] AS [p]
+2025-11-22 01:05:18.397 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.UserPermissions.Entities.Permission, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-22 01:05:18.510 +05:30 [INF] Executed action LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController.GetAll (LMS_SoulCode) in 11391.3511ms
+2025-11-22 01:05:18.524 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController.GetAll (LMS_SoulCode)'
+2025-11-22 01:05:18.602 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/Permission/list - 200 null application/json; charset=utf-8 11864.9931ms
+2025-11-22 01:05:53.676 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/UserCourse/Subscribed-List - null null
+2025-11-22 01:05:53.724 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-11-22 01:05:53.748 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-11-22 01:05:53.755 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/UserCourse/Subscribed-List - 401 0 null 78.7293ms
+2025-11-22 01:05:56.148 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/UserCourse/Subscribed-List - null null
+2025-11-22 01:05:56.163 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-11-22 01:05:56.169 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-11-22 01:05:56.174 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/UserCourse/Subscribed-List - 401 0 null 25.7405ms
+2025-11-22 01:06:23.957 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Auth/login - application/json 59
+2025-11-22 01:06:23.981 +05:30 [INF] CORS policy execution failed.
+2025-11-22 01:06:23.987 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-22 01:06:24.002 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-22 01:06:24.077 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LMS_SoulCode.Features.Auth.Models.LoginRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-22 01:06:41.207 +05:30 [INF] Executed DbCommand (1,296ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-11-22 01:06:42.271 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.LoginResponse'.
+2025-11-22 01:06:42.320 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode) in 18227.3176ms
+2025-11-22 01:06:42.336 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-22 01:06:42.356 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Auth/login - 200 null application/json; charset=utf-8 18402.1751ms
+2025-11-22 01:07:46.001 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/UserCourse/Subscribed-List - null null
+2025-11-22 01:07:46.191 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController.GetAllSubscribed (LMS_SoulCode)'
+2025-11-22 01:07:46.215 +05:30 [INF] Route matched with {action = "GetAllSubscribed", controller = "UserCourse"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllSubscribed() on controller LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController (LMS_SoulCode).
+2025-11-22 01:07:46.925 +05:30 [INF] Executed DbCommand (252ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserId], [u].[CourseId], [u].[IsActive], [u].[SubscribedAt]
+FROM [UserCourses] AS [u]
+2025-11-22 01:07:47.172 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.SubscribedCourse.Entities.UserCourse, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-22 01:07:47.246 +05:30 [INF] Executed action LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController.GetAllSubscribed (LMS_SoulCode) in 1019.5593ms
+2025-11-22 01:07:47.262 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController.GetAllSubscribed (LMS_SoulCode)'
+2025-11-22 01:07:47.272 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/UserCourse/Subscribed-List - 200 null application/json; charset=utf-8 1271.5238ms
+2025-11-22 01:27:02.970 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-22 01:27:04.892 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-22 01:27:05.080 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-22 01:27:05.082 +05:30 [INF] Hosting environment: Development
+2025-11-22 01:27:05.084 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-22 01:27:06.849 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-22 01:27:08.145 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 1324.2399ms
+2025-11-22 01:27:08.719 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-22 01:27:08.723 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-22 01:27:08.725 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-22 01:27:09.278 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-22 01:27:09.282 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 558.6691ms
+2025-11-22 01:27:09.678 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 959.9677ms
+2025-11-22 01:27:09.678 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 953.3026ms
+2025-11-22 01:27:09.692 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-22 01:27:09.695 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-22 01:27:09.701 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-22 01:27:10.368 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 666.9726ms
+2025-11-22 01:27:10.464 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-22 01:27:10.801 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 336.5238ms
+2025-11-22 01:33:05.413 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/UserCourse/Subscribed-List - null null
+2025-11-22 01:33:05.535 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-11-22 01:33:05.567 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-11-22 01:33:05.577 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/UserCourse/Subscribed-List - 401 0 null 177.5165ms
+2025-11-22 01:33:28.973 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Auth/login - application/json 59
+2025-11-22 01:33:29.041 +05:30 [INF] CORS policy execution failed.
+2025-11-22 01:33:29.048 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-22 01:33:29.066 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-22 01:33:29.291 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LMS_SoulCode.Features.Auth.Models.LoginRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-22 01:33:33.165 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-22 01:33:33.308 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-22 01:33:40.358 +05:30 [INF] Executed DbCommand (3,739ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-11-22 01:33:41.198 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.LoginResponse'.
+2025-11-22 01:33:41.268 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode) in 11949.5116ms
+2025-11-22 01:33:41.281 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-22 01:33:41.328 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Auth/login - 200 null application/json; charset=utf-8 12354.8668ms
+2025-11-22 01:34:10.951 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/UserCourse/Subscribed-List - null null
+2025-11-22 01:34:11.005 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-11-22 01:34:11.013 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-11-22 01:34:11.022 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/UserCourse/Subscribed-List - 401 0 null 72.0068ms
+2025-11-22 01:35:13.693 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/UserCourse/Subscribed-List - null null
+2025-11-22 01:35:13.860 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController.GetAllSubscribed (LMS_SoulCode)'
+2025-11-22 01:35:13.889 +05:30 [INF] Route matched with {action = "GetAllSubscribed", controller = "UserCourse"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllSubscribed() on controller LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController (LMS_SoulCode).
+2025-11-22 01:35:14.788 +05:30 [INF] Executed DbCommand (539ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserId], [u].[CourseId], [u].[IsActive], [u].[SubscribedAt]
+FROM [UserCourses] AS [u]
+2025-11-22 01:35:15.127 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.SubscribedCourse.Entities.UserCourse, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-22 01:35:15.220 +05:30 [INF] Executed action LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController.GetAllSubscribed (LMS_SoulCode) in 1319.1564ms
+2025-11-22 01:35:15.233 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController.GetAllSubscribed (LMS_SoulCode)'
+2025-11-22 01:35:15.243 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/UserCourse/Subscribed-List - 200 null application/json; charset=utf-8 1553.7668ms
+2025-11-22 01:44:05.052 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-22 01:44:05.881 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-22 01:44:06.112 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-22 01:44:06.117 +05:30 [INF] Hosting environment: Development
+2025-11-22 01:44:06.121 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-22 01:44:09.134 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-22 01:44:09.857 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 746.6954ms
+2025-11-22 01:44:09.908 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-22 01:44:09.908 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-22 01:44:09.967 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-22 01:44:09.998 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-22 01:44:10.169 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 170.2277ms
+2025-11-22 01:44:10.237 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 337.1035ms
+2025-11-22 01:44:10.237 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 331.3888ms
+2025-11-22 01:44:10.265 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-22 01:44:10.267 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-22 01:44:10.272 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-22 01:44:10.602 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 329.7466ms
+2025-11-22 01:44:10.665 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-22 01:44:10.998 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 333.2909ms
+2025-11-22 01:44:36.898 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Auth/login - application/json 59
+2025-11-22 01:44:36.930 +05:30 [INF] CORS policy execution failed.
+2025-11-22 01:44:36.934 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-22 01:44:36.942 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-22 01:44:37.074 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LMS_SoulCode.Features.Auth.Models.LoginRequest) on controller LMS_SoulCode.Features.Auth.Controllers.AuthController (LMS_SoulCode).
+2025-11-22 01:44:40.477 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-22 01:44:40.718 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-22 01:44:46.294 +05:30 [INF] Executed DbCommand (1,836ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Mobile], [u].[PasswordHash], [u].[RefreshToken], [u].[RefreshTokenExpiry], [u].[ResetToken], [u].[ResetTokenExpiry], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-11-22 01:44:47.609 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Auth.Models.LoginResponse'.
+2025-11-22 01:44:47.700 +05:30 [INF] Executed action LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode) in 10597.239ms
+2025-11-22 01:44:47.715 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Auth.Controllers.AuthController.Login (LMS_SoulCode)'
+2025-11-22 01:44:47.794 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Auth/login - 200 null application/json; charset=utf-8 10895.0162ms
+2025-11-22 01:45:17.673 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/UserCourse/Subscribed-List - null null
+2025-11-22 01:45:18.169 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController.GetAllSubscribed (LMS_SoulCode)'
+2025-11-22 01:45:18.250 +05:30 [INF] Route matched with {action = "GetAllSubscribed", controller = "UserCourse"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllSubscribed() on controller LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController (LMS_SoulCode).
+2025-11-22 01:45:20.016 +05:30 [INF] Executed DbCommand (1,317ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserId], [u0].[UserName], [u].[CourseId], [c].[Title] AS [CourseName], [u].[SubscribedAt], [u].[IsActive]
+FROM [UserCourses] AS [u]
+INNER JOIN [Users] AS [u0] ON [u].[UserId] = [u0].[Id]
+INNER JOIN [Courses] AS [c] ON [u].[CourseId] = [c].[Id]
+2025-11-22 01:45:20.037 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType10`6[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-22 01:45:20.066 +05:30 [INF] Executed action LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController.GetAllSubscribed (LMS_SoulCode) in 1793.7677ms
+2025-11-22 01:45:20.081 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController.GetAllSubscribed (LMS_SoulCode)'
+2025-11-22 01:45:20.100 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/UserCourse/Subscribed-List - 200 null application/json; charset=utf-8 2426.7578ms
+2025-11-22 01:49:18.644 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/UserCourse/check/2 - null null
+2025-11-22 01:49:18.692 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController.Check (LMS_SoulCode)'
+2025-11-22 01:49:18.711 +05:30 [INF] Route matched with {action = "Check", controller = "UserCourse"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Check(Int32) on controller LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController (LMS_SoulCode).
+2025-11-22 01:49:22.302 +05:30 [INF] Executed DbCommand (3,337ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__courseId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [UserCourses] AS [u]
+        WHERE [u].[UserId] = @__userId_0 AND [u].[CourseId] = @__courseId_1 AND [u].[IsActive] = CAST(1 AS bit)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-11-22 01:49:22.338 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType9`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-22 01:49:22.364 +05:30 [INF] Executed action LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController.Check (LMS_SoulCode) in 3647.448ms
+2025-11-22 01:49:22.380 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController.Check (LMS_SoulCode)'
+2025-11-22 01:49:22.395 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/UserCourse/check/2 - 200 null application/json; charset=utf-8 3750.6982ms
+2025-11-22 01:49:43.467 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/UserCourse/check/1 - null null
+2025-11-22 01:49:43.480 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController.Check (LMS_SoulCode)'
+2025-11-22 01:49:43.483 +05:30 [INF] Route matched with {action = "Check", controller = "UserCourse"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Check(Int32) on controller LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController (LMS_SoulCode).
+2025-11-22 01:49:43.648 +05:30 [INF] Executed DbCommand (144ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__courseId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [UserCourses] AS [u]
+        WHERE [u].[UserId] = @__userId_0 AND [u].[CourseId] = @__courseId_1 AND [u].[IsActive] = CAST(1 AS bit)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-11-22 01:49:43.660 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType9`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-22 01:49:43.668 +05:30 [INF] Executed action LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController.Check (LMS_SoulCode) in 179.2659ms
+2025-11-22 01:49:43.675 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController.Check (LMS_SoulCode)'
+2025-11-22 01:49:43.682 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/UserCourse/check/1 - 200 null application/json; charset=utf-8 215.1528ms
+2025-11-22 01:49:44.327 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/UserCourse/check/1 - null null
+2025-11-22 01:49:44.363 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController.Check (LMS_SoulCode)'
+2025-11-22 01:49:44.370 +05:30 [INF] Route matched with {action = "Check", controller = "UserCourse"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Check(Int32) on controller LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController (LMS_SoulCode).
+2025-11-22 01:49:44.401 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__courseId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [UserCourses] AS [u]
+        WHERE [u].[UserId] = @__userId_0 AND [u].[CourseId] = @__courseId_1 AND [u].[IsActive] = CAST(1 AS bit)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-11-22 01:49:44.420 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType9`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-22 01:49:44.427 +05:30 [INF] Executed action LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController.Check (LMS_SoulCode) in 44.5622ms
+2025-11-22 01:49:44.435 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController.Check (LMS_SoulCode)'
+2025-11-22 01:49:44.441 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/UserCourse/check/1 - 200 null application/json; charset=utf-8 114.5907ms
+2025-11-22 01:50:00.125 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/UserCourse/my-courses - null null
+2025-11-22 01:50:00.147 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController.MyCourses (LMS_SoulCode)'
+2025-11-22 01:50:00.184 +05:30 [INF] Route matched with {action = "MyCourses", controller = "UserCourse"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MyCourses() on controller LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController (LMS_SoulCode).
+2025-11-22 01:50:01.879 +05:30 [INF] Executed DbCommand (1,397ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserId], [u].[CourseId], [u].[IsActive], [u].[SubscribedAt], [c].[Id], [c].[CategoryId], [c].[CreatedAt], [c].[Description], [c].[Difficulty], [c].[DurationHours], [c].[EnrolledCount], [c].[Instructor], [c].[IsActive], [c].[Lectures], [c].[Materials], [c].[Price], [c].[Rating], [c].[Tags], [c].[ThumbnailUrl], [c].[Title], [c].[UpdatedAt]
+FROM [UserCourses] AS [u]
+INNER JOIN [Courses] AS [c] ON [u].[CourseId] = [c].[Id]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit)
+2025-11-22 01:50:02.319 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[LMS_SoulCode.Features.SubscribedCourse.Entities.UserCourse, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[<>f__AnonymousType8`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-22 01:50:02.337 +05:30 [INF] Executed action LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController.MyCourses (LMS_SoulCode) in 2136.4082ms
+2025-11-22 01:50:02.344 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.SubscribedCourse.Controllers.UserCourseController.MyCourses (LMS_SoulCode)'
+2025-11-22 01:50:02.349 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/UserCourse/my-courses - 200 null application/json; charset=utf-8 2224.2759ms
+2025-11-22 01:50:24.890 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/Role/list - null null
+2025-11-22 01:50:24.905 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.UserPermissions.Controllers.RoleController.GetAll (LMS_SoulCode)'
+2025-11-22 01:50:24.920 +05:30 [INF] Route matched with {action = "GetAll", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller LMS_SoulCode.Features.UserPermissions.Controllers.RoleController (LMS_SoulCode).
+2025-11-22 01:50:25.150 +05:30 [INF] Executed DbCommand (174ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Name]
+FROM [Roles] AS [r]
+2025-11-22 01:50:25.199 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.UserPermissions.Entities.Role, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-22 01:50:25.261 +05:30 [INF] Executed action LMS_SoulCode.Features.UserPermissions.Controllers.RoleController.GetAll (LMS_SoulCode) in 329.9175ms
+2025-11-22 01:50:25.272 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.UserPermissions.Controllers.RoleController.GetAll (LMS_SoulCode)'
+2025-11-22 01:50:25.280 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/Role/list - 200 null application/json; charset=utf-8 390.3192ms
+2025-11-22 01:55:53.249 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-22 01:55:54.177 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-22 01:55:54.460 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-22 01:55:54.463 +05:30 [INF] Hosting environment: Development
+2025-11-22 01:55:54.465 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-22 01:55:56.559 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-22 01:55:57.645 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 1103.6126ms
+2025-11-22 01:55:57.756 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-22 01:55:57.770 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-22 01:55:57.756 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-22 01:55:57.793 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 39.3432ms
+2025-11-22 01:55:57.808 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-22 01:55:58.563 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 800.6745ms
+2025-11-22 01:55:58.563 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 808.6543ms
+2025-11-22 01:55:58.585 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-22 01:55:58.590 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-22 01:55:58.606 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-22 01:55:58.723 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 116.8976ms
+2025-11-22 01:55:58.792 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-22 01:55:59.112 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 320.0222ms
+2025-11-22 01:56:14.341 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/Role/list - null null
+2025-11-22 01:56:14.388 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.UserPermissions.Controllers.RoleController.GetAll (LMS_SoulCode)'
+2025-11-22 01:56:14.532 +05:30 [INF] Route matched with {action = "GetAll", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller LMS_SoulCode.Features.UserPermissions.Controllers.RoleController (LMS_SoulCode).
+2025-11-22 01:56:17.571 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-22 01:56:17.758 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-22 01:56:20.847 +05:30 [INF] Executed DbCommand (426ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Name] AS [RoleName]
+FROM [Roles] AS [r]
+2025-11-22 01:56:21.065 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType11`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-22 01:56:21.101 +05:30 [INF] Executed action LMS_SoulCode.Features.UserPermissions.Controllers.RoleController.GetAll (LMS_SoulCode) in 6544.6555ms
+2025-11-22 01:56:21.107 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.UserPermissions.Controllers.RoleController.GetAll (LMS_SoulCode)'
+2025-11-22 01:56:21.147 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/Role/list - 200 null application/json; charset=utf-8 6805.3828ms
+2025-11-22 01:56:40.199 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/reports/course/1/2 - null null
+2025-11-22 01:56:40.213 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Reports.Controllers.ReportsController.GetReport (LMS_SoulCode)'
+2025-11-22 01:56:40.288 +05:30 [INF] Route matched with {action = "GetReport", controller = "Reports"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetReport(Int32, Int32) on controller LMS_SoulCode.Features.Reports.Controllers.ReportsController (LMS_SoulCode).
+2025-11-22 01:56:54.330 +05:30 [INF] Executed DbCommand (1,569ms) [Parameters=[@__courseId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CourseId], [c].[Title], [c].[UploadedAt], [c].[VideoUrl]
+FROM [CourseVideos] AS [c]
+WHERE [c].[CourseId] = @__courseId_0
+2025-11-22 01:56:54.975 +05:30 [INF] Executed DbCommand (597ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[IsCompleted], [u].[LastWatchedAt], [u].[UserId], [u].[VideoId], [u].[WatchedPercentage]
+FROM [UserVideoProgresses] AS [u]
+WHERE [u].[UserId] = @__userId_0
+2025-11-22 01:56:55.316 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType5`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-22 01:56:55.355 +05:30 [INF] Executed action LMS_SoulCode.Features.Reports.Controllers.ReportsController.GetReport (LMS_SoulCode) in 15058.2554ms
+2025-11-22 01:56:55.360 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Reports.Controllers.ReportsController.GetReport (LMS_SoulCode)'
+2025-11-22 01:56:55.370 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/reports/course/1/2 - 200 null application/json; charset=utf-8 15170.8264ms
+2025-11-22 01:58:07.411 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/Permission/2 - null null
+2025-11-22 01:58:07.436 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController.GetById (LMS_SoulCode)'
+2025-11-22 01:58:07.455 +05:30 [INF] Route matched with {action = "GetById", controller = "Permission"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController (LMS_SoulCode).
+2025-11-22 01:58:08.353 +05:30 [INF] Executed DbCommand (392ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name]
+FROM [Permissions] AS [p]
+WHERE [p].[Id] = @__p_0
+2025-11-22 01:58:08.417 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.UserPermissions.Entities.Permission'.
+2025-11-22 01:58:08.465 +05:30 [INF] Executed action LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController.GetById (LMS_SoulCode) in 999.1919ms
+2025-11-22 01:58:08.472 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController.GetById (LMS_SoulCode)'
+2025-11-22 01:58:08.477 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/Permission/2 - 200 null application/json; charset=utf-8 1065.551ms
+2025-11-22 02:04:28.031 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-22 02:04:29.282 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-22 02:04:29.397 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-22 02:04:29.400 +05:30 [INF] Hosting environment: Development
+2025-11-22 02:04:29.402 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-22 02:04:30.623 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-22 02:04:31.856 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 1257.182ms
+2025-11-22 02:04:32.200 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-22 02:04:32.200 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-22 02:04:32.205 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-22 02:04:32.234 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 36.1514ms
+2025-11-22 02:04:32.246 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-22 02:04:32.464 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 259.2408ms
+2025-11-22 02:04:32.464 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 266.344ms
+2025-11-22 02:04:32.479 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-22 02:04:32.484 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-22 02:04:32.548 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-22 02:04:32.653 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 103.7705ms
+2025-11-22 02:04:32.772 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-22 02:04:33.061 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 288.8149ms
+2025-11-22 02:04:44.789 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/Permission/list - null null
+2025-11-22 02:04:44.843 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController.GetAll (LMS_SoulCode)'
+2025-11-22 02:04:44.957 +05:30 [INF] Route matched with {action = "GetAll", controller = "Permission"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController (LMS_SoulCode).
+2025-11-22 02:04:47.650 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-22 02:04:47.887 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-22 02:04:54.024 +05:30 [INF] Executed DbCommand (1,995ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name] AS [PermissionName]
+FROM [Permissions] AS [p]
+2025-11-22 02:04:54.236 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType11`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-22 02:04:54.304 +05:30 [INF] Executed action LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController.GetAll (LMS_SoulCode) in 9320.6321ms
+2025-11-22 02:04:54.313 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController.GetAll (LMS_SoulCode)'
+2025-11-22 02:04:54.349 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/Permission/list - 200 null application/json; charset=utf-8 9559.8177ms
+2025-11-22 02:05:26.573 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/Permission/1 - null null
+2025-11-22 02:05:26.629 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController.GetById (LMS_SoulCode)'
+2025-11-22 02:05:26.696 +05:30 [INF] Route matched with {action = "GetById", controller = "Permission"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController (LMS_SoulCode).
+2025-11-22 02:05:27.471 +05:30 [INF] Executed DbCommand (298ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name]
+FROM [Permissions] AS [p]
+WHERE [p].[Id] = @__p_0
+2025-11-22 02:05:27.712 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.UserPermissions.Entities.Permission'.
+2025-11-22 02:05:27.758 +05:30 [INF] Executed action LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController.GetById (LMS_SoulCode) in 1048.5714ms
+2025-11-22 02:05:27.765 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.UserPermissions.Controllers.PermissionController.GetById (LMS_SoulCode)'
+2025-11-22 02:05:27.770 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/Permission/1 - 200 null application/json; charset=utf-8 1197.1398ms
+2025-11-22 02:15:10.352 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/Course/1 - null null
+2025-11-22 02:15:10.379 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetById (LMS_SoulCode)'
+2025-11-22 02:15:10.465 +05:30 [INF] Route matched with {action = "GetById", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller LMS_SoulCode.Features.Course.Controllers.CourseController (LMS_SoulCode).
+2025-11-22 02:15:11.328 +05:30 [INF] Executed DbCommand (490ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryId], [c].[CreatedAt], [c].[Description], [c].[Difficulty], [c].[DurationHours], [c].[EnrolledCount], [c].[Instructor], [c].[IsActive], [c].[Lectures], [c].[Materials], [c].[Price], [c].[Rating], [c].[Tags], [c].[ThumbnailUrl], [c].[Title], [c].[UpdatedAt]
+FROM [Courses] AS [c]
+WHERE [c].[Id] = @__p_0
+2025-11-22 02:15:11.479 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Course.Entities.Course'.
+2025-11-22 02:15:11.549 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CourseController.GetById (LMS_SoulCode) in 1076.0735ms
+2025-11-22 02:15:11.556 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetById (LMS_SoulCode)'
+2025-11-22 02:15:11.561 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/Course/1 - 200 null application/json; charset=utf-8 1210.7373ms
+2025-11-22 02:15:23.681 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/Course/list - null null
+2025-11-22 02:15:23.703 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetAll (LMS_SoulCode)'
+2025-11-22 02:15:23.730 +05:30 [INF] Route matched with {action = "GetAll", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller LMS_SoulCode.Features.Course.Controllers.CourseController (LMS_SoulCode).
+2025-11-22 02:15:23.777 +05:30 [INF] Authorization failed for the request at filter 'LMS_SoulCode.Features.UserPermissions.PermissionHandler.CheckPermissionAttribute'.
+2025-11-22 02:15:23.801 +05:30 [INF] Executing ForbidResult with authentication schemes (["Permission Denied"]).
+2025-11-22 02:15:23.860 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CourseController.GetAll (LMS_SoulCode) in 108.1009ms
+2025-11-22 02:15:23.876 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetAll (LMS_SoulCode)'
+2025-11-22 02:15:24.012 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authentication handler is registered for the scheme 'Permission Denied'. The registered schemes are: Bearer. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Permission Denied",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ForbidAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Mvc.ForbidResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeAlwaysRunResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-22 02:15:24.226 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/Course/list - 500 null text/plain; charset=utf-8 545.2173ms
