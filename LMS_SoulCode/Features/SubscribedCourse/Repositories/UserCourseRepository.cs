@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 
 using LMS_SoulCode.Features.SubscribedCourse.Entities;
+using LMS_SoulCode.Features.UserPermissions.Entities;
 
 namespace LMS_SoulCode.Features.SubscribedCourse.Repositories
 {
@@ -55,6 +56,17 @@ namespace LMS_SoulCode.Features.SubscribedCourse.Repositories
         {
             return await _context.UserCourses.AnyAsync(x => x.UserId == userId && x.CourseId == courseId && x.IsActive);
         }
+
+
+        public async Task<IEnumerable<object>> GetAllSubscribedAsync()
+                     => await _context.UserCourses.Select(x => new {
+                         x.UserId,
+                         UserName = x.User.UserName,
+                         x.CourseId,
+                         CourseName = x.Course.Title,
+                         x.SubscribedAt,
+                         x.IsActive
+                     }).ToListAsync();
 
         public async Task SaveChangesAsync() => await _context.SaveChangesAsync();
     }

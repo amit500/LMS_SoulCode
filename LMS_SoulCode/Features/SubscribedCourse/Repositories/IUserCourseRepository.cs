@@ -1,4 +1,5 @@
 ﻿using LMS_SoulCode.Features.SubscribedCourse.Entities;
+using LMS_SoulCode.Features.UserPermissions.Entities;
 
 namespace LMS_SoulCode.Features.SubscribedCourse.Repositories
 {
@@ -9,6 +10,8 @@ namespace LMS_SoulCode.Features.SubscribedCourse.Repositories
         Task SubscribeAsync(UserCourse userCourse);
         Task UnsubscribeAsync(UserCourse userCourse);
         Task<bool> IsSubscribedAsync(int userId, int courseId);
+        Task<IEnumerable<object>> GetAllSubscribedAsync();
+
         Task SaveChangesAsync();
     }
 }

@@ -115,13 +115,6 @@ namespace LMS_SoulCode.Features.Auth.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task<bool> UserHasPermission(int userId, string key)
-        {
-            return await _context.UserRoles
-                .Where(ur => ur.UserId == userId)
-                .SelectMany(ur => ur.Role.RolePermissions)
-                .AnyAsync(rp => rp.Permission.Name == key);
-        }
-
+     
     }
 }

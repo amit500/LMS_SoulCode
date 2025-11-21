@@ -9,6 +9,8 @@ namespace LMS_SoulCode.Features.SubscribedCourse.Services
         Task UnsubscribeAsync(int userId, int courseId);
         Task<bool> IsSubscribedAsync(int userId, int courseId);
         Task<IEnumerable<UserCourse>> GetUserCoursesAsync(int userId);
+        Task<IEnumerable<object>> GetAllSubscribedAsync();
+        
     }
 
     public class UserCourseService : IUserCourseService
@@ -35,5 +37,8 @@ namespace LMS_SoulCode.Features.SubscribedCourse.Services
 
         public async Task<IEnumerable<UserCourse>> GetUserCoursesAsync(int userId)
             => await _repo.GetByUserAsync(userId);
+        public async Task<IEnumerable<object>> GetAllSubscribedAsync()
+           => await _repo.GetAllSubscribedAsync();
+        
     }
 }

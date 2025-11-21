@@ -3,8 +3,6 @@ using LMS_SoulCode.Data;
 using LMS_SoulCode.Features.Auth.Services;
 using LMS_SoulCode.Features.Auth.Validators;
 using LMS_SoulCode.RepositoryMapping;
-using LMS_SoulCode.Features.UserPermissions.AuthorizationPolicyHandler;
-using LMS_SoulCode.Features.UserPermissions.AuthorizationPoliciesMapping;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
@@ -64,7 +62,6 @@ builder.Services.AddDbContext<LmsDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 
 builder.Services.AddRepoServiceMapping();
-builder.Services.AddUserPolicies();
 builder.Services.AddSingleton<JwtTokenService>();
 
 builder.Services.AddValidatorsFromAssemblyContaining<LoginRequestValidator>();

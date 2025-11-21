@@ -1,8 +1,8 @@
-﻿using LMS_SoulCode.Common;
+﻿using LMS_SoulCode.Features.UserPermissions.PermissionHandler;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace LMS_SoulCode.Common
+namespace LMS_SoulCode.Features.UserPermissions.PermissionHandler
 {
     [AttributeUsage(AttributeTargets.Method | AttributeTargets.Class)]
     public class CheckPermissionAttribute : Attribute, IAsyncAuthorizationFilter

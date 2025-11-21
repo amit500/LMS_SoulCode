@@ -6,6 +6,8 @@ namespace LMS_SoulCode.Features.UserPermissions.Repositories
     {
         Task AssignRoleAsync(int userId, int roleId);
         Task RemoveRoleAsync(int userId, int roleId);
-        Task<IEnumerable<Role>> GetUserRolesAsync(int userId);
+        Task<IEnumerable<object>> GetUserRolesAsync(int userId);
+        Task<bool> UserHasPermission(int userId, string key);
+
     }
 }

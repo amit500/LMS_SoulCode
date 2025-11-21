@@ -57,7 +57,13 @@ namespace LMS_SoulCode.Features.UserPermissions.Controllers
             var roles = await _roleService.GetAllAsync();
             return Ok(roles);
         }
-
+        [HttpGet("RolePermissionlist")]
+        public async Task<IActionResult> GetAllRolePermissionAsync()
+        {
+            var roles = await _roleService.GetAllRolePermissionAsync();
+            return Ok(roles);
+        }
+        
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {

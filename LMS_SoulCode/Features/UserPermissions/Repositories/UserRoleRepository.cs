@@ -27,13 +27,13 @@ namespace LMS_SoulCode.Features.UserPermissions.Repositories
                 throw new Exception($"Role with Id {roleId} is already assigned to User with Id {userId}.");
 
             var userRole = new UserRole
-                {
-                    UserId = userId,
-                    RoleId = roleId
-                };
+            {
+                UserId = userId,
+                RoleId = roleId
+            };
 
-                _context.UserRoles.Add(userRole);
-                await _context.SaveChangesAsync();
+            _context.UserRoles.Add(userRole);
+            await _context.SaveChangesAsync();
         }
 
         public async Task RemoveRoleAsync(int userId, int roleId)
@@ -48,7 +48,7 @@ namespace LMS_SoulCode.Features.UserPermissions.Repositories
 
             var alreadyAssigned = await _context.UserRoles
                 .AnyAsync(ur => ur.UserId == userId && ur.RoleId == roleId);
-          
+
             var userRole = new UserRole
             {
                 UserId = userId,
@@ -59,12 +59,21 @@ namespace LMS_SoulCode.Features.UserPermissions.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<Role>> GetUserRolesAsync(int userId)        
+        public async Task<IEnumerable<object>> GetUserRolesAsync(int userId)
             => await _context.UserRoles
                 .Where(ur => ur.UserId == userId)
-                .Select(ur => ur.Role)
+                 .Select(ur => ur.Role.Name)
                 .ToListAsync();
+        public async Task<bool> UserHasPermission(int userId, string key)
+        {
+            return await _context.UserRoles
+                .Where(ur => ur.UserId == userId)
+                .SelectMany(ur => ur.Role.RolePermissions)
+                .AnyAsync(rp => rp.Permission.Name == key);
+        }
+
 
     }
+
 
 }

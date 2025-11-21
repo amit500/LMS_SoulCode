@@ -13,11 +13,13 @@ namespace LMS_SoulCode.Features.UserPermissions.Services
 {
     public interface IRoleService
     {
-        Task<IEnumerable<Role>> GetAllAsync();
+        Task<IEnumerable<object>> GetAllAsync();
         Task<Role?> GetByIdAsync(int id);
         Task<Role> CreateAsync(CreateRoleRequest request);
         Task<Role> UpdateAsync(int id, CreateRoleRequest request);
         Task<Role>  DeleteAsync(int id);
+        Task<IEnumerable<object>> GetAllRolePermissionAsync();
+        
     }
     public class RoleService : IRoleService
     {
@@ -30,7 +32,8 @@ namespace LMS_SoulCode.Features.UserPermissions.Services
             _context = context;
         }
 
-        public async Task<IEnumerable<Role>> GetAllAsync() => await _role.GetAllAsync();
+        public async Task<IEnumerable<object>> GetAllAsync() => await _role.GetAllAsync();
+        public async Task<IEnumerable<object>> GetAllRolePermissionAsync() => await _role.GetAllRolePermissionAsync();
 
         public async Task<Role?> GetByIdAsync(int id) => await _role.GetByIdAsync(id);
 

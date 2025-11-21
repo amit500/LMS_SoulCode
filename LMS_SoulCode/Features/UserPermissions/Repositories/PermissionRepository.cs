@@ -9,8 +9,8 @@ namespace LMS_SoulCode.Features.UserPermissions.Repositories
         private readonly LmsDbContext _context;
         public PermissionRepository(LmsDbContext context) => _context = context;
 
-        public async Task<IEnumerable<Permission>> GetAllAsync()
-            => await _context.Permissions.ToListAsync();
+        public async Task<IEnumerable<object>> GetAllAsync()
+            => await _context.Permissions.Select(p=> new {p.Id,PermissionName = p.Name}).ToListAsync();
 
         public async Task<Permission?> GetByIdAsync(int id)
             => await _context.Permissions.FindAsync(id);

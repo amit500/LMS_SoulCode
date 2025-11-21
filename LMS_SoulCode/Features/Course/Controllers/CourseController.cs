@@ -1,4 +1,4 @@
-﻿using LMS_SoulCode.Common;
+﻿using LMS_SoulCode.Features.UserPermissions.PermissionHandler;
 using LMS_SoulCode.Features.Course.Models;
 using LMS_SoulCode.Features.Course.Services;
 using Microsoft.AspNetCore.Mvc;

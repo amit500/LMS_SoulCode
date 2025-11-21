@@ -5,8 +5,8 @@ namespace LMS_SoulCode.Features.UserPermissions.Services
 {
     public interface IPermissionService
     {
-        Task<IEnumerable<Permission>> GetAllAsync();
-        Task<Permission?> GetByIdAsync(int id);
+        Task<IEnumerable<object>> GetAllAsync();
+        Task<Permission ?> GetByIdAsync(int id);
         Task<Permission> CreateAsync(string name);
         Task UpdateAsync(int id, string newName);
         Task DeleteAsync(int id);
@@ -19,7 +19,7 @@ namespace LMS_SoulCode.Features.UserPermissions.Services
             =>_permission = permissionRepo;
         
 
-        public async Task<IEnumerable<Permission>> GetAllAsync()
+        public async Task<IEnumerable<object>> GetAllAsync()
             => await _permission.GetAllAsync();
 
         public async Task<Permission?> GetByIdAsync(int id)

@@ -1,7 +1,8 @@
 ﻿using LMS_SoulCode.Features.Auth.Repositories;
+using LMS_SoulCode.Features.UserPermissions.Repositories;
 using System.Security.Claims;
 
-namespace LMS_SoulCode.Common
+namespace LMS_SoulCode.Features.UserPermissions.PermissionHandler
 {
     public interface IPermissionHelper
     {
@@ -11,13 +12,13 @@ namespace LMS_SoulCode.Common
     public class PermissionHelper : IPermissionHelper
     {
         private readonly IConfiguration _config;
-        private readonly IUserRepository _userRepo;
+        private readonly IUserRoleRepository _userRoleRepo;
         private readonly IHttpContextAccessor _httpContext;
 
-        public PermissionHelper(IConfiguration config,IUserRepository userRepo,IHttpContextAccessor httpContext)
+        public PermissionHelper(IConfiguration config, IUserRoleRepository userRoleRepo, IHttpContextAccessor httpContext)
         {
             _config = config;
-            _userRepo = userRepo;
+            _userRoleRepo = userRoleRepo;
             _httpContext = httpContext;
         }
         public async Task<bool> CheckPermission(string configKey)
@@ -29,7 +30,7 @@ namespace LMS_SoulCode.Common
                 return false;
             int userId = int.Parse(userIdClaim.Value);
 
-            return await _userRepo.UserHasPermission(userId, keyFromConfig);
+            return await _userRoleRepo.UserHasPermission(userId, keyFromConfig);
         }
 
     }

@@ -10,7 +10,7 @@ using LMS_SoulCode.Features.SubscribedCourse.Repositories;
 using LMS_SoulCode.Features.SubscribedCourse.Services;
 using LMS_SoulCode.Features.Security.Services;
 using LMS_SoulCode.Features.Reports.Services;
-using LMS_SoulCode.Common;
+using LMS_SoulCode.Features.UserPermissions.PermissionHandler;
 
 
 namespace LMS_SoulCode.RepositoryMapping

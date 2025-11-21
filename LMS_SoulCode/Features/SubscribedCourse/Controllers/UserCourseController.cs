@@ -51,6 +51,13 @@ namespace LMS_SoulCode.Features.SubscribedCourse.Controllers
             return Ok(result);
         }
 
+        [HttpGet("Subscribed-List")]
+        public async Task<IActionResult> GetAllSubscribed()
+        {
+            var permissions = await _service.GetAllSubscribedAsync();
+            return Ok(permissions);
+        }
+
         [HttpGet("check/{courseId}")]
         public async Task<IActionResult> Check(int courseId)
         {

@@ -9,4 +9,5 @@
         public Permission Permission { get; set; } = null!;
 
     }
+
 }

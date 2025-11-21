@@ -10,10 +10,20 @@ namespace LMS_SoulCode.Features.UserPermissions.Repositories
         private readonly LmsDbContext _context;
         public RoleRepository(LmsDbContext context) => _context = context;
 
-        public async Task<IEnumerable<Role>> GetAllAsync()
-                        => await _context.Roles.ToListAsync();
+        public async Task<IEnumerable<object>> GetAllAsync()
+                        => await _context.Roles.Select(r => new {
+                            r.Id,
+                            RoleName = r.Name                         
+                        }).ToListAsync();
 
-        
+        public async Task<IEnumerable<object>> GetAllRolePermissionAsync()
+                     => await _context.RolePermissions.Select(rp => new
+                     {
+                         rp.RoleId,
+                         RoleName = rp.Role.Name,
+                         rp.PermissionId,
+                         PermissionName = rp.Permission.Name
+                     }).ToListAsync();        
 
         public async Task<Role?> GetByIdAsync(int id) => await _context.Roles.FindAsync(id);
 
