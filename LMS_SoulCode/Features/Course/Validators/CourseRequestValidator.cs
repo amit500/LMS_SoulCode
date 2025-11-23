@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using LMS_SoulCode.Features.Course.Models;
+using LMS_SoulCode.Features.Course.DTOs;
 
 namespace LMS_SoulCode.Features.Course.Validators
 {

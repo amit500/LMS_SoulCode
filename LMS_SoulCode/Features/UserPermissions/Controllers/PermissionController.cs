@@ -1,6 +1,5 @@
-﻿using LMS_SoulCode.Features.UserPermissions.Entities;
-using LMS_SoulCode.Features.UserPermissions.Models;
-using CreatePermissionRequest = LMS_SoulCode.Features.UserPermissions.Models.CreatePermissionRequest;
+﻿using LMS_SoulCode.Features.UserPermissions.DTOs;
+using CreatePermissionRequest = LMS_SoulCode.Features.UserPermissions.DTOs.CreatePermissionRequest;
 using LMS_SoulCode.Features.UserPermissions.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Security;

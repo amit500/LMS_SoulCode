@@ -1,9 +1,9 @@
 ﻿using LMS_SoulCode.Data;
-using LMS_SoulCode.Features.Course.Entities;
+using LMS_SoulCode.Features.Course.Models;
 using LMS_SoulCode.Features.Course.Repositories;
-using LMS_SoulCode.Features.CourseVideos.Entities;
+using LMS_SoulCode.Features.CourseVideos.Models;
 using Microsoft.EntityFrameworkCore;
-using CourseEntity = LMS_SoulCode.Features.Course.Entities.Course;
+using CourseEntity = LMS_SoulCode.Features.Course.Models.Course;
 
 namespace LMS_SoulCode.Features.Course.Repositories
 {
@@ -45,13 +45,24 @@ namespace LMS_SoulCode.Features.Course.Repositories
             await _context.SaveChangesAsync();
 
         }
-
+        public async Task AddDocsAsync(CourseDocument docs)
+        {
+            _context.CourseDocuments.Add(docs);
+            await _context.SaveChangesAsync();
+        }
         public async Task<IEnumerable<CourseVideo>> GetVideosByCourseIdAsync(int courseId)
         {
             return await _context.CourseVideos
                 .Where(v => v.CourseId == courseId)
                 .ToListAsync();
         }
-           
+        public async Task<IEnumerable<CourseDocument>> GetDocsByCourseIdAsync(int courseId)
+        {
+            return await _context.CourseDocuments
+                .Where(v => v.CourseId == courseId)
+                .ToListAsync();
+        }
+        
+
     }
 }

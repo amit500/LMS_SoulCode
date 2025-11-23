@@ -1,6 +1,6 @@
-﻿using LMS_SoulCode.Features.Course.Entities;
+﻿using LMS_SoulCode.Features.Course.DTOs;
 using LMS_SoulCode.Features.Course.Models;
-using CreatePermissionRequest = LMS_SoulCode.Features.Course.Models.CategoryRequest;
+using CreatePermissionRequest = LMS_SoulCode.Features.Course.DTOs.CategoryRequest;
 using LMS_SoulCode.Features.Course.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Security;

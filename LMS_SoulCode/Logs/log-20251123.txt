@@ -1,0 +1,1349 @@
+2025-11-23 01:04:03.612 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-23 01:04:04.117 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-23 01:04:04.252 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-23 01:04:04.255 +05:30 [INF] Hosting environment: Development
+2025-11-23 01:04:04.257 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-23 01:04:06.128 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 01:04:06.771 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 667.9386ms
+2025-11-23 01:04:07.568 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 01:04:07.568 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 01:04:07.569 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 01:04:07.614 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-23 01:04:07.616 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 47.4197ms
+2025-11-23 01:04:09.854 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 2285.782ms
+2025-11-23 01:04:09.854 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 2288.5132ms
+2025-11-23 01:04:09.866 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 01:04:09.868 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 01:04:09.870 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 01:04:09.931 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.4624ms
+2025-11-23 01:04:10.016 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 01:04:10.188 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 172.3984ms
+2025-11-23 01:26:17.333 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-23 01:26:17.816 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-23 01:26:17.981 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-23 01:26:17.988 +05:30 [INF] Hosting environment: Development
+2025-11-23 01:26:17.992 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-23 01:26:19.616 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 01:26:21.156 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 1789.111ms
+2025-11-23 01:26:21.225 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 01:26:21.225 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 01:26:21.237 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 01:26:21.292 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-23 01:26:21.299 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 78.0971ms
+2025-11-23 01:26:21.864 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 631.6391ms
+2025-11-23 01:26:21.864 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 646.8177ms
+2025-11-23 01:26:21.902 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 01:26:21.909 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 01:26:21.915 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 01:26:22.082 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 167.1939ms
+2025-11-23 01:26:22.152 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 01:26:22.495 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 342.9685ms
+2025-11-23 01:27:43.690 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-23 01:27:43.763 +05:30 [WRN] No store type was specified for the decimal property 'Score' on entity type 'Certificate'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 01:27:43.764 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 01:27:43.910 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-23 01:27:43.913 +05:30 [WRN] No store type was specified for the decimal property 'Score' on entity type 'Certificate'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 01:27:43.913 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 01:28:11.473 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-23 01:28:11.588 +05:30 [WRN] No store type was specified for the decimal property 'Score' on entity type 'Certificate'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 01:28:11.589 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 01:28:14.745 +05:30 [INF] Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-11-23 01:28:15.279 +05:30 [INF] Executed DbCommand (522ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-11-23 01:28:15.281 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-11-23 01:28:15.282 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-11-23 01:28:16.478 +05:30 [INF] Executed DbCommand (1,184ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-11-23 01:28:16.497 +05:30 [INF] Applying migration '20251122195746_Certificate'.
+2025-11-23 01:28:17.393 +05:30 [ERR] Failed executing DbCommand (774ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Categories] (
+    [Id] int NOT NULL IDENTITY,
+    [CategoryName] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Categories] PRIMARY KEY ([Id])
+);
+2025-11-23 01:29:31.173 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-23 01:29:31.248 +05:30 [WRN] No store type was specified for the decimal property 'Score' on entity type 'Certificate'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 01:29:31.249 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 01:29:31.468 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-23 01:29:31.472 +05:30 [WRN] No store type was specified for the decimal property 'Score' on entity type 'Certificate'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 01:29:31.473 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 01:31:18.580 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-23 01:31:18.638 +05:30 [WRN] No store type was specified for the decimal property 'Score' on entity type 'Certificate'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 01:31:18.639 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 01:31:19.245 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-11-23 01:31:19.297 +05:30 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-11-23 01:31:19.299 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-11-23 01:31:19.300 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-11-23 01:31:19.328 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-11-23 01:31:19.346 +05:30 [INF] Applying migration '20251122195931_Certificate'.
+2025-11-23 01:31:20.433 +05:30 [INF] Executed DbCommand (1,020ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Certificates] (
+    [Id] int NOT NULL IDENTITY,
+    [CertificateCode] nvarchar(max) NOT NULL,
+    [UserId] int NOT NULL,
+    [CourseId] int NOT NULL,
+    [Score] decimal(18,2) NULL,
+    [IssuedAt] datetime2 NOT NULL,
+    [FilePath] nvarchar(max) NOT NULL,
+    [IsRevoked] bit NOT NULL,
+    CONSTRAINT [PK_Certificates] PRIMARY KEY ([Id])
+);
+2025-11-23 01:31:21.094 +05:30 [INF] Executed DbCommand (660ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20251122195931_Certificate', N'8.0.0');
+2025-11-23 12:23:21.092 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-23 12:23:22.287 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-23 12:23:22.542 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-23 12:23:22.559 +05:30 [INF] Hosting environment: Development
+2025-11-23 12:23:22.589 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-23 12:23:25.138 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 12:23:26.065 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 956.9115ms
+2025-11-23 12:23:26.090 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 12:23:26.090 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 12:23:26.122 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-23 12:23:26.210 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 12:23:26.270 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 59.634ms
+2025-11-23 12:23:31.616 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 5529.8632ms
+2025-11-23 12:23:31.616 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 5529.0837ms
+2025-11-23 12:23:31.638 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 12:23:31.645 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 12:23:31.652 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 12:23:31.833 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 180.2828ms
+2025-11-23 12:23:31.912 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 12:23:32.226 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 314.2664ms
+2025-11-23 12:39:32.010 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - application/json 53
+2025-11-23 12:39:32.083 +05:30 [INF] CORS policy execution failed.
+2025-11-23 12:39:32.088 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-23 12:39:32.104 +05:30 [INF] Executing endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-23 12:39:32.248 +05:30 [INF] Route matched with {action = "Generate", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Generate(LMS_SoulCode.Features.Certificates.DTOs.CreateCertificateRequest) on controller CertificatesController (LMS_SoulCode).
+2025-11-23 12:39:37.303 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-23 12:39:37.525 +05:30 [WRN] No store type was specified for the decimal property 'Score' on entity type 'Certificate'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 12:39:37.631 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 12:39:46.718 +05:30 [INF] Executed DbCommand (1,372ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime2), @p5='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Certificates] ([CertificateCode], [CourseId], [FilePath], [IsRevoked], [IssuedAt], [Score], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2025-11-23 12:39:46.984 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Certificates.DTOs.CertificateDto'.
+2025-11-23 12:39:47.035 +05:30 [INF] Executed action CertificatesController.Generate (LMS_SoulCode) in 14766.9731ms
+2025-11-23 12:39:47.043 +05:30 [INF] Executed endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-23 12:39:47.084 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - 200 null application/json; charset=utf-8 15078.0226ms
+2025-11-23 12:40:20.736 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/Certificates/1/download - null null
+2025-11-23 12:40:20.794 +05:30 [INF] Executing endpoint 'CertificatesController.Download (LMS_SoulCode)'
+2025-11-23 12:40:20.815 +05:30 [INF] Route matched with {action = "Download", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Download(Int32) on controller CertificatesController (LMS_SoulCode).
+2025-11-23 12:40:22.438 +05:30 [INF] Executed DbCommand (238ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CertificateCode], [c].[CourseId], [c].[FilePath], [c].[IsRevoked], [c].[IssuedAt], [c].[Score], [c].[UserId]
+FROM [Certificates] AS [c]
+WHERE [c].[Id] = @__p_0
+2025-11-23 12:40:22.544 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-23 12:40:22.641 +05:30 [INF] Executed action CertificatesController.Download (LMS_SoulCode) in 1818.148ms
+2025-11-23 12:40:22.651 +05:30 [INF] Executed endpoint 'CertificatesController.Download (LMS_SoulCode)'
+2025-11-23 12:40:22.659 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/Certificates/1/download - 404 null application/problem+json; charset=utf-8 1931.9307ms
+2025-11-23 13:06:49.894 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-23 13:06:50.773 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-23 13:06:51.147 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-23 13:06:51.210 +05:30 [INF] Hosting environment: Development
+2025-11-23 13:06:51.212 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-23 13:06:51.832 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 13:06:53.318 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 1531.0885ms
+2025-11-23 13:06:53.348 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 13:06:53.348 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 13:06:53.519 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 13:06:53.553 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-23 13:06:53.677 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 337.3801ms
+2025-11-23 13:06:54.014 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 675.8565ms
+2025-11-23 13:06:54.014 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 494.4965ms
+2025-11-23 13:06:54.147 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 13:06:54.164 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 13:06:54.178 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 13:06:54.271 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 93.5467ms
+2025-11-23 13:06:54.344 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 13:06:54.678 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 333.9854ms
+2025-11-23 13:07:32.169 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - application/json 53
+2025-11-23 13:07:32.256 +05:30 [INF] CORS policy execution failed.
+2025-11-23 13:07:32.262 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-23 13:07:32.280 +05:30 [INF] Executing endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-23 13:07:32.410 +05:30 [INF] Route matched with {action = "Generate", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Generate(LMS_SoulCode.Features.Certificates.DTOs.CreateCertificateRequest) on controller CertificatesController (LMS_SoulCode).
+2025-11-23 13:07:35.340 +05:30 [INF] Executed action CertificatesController.Generate (LMS_SoulCode) in 2915.8879ms
+2025-11-23 13:07:35.348 +05:30 [INF] Executed endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-23 13:07:35.355 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: 
+
+
+
+Welcome to QuestPDF! 👋 
+
+QuestPDF is an open-source library committed to long-term sustainability and continuous improvement. 
+
+To maintain high-quality development and support while keeping the library free for most users, we use a fair pricing model where only larger organizations help by providing necessary funding for the project. 
+
+If your organization’s annual gross revenue exceeds $1M USD, a Commercial License is required for production use (you can freely evaluate and test QuestPDF in non-production environments at no cost). In that case, please share this information with your team or management. By purchasing a license, you directly contribute to the ongoing development and reliability of QuestPDF. 
+
+For details on the license types and determining which applies to you, please visit: https://www.questpdf.com/license/ 
+
+We trust our users. To continue, no license key is needed. Instead, simply select and configure the appropriate license in your code. For example, if you qualify for the Community license, add: 
+
+> QuestPDF.Settings.License = LicenseType.Community; 
+
+Thank you for supporting QuestPDF! ❤️ By choosing the right license, you help ensure that our project remains transparent, sustainable, and continuously improving for everyone. 🚀 
+
+
+
+
+   at QuestPDF.Drawing.DocumentGenerator.ValidateLicense()
+   at QuestPDF.Drawing.DocumentGenerator.GeneratePdf(SkWriteStream stream, IDocument document)
+   at QuestPDF.Fluent.GenerateExtensions.GeneratePdf(IDocument document, Stream stream)
+   at QuestPDF.Fluent.GenerateExtensions.GeneratePdf(IDocument document)
+   at LMS_SoulCode.Features.Certificates.Services.CertificateService.GeneratePdfBytes(Certificate cert) in D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\Features\Certificates\Services\CertificateService.cs:line 198
+   at LMS_SoulCode.Features.Certificates.Services.CertificateService.GenerateCertificateAsync(CreateCertificateRequest request) in D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\Features\Certificates\Services\CertificateService.cs:line 50
+   at CertificatesController.Generate(CreateCertificateRequest req) in D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode\Features\Certificates\Controllers\CertificatesController.cs:line 16
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-23 13:07:35.520 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - 500 null text/plain; charset=utf-8 3351.3906ms
+2025-11-23 13:09:30.166 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 13:09:30.230 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 64.3611ms
+2025-11-23 13:09:30.329 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 13:09:30.344 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 13:09:30.345 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 13:09:30.470 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 140.3115ms
+2025-11-23 13:09:30.496 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 151.5707ms
+2025-11-23 13:09:30.503 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 158.3578ms
+2025-11-23 13:09:30.513 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 13:09:30.545 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 13:09:30.557 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 13:09:30.631 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.1501ms
+2025-11-23 13:09:30.808 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 13:09:30.991 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 183.6027ms
+2025-11-23 13:09:58.934 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - application/json 53
+2025-11-23 13:09:58.987 +05:30 [INF] CORS policy execution failed.
+2025-11-23 13:09:58.999 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-23 13:09:59.006 +05:30 [INF] Executing endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-23 13:09:59.034 +05:30 [INF] Route matched with {action = "Generate", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Generate(LMS_SoulCode.Features.Certificates.DTOs.CreateCertificateRequest) on controller CertificatesController (LMS_SoulCode).
+2025-11-23 13:09:59.382 +05:30 [INF] Executed action CertificatesController.Generate (LMS_SoulCode) in 338.9018ms
+2025-11-23 13:09:59.390 +05:30 [INF] Executed endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-23 13:09:59.394 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: 
+
+
+
+Welcome to QuestPDF! 👋 
+
+QuestPDF is an open-source library committed to long-term sustainability and continuous improvement. 
+
+To maintain high-quality development and support while keeping the library free for most users, we use a fair pricing model where only larger organizations help by providing necessary funding for the project. 
+
+If your organization’s annual gross revenue exceeds $1M USD, a Commercial License is required for production use (you can freely evaluate and test QuestPDF in non-production environments at no cost). In that case, please share this information with your team or management. By purchasing a license, you directly contribute to the ongoing development and reliability of QuestPDF. 
+
+For details on the license types and determining which applies to you, please visit: https://www.questpdf.com/license/ 
+
+We trust our users. To continue, no license key is needed. Instead, simply select and configure the appropriate license in your code. For example, if you qualify for the Community license, add: 
+
+> QuestPDF.Settings.License = LicenseType.Community; 
+
+Thank you for supporting QuestPDF! ❤️ By choosing the right license, you help ensure that our project remains transparent, sustainable, and continuously improving for everyone. 🚀 
+
+
+
+
+   at QuestPDF.Drawing.DocumentGenerator.ValidateLicense()
+   at QuestPDF.Drawing.DocumentGenerator.GeneratePdf(SkWriteStream stream, IDocument document)
+   at QuestPDF.Fluent.GenerateExtensions.GeneratePdf(IDocument document, Stream stream)
+   at QuestPDF.Fluent.GenerateExtensions.GeneratePdf(IDocument document)
+   at LMS_SoulCode.Features.Certificates.Services.CertificateService.GeneratePdfBytes(Certificate cert)
+   at LMS_SoulCode.Features.Certificates.Services.CertificateService.GenerateCertificateAsync(CreateCertificateRequest request)
+   at CertificatesController.Generate(CreateCertificateRequest req)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-23 13:09:59.421 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - 500 null text/plain; charset=utf-8 491.6231ms
+2025-11-23 13:11:22.586 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 13:11:22.645 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 58.3413ms
+2025-11-23 13:11:22.736 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 13:11:22.741 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 13:11:23.010 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 13:11:23.103 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 367.3578ms
+2025-11-23 13:11:23.112 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 371.1354ms
+2025-11-23 13:11:23.149 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 139.2459ms
+2025-11-23 13:11:23.173 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 13:11:23.183 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 13:11:23.245 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 13:11:23.347 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 102.0982ms
+2025-11-23 13:11:23.498 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 13:11:23.546 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 48.2921ms
+2025-11-23 13:11:56.288 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - application/json 53
+2025-11-23 13:11:56.318 +05:30 [INF] CORS policy execution failed.
+2025-11-23 13:11:56.341 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-23 13:11:56.348 +05:30 [INF] Executing endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-23 13:11:56.370 +05:30 [INF] Route matched with {action = "Generate", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Generate(LMS_SoulCode.Features.Certificates.DTOs.CreateCertificateRequest) on controller CertificatesController (LMS_SoulCode).
+2025-11-23 13:11:56.712 +05:30 [INF] Executed action CertificatesController.Generate (LMS_SoulCode) in 331.1175ms
+2025-11-23 13:11:56.720 +05:30 [INF] Executed endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-23 13:11:56.727 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: 
+
+
+
+Welcome to QuestPDF! 👋 
+
+QuestPDF is an open-source library committed to long-term sustainability and continuous improvement. 
+
+To maintain high-quality development and support while keeping the library free for most users, we use a fair pricing model where only larger organizations help by providing necessary funding for the project. 
+
+If your organization’s annual gross revenue exceeds $1M USD, a Commercial License is required for production use (you can freely evaluate and test QuestPDF in non-production environments at no cost). In that case, please share this information with your team or management. By purchasing a license, you directly contribute to the ongoing development and reliability of QuestPDF. 
+
+For details on the license types and determining which applies to you, please visit: https://www.questpdf.com/license/ 
+
+We trust our users. To continue, no license key is needed. Instead, simply select and configure the appropriate license in your code. For example, if you qualify for the Community license, add: 
+
+> QuestPDF.Settings.License = LicenseType.Community; 
+
+Thank you for supporting QuestPDF! ❤️ By choosing the right license, you help ensure that our project remains transparent, sustainable, and continuously improving for everyone. 🚀 
+
+
+
+
+   at QuestPDF.Drawing.DocumentGenerator.ValidateLicense()
+   at QuestPDF.Drawing.DocumentGenerator.GeneratePdf(SkWriteStream stream, IDocument document)
+   at QuestPDF.Fluent.GenerateExtensions.GeneratePdf(IDocument document, Stream stream)
+   at QuestPDF.Fluent.GenerateExtensions.GeneratePdf(IDocument document)
+   at LMS_SoulCode.Features.Certificates.Services.CertificateService.GeneratePdfBytes(Certificate cert)
+   at LMS_SoulCode.Features.Certificates.Services.CertificateService.GenerateCertificateAsync(CreateCertificateRequest request)
+   at CertificatesController.Generate(CreateCertificateRequest req)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-23 13:11:56.779 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - 500 null text/plain; charset=utf-8 491.2692ms
+2025-11-23 13:14:43.482 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - application/json 53
+2025-11-23 13:14:43.514 +05:30 [INF] CORS policy execution failed.
+2025-11-23 13:14:43.518 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-23 13:14:43.523 +05:30 [INF] Executing endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-23 13:14:43.531 +05:30 [INF] Route matched with {action = "Generate", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Generate(LMS_SoulCode.Features.Certificates.DTOs.CreateCertificateRequest) on controller CertificatesController (LMS_SoulCode).
+2025-11-23 13:14:43.823 +05:30 [INF] Executed action CertificatesController.Generate (LMS_SoulCode) in 283.0899ms
+2025-11-23 13:14:44.154 +05:30 [INF] Executed endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-23 13:14:44.173 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: 
+
+
+
+Welcome to QuestPDF! 👋 
+
+QuestPDF is an open-source library committed to long-term sustainability and continuous improvement. 
+
+To maintain high-quality development and support while keeping the library free for most users, we use a fair pricing model where only larger organizations help by providing necessary funding for the project. 
+
+If your organization’s annual gross revenue exceeds $1M USD, a Commercial License is required for production use (you can freely evaluate and test QuestPDF in non-production environments at no cost). In that case, please share this information with your team or management. By purchasing a license, you directly contribute to the ongoing development and reliability of QuestPDF. 
+
+For details on the license types and determining which applies to you, please visit: https://www.questpdf.com/license/ 
+
+We trust our users. To continue, no license key is needed. Instead, simply select and configure the appropriate license in your code. For example, if you qualify for the Community license, add: 
+
+> QuestPDF.Settings.License = LicenseType.Community; 
+
+Thank you for supporting QuestPDF! ❤️ By choosing the right license, you help ensure that our project remains transparent, sustainable, and continuously improving for everyone. 🚀 
+
+
+
+
+   at QuestPDF.Drawing.DocumentGenerator.ValidateLicense()
+   at QuestPDF.Drawing.DocumentGenerator.GeneratePdf(SkWriteStream stream, IDocument document)
+   at QuestPDF.Fluent.GenerateExtensions.GeneratePdf(IDocument document, Stream stream)
+   at QuestPDF.Fluent.GenerateExtensions.GeneratePdf(IDocument document)
+   at LMS_SoulCode.Features.Certificates.Services.CertificateService.GeneratePdfBytes(Certificate cert)
+   at LMS_SoulCode.Features.Certificates.Services.CertificateService.GenerateCertificateAsync(CreateCertificateRequest request)
+   at CertificatesController.Generate(CreateCertificateRequest req)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-23 13:14:44.254 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - 500 null text/plain; charset=utf-8 773.7048ms
+2025-11-23 14:11:29.962 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-23 14:11:30.339 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-23 14:11:30.448 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-23 14:11:30.451 +05:30 [INF] Hosting environment: Development
+2025-11-23 14:11:30.453 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-23 14:11:31.910 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 14:11:32.348 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 534.484ms
+2025-11-23 14:11:32.370 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 14:11:32.368 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 14:11:32.538 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 14:11:32.579 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-23 14:11:32.642 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 103.3864ms
+2025-11-23 14:11:34.774 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 2404.0106ms
+2025-11-23 14:11:34.774 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 2407.6899ms
+2025-11-23 14:11:34.783 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 14:11:34.784 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 14:11:34.788 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 14:11:34.854 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.9292ms
+2025-11-23 14:11:34.895 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 14:11:35.076 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 181.4395ms
+2025-11-23 14:12:17.579 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - application/json 53
+2025-11-23 14:12:17.600 +05:30 [INF] CORS policy execution failed.
+2025-11-23 14:12:17.602 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-23 14:12:17.607 +05:30 [INF] Executing endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-23 14:12:17.648 +05:30 [INF] Route matched with {action = "Generate", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Generate(LMS_SoulCode.Features.Certificates.DTOs.CreateCertificateRequest) on controller CertificatesController (LMS_SoulCode).
+2025-11-23 14:12:23.908 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-23 14:12:23.959 +05:30 [WRN] No store type was specified for the decimal property 'Score' on entity type 'Certificate'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 14:12:23.962 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 14:12:28.318 +05:30 [INF] Executed DbCommand (2,258ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime2), @p5='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Certificates] ([CertificateCode], [CourseId], [FilePath], [IsRevoked], [IssuedAt], [Score], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2025-11-23 14:12:28.427 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Certificates.DTOs.CertificateDto'.
+2025-11-23 14:12:28.451 +05:30 [INF] Executed action CertificatesController.Generate (LMS_SoulCode) in 10796.8495ms
+2025-11-23 14:12:28.455 +05:30 [INF] Executed endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-23 14:12:28.475 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - 200 null application/json; charset=utf-8 10896.5299ms
+2025-11-23 14:13:20.520 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/Certificates/2/download - null null
+2025-11-23 14:13:20.543 +05:30 [INF] Executing endpoint 'CertificatesController.Download (LMS_SoulCode)'
+2025-11-23 14:13:20.567 +05:30 [INF] Route matched with {action = "Download", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Download(Int32) on controller CertificatesController (LMS_SoulCode).
+2025-11-23 14:13:24.095 +05:30 [INF] Executed DbCommand (36ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CertificateCode], [c].[CourseId], [c].[FilePath], [c].[IsRevoked], [c].[IssuedAt], [c].[Score], [c].[UserId]
+FROM [Certificates] AS [c]
+WHERE [c].[Id] = @__id_0
+2025-11-23 14:13:24.124 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-23 14:13:24.150 +05:30 [INF] Executed action CertificatesController.Download (LMS_SoulCode) in 3579.5878ms
+2025-11-23 14:13:24.153 +05:30 [INF] Executed endpoint 'CertificatesController.Download (LMS_SoulCode)'
+2025-11-23 14:13:24.155 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/Certificates/2/download - 404 null application/problem+json; charset=utf-8 3635.8044ms
+2025-11-23 14:13:38.222 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/Certificates/2/download - null null
+2025-11-23 14:13:38.252 +05:30 [INF] Executing endpoint 'CertificatesController.Download (LMS_SoulCode)'
+2025-11-23 14:13:38.264 +05:30 [INF] Route matched with {action = "Download", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Download(Int32) on controller CertificatesController (LMS_SoulCode).
+2025-11-23 14:16:07.569 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - application/json 53
+2025-11-23 14:16:07.588 +05:30 [INF] CORS policy execution failed.
+2025-11-23 14:16:07.589 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-23 14:16:07.591 +05:30 [INF] Executing endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-23 14:16:07.593 +05:30 [INF] Route matched with {action = "Generate", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Generate(LMS_SoulCode.Features.Certificates.DTOs.CreateCertificateRequest) on controller CertificatesController (LMS_SoulCode).
+2025-11-23 14:17:59.745 +05:30 [INF] Executed DbCommand (411ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CertificateCode], [c].[CourseId], [c].[FilePath], [c].[IsRevoked], [c].[IssuedAt], [c].[Score], [c].[UserId]
+FROM [Certificates] AS [c]
+WHERE [c].[Id] = @__id_0
+2025-11-23 14:17:59.765 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-23 14:17:59.768 +05:30 [INF] Executed action CertificatesController.Download (LMS_SoulCode) in 261506.0338ms
+2025-11-23 14:17:59.774 +05:30 [INF] Executed endpoint 'CertificatesController.Download (LMS_SoulCode)'
+2025-11-23 14:17:59.792 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/Certificates/2/download - 404 null application/problem+json; charset=utf-8 261574.3282ms
+2025-11-23 14:17:59.823 +05:30 [INF] Executed DbCommand (37ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime2), @p5='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Certificates] ([CertificateCode], [CourseId], [FilePath], [IsRevoked], [IssuedAt], [Score], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2025-11-23 14:17:59.876 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Certificates.DTOs.CertificateDto'.
+2025-11-23 14:17:59.974 +05:30 [INF] Executed action CertificatesController.Generate (LMS_SoulCode) in 112381.0171ms
+2025-11-23 14:17:59.985 +05:30 [INF] Executed endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-23 14:17:59.988 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - 200 null application/json; charset=utf-8 112423.9227ms
+2025-11-23 14:18:00.524 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 14:18:01.059 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 534.9502ms
+2025-11-23 14:18:01.266 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 14:18:01.308 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 14:18:01.308 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 14:18:01.339 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 73.2727ms
+2025-11-23 14:18:01.419 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 108.7341ms
+2025-11-23 14:18:01.453 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 145.2129ms
+2025-11-23 14:18:01.476 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 14:18:01.694 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 14:18:01.698 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 14:18:02.813 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1114.9712ms
+2025-11-23 14:18:02.902 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 14:18:03.008 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 105.8656ms
+2025-11-23 14:18:28.467 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - application/json 53
+2025-11-23 14:18:28.489 +05:30 [INF] CORS policy execution failed.
+2025-11-23 14:18:28.512 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-23 14:18:28.517 +05:30 [INF] Executing endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-23 14:18:28.534 +05:30 [INF] Route matched with {action = "Generate", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Generate(LMS_SoulCode.Features.Certificates.DTOs.CreateCertificateRequest) on controller CertificatesController (LMS_SoulCode).
+2025-11-23 14:19:25.076 +05:30 [INF] Executed DbCommand (77ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime2), @p5='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Certificates] ([CertificateCode], [CourseId], [FilePath], [IsRevoked], [IssuedAt], [Score], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2025-11-23 14:19:30.869 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Certificates.DTOs.CertificateDto'.
+2025-11-23 14:19:30.876 +05:30 [INF] Executed action CertificatesController.Generate (LMS_SoulCode) in 62339.8043ms
+2025-11-23 14:19:30.881 +05:30 [INF] Executed endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-23 14:19:30.883 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - 200 null application/json; charset=utf-8 62416.6669ms
+2025-11-23 15:09:14.355 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-23 15:09:15.205 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-23 15:09:15.556 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-23 15:09:15.562 +05:30 [INF] Hosting environment: Development
+2025-11-23 15:09:15.565 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-23 15:09:16.650 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 15:09:17.445 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 821.0356ms
+2025-11-23 15:09:17.679 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 15:09:17.679 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 15:09:17.679 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 15:09:17.807 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-23 15:09:17.833 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 155.2853ms
+2025-11-23 15:09:18.136 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 458.2651ms
+2025-11-23 15:09:18.136 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 458.2652ms
+2025-11-23 15:09:18.157 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 15:09:18.160 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 15:09:18.169 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 15:09:18.315 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 145.5042ms
+2025-11-23 15:09:18.418 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 15:09:18.758 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 339.1904ms
+2025-11-23 15:09:49.171 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/CourseVideo/list/1 - null null
+2025-11-23 15:09:49.250 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.CourseVideos.Controllers.CourseVideoController.GetVideos (LMS_SoulCode)'
+2025-11-23 15:09:49.377 +05:30 [INF] Route matched with {action = "GetVideos", controller = "CourseVideo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVideos(Int32) on controller LMS_SoulCode.Features.CourseVideos.Controllers.CourseVideoController (LMS_SoulCode).
+2025-11-23 15:09:52.789 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-23 15:09:52.915 +05:30 [WRN] No store type was specified for the decimal property 'Score' on entity type 'Certificate'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 15:09:52.923 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 15:10:00.128 +05:30 [INF] Executed DbCommand (3,749ms) [Parameters=[@__courseId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CourseId], [c].[Title], [c].[UploadedAt], [c].[VideoUrl]
+FROM [CourseVideos] AS [c]
+WHERE [c].[CourseId] = @__courseId_0
+2025-11-23 15:10:00.374 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.CourseVideos.Models.CourseVideo, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-23 15:10:00.452 +05:30 [INF] Executed action LMS_SoulCode.Features.CourseVideos.Controllers.CourseVideoController.GetVideos (LMS_SoulCode) in 11055.6832ms
+2025-11-23 15:10:00.463 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.CourseVideos.Controllers.CourseVideoController.GetVideos (LMS_SoulCode)'
+2025-11-23 15:10:00.495 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/CourseVideo/list/1 - 200 null application/json; charset=utf-8 11325.0394ms
+2025-11-23 15:10:38.335 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Course/1/upload-video - multipart/form-data; boundary=----WebKitFormBoundaryndCtt9NiBeuA8KNh 1570231
+2025-11-23 15:10:38.384 +05:30 [INF] CORS policy execution failed.
+2025-11-23 15:10:38.392 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-23 15:10:38.435 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.UploadVideo (LMS_SoulCode)'
+2025-11-23 15:10:38.465 +05:30 [INF] Route matched with {action = "UploadVideo", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadVideo(Int32, Microsoft.AspNetCore.Http.IFormFile) on controller LMS_SoulCode.Features.Course.Controllers.CourseController (LMS_SoulCode).
+2025-11-23 15:10:51.946 +05:30 [INF] Executed DbCommand (421ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryId], [c].[CreatedAt], [c].[Description], [c].[Difficulty], [c].[DurationHours], [c].[EnrolledCount], [c].[Instructor], [c].[IsActive], [c].[Lectures], [c].[Materials], [c].[Price], [c].[Rating], [c].[Tags], [c].[ThumbnailUrl], [c].[Title], [c].[UpdatedAt]
+FROM [Courses] AS [c]
+WHERE [c].[Id] = @__p_0
+2025-11-23 15:12:11.034 +05:30 [INF] Executed DbCommand (877ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CourseVideos] ([CourseId], [Title], [UploadedAt], [VideoUrl])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-11-23 15:12:14.287 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-11-23 15:12:14.296 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CourseController.UploadVideo (LMS_SoulCode) in 95824.7279ms
+2025-11-23 15:12:14.302 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.UploadVideo (LMS_SoulCode)'
+2025-11-23 15:12:14.312 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Course/1/upload-video - 200 null text/plain; charset=utf-8 95978.5425ms
+2025-11-23 15:13:51.749 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Course/1/upload-video - multipart/form-data; boundary=----WebKitFormBoundary69eatUBUiNJnH7mC 1570231
+2025-11-23 15:13:51.855 +05:30 [INF] CORS policy execution failed.
+2025-11-23 15:13:51.877 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-23 15:13:51.909 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.UploadVideo (LMS_SoulCode)'
+2025-11-23 15:13:51.914 +05:30 [INF] Route matched with {action = "UploadVideo", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadVideo(Int32, Microsoft.AspNetCore.Http.IFormFile) on controller LMS_SoulCode.Features.Course.Controllers.CourseController (LMS_SoulCode).
+2025-11-23 15:13:55.668 +05:30 [INF] Executed DbCommand (476ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryId], [c].[CreatedAt], [c].[Description], [c].[Difficulty], [c].[DurationHours], [c].[EnrolledCount], [c].[Instructor], [c].[IsActive], [c].[Lectures], [c].[Materials], [c].[Price], [c].[Rating], [c].[Tags], [c].[ThumbnailUrl], [c].[Title], [c].[UpdatedAt]
+FROM [Courses] AS [c]
+WHERE [c].[Id] = @__p_0
+2025-11-23 15:13:55.779 +05:30 [INF] Executed DbCommand (44ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CourseVideos] ([CourseId], [Title], [UploadedAt], [VideoUrl])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-11-23 15:13:55.792 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-11-23 15:13:55.799 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CourseController.UploadVideo (LMS_SoulCode) in 3875.7195ms
+2025-11-23 15:13:55.804 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.UploadVideo (LMS_SoulCode)'
+2025-11-23 15:13:55.810 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Course/1/upload-video - 200 null text/plain; charset=utf-8 4061.9885ms
+2025-11-23 15:14:28.638 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Course/1/upload-video - multipart/form-data; boundary=----WebKitFormBoundarysPbrRMx7xs09FRI0 1570231
+2025-11-23 15:14:28.708 +05:30 [INF] CORS policy execution failed.
+2025-11-23 15:14:28.711 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-23 15:14:28.718 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.UploadVideo (LMS_SoulCode)'
+2025-11-23 15:14:28.722 +05:30 [INF] Route matched with {action = "UploadVideo", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadVideo(Int32, Microsoft.AspNetCore.Http.IFormFile) on controller LMS_SoulCode.Features.Course.Controllers.CourseController (LMS_SoulCode).
+2025-11-23 15:14:31.804 +05:30 [INF] Executed DbCommand (111ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryId], [c].[CreatedAt], [c].[Description], [c].[Difficulty], [c].[DurationHours], [c].[EnrolledCount], [c].[Instructor], [c].[IsActive], [c].[Lectures], [c].[Materials], [c].[Price], [c].[Rating], [c].[Tags], [c].[ThumbnailUrl], [c].[Title], [c].[UpdatedAt]
+FROM [Courses] AS [c]
+WHERE [c].[Id] = @__p_0
+2025-11-23 15:20:35.315 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 15:20:35.723 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 409.4814ms
+2025-11-23 15:20:36.106 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 15:20:36.134 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 28.1648ms
+2025-11-23 15:20:36.141 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 15:20:36.188 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 15:20:36.430 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 15:20:36.445 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 257.5184ms
+2025-11-23 15:20:36.550 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 121.2647ms
+2025-11-23 15:20:36.555 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 15:20:36.646 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 15:20:36.746 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 99.8202ms
+2025-11-23 15:20:36.922 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 15:20:37.471 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 550.0115ms
+2025-11-23 15:20:39.008 +05:30 [INF] Executed DbCommand (2,901ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CourseVideos] ([CourseId], [Title], [UploadedAt], [VideoUrl])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-11-23 15:20:39.016 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-11-23 15:20:39.018 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CourseController.UploadVideo (LMS_SoulCode) in 370288.3466ms
+2025-11-23 15:20:39.020 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.UploadVideo (LMS_SoulCode)'
+2025-11-23 15:20:39.024 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Course/1/upload-video - 200 null text/plain; charset=utf-8 370385.6033ms
+2025-11-23 15:22:25.075 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Course/1/upload-video - multipart/form-data; boundary=----WebKitFormBoundaryTmB3eTyYIVeJXwmT 1570231
+2025-11-23 15:22:25.111 +05:30 [INF] CORS policy execution failed.
+2025-11-23 15:22:25.113 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-23 15:22:25.115 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.UploadVideo (LMS_SoulCode)'
+2025-11-23 15:22:25.171 +05:30 [INF] Route matched with {action = "UploadVideo", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadVideo(Int32, Microsoft.AspNetCore.Http.IFormFile) on controller LMS_SoulCode.Features.Course.Controllers.CourseController (LMS_SoulCode).
+2025-11-23 15:23:04.264 +05:30 [INF] Executed DbCommand (438ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryId], [c].[CreatedAt], [c].[Description], [c].[Difficulty], [c].[DurationHours], [c].[EnrolledCount], [c].[Instructor], [c].[IsActive], [c].[Lectures], [c].[Materials], [c].[Price], [c].[Rating], [c].[Tags], [c].[ThumbnailUrl], [c].[Title], [c].[UpdatedAt]
+FROM [Courses] AS [c]
+WHERE [c].[Id] = @__p_0
+2025-11-23 15:23:34.155 +05:30 [INF] Executed DbCommand (29ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CourseVideos] ([CourseId], [Title], [UploadedAt], [VideoUrl])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-11-23 15:23:39.071 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-11-23 15:23:39.074 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CourseController.UploadVideo (LMS_SoulCode) in 73890.9553ms
+2025-11-23 15:23:39.076 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.UploadVideo (LMS_SoulCode)'
+2025-11-23 15:23:39.079 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Course/1/upload-video - 200 null text/plain; charset=utf-8 74004.0476ms
+2025-11-23 15:24:07.397 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Course/1/upload-video - multipart/form-data; boundary=----WebKitFormBoundaryDII4kfSnwFttYexq 101918
+2025-11-23 15:24:07.415 +05:30 [INF] CORS policy execution failed.
+2025-11-23 15:24:07.416 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-23 15:24:07.418 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.UploadVideo (LMS_SoulCode)'
+2025-11-23 15:24:07.421 +05:30 [INF] Route matched with {action = "UploadVideo", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadVideo(Int32, Microsoft.AspNetCore.Http.IFormFile) on controller LMS_SoulCode.Features.Course.Controllers.CourseController (LMS_SoulCode).
+2025-11-23 15:24:11.100 +05:30 [INF] Executed DbCommand (419ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryId], [c].[CreatedAt], [c].[Description], [c].[Difficulty], [c].[DurationHours], [c].[EnrolledCount], [c].[Instructor], [c].[IsActive], [c].[Lectures], [c].[Materials], [c].[Price], [c].[Rating], [c].[Tags], [c].[ThumbnailUrl], [c].[Title], [c].[UpdatedAt]
+FROM [Courses] AS [c]
+WHERE [c].[Id] = @__p_0
+2025-11-23 15:24:20.212 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CourseVideos] ([CourseId], [Title], [UploadedAt], [VideoUrl])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-11-23 15:24:20.216 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-11-23 15:24:20.219 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CourseController.UploadVideo (LMS_SoulCode) in 12794.6302ms
+2025-11-23 15:24:20.222 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.UploadVideo (LMS_SoulCode)'
+2025-11-23 15:24:20.225 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Course/1/upload-video - 200 null text/plain; charset=utf-8 12828.0785ms
+2025-11-23 15:25:09.299 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Crypto/upload-file - multipart/form-data; boundary=----WebKitFormBoundaryIQvOlIv4Icx1lEsi 1570231
+2025-11-23 15:25:09.320 +05:30 [INF] CORS policy execution failed.
+2025-11-23 15:25:09.325 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-23 15:25:09.328 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Security.Controllers.CryptoController.UploadFile (LMS_SoulCode)'
+2025-11-23 15:25:09.334 +05:30 [INF] Route matched with {action = "UploadFile", controller = "Crypto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadFile(Microsoft.AspNetCore.Http.IFormFile) on controller LMS_SoulCode.Features.Security.Controllers.CryptoController (LMS_SoulCode).
+2025-11-23 15:25:38.332 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType6`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-23 15:25:38.343 +05:30 [INF] Executed action LMS_SoulCode.Features.Security.Controllers.CryptoController.UploadFile (LMS_SoulCode) in 29006.096ms
+2025-11-23 15:25:38.345 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Security.Controllers.CryptoController.UploadFile (LMS_SoulCode)'
+2025-11-23 15:25:38.347 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Crypto/upload-file - 200 null application/json; charset=utf-8 29048.4483ms
+2025-11-23 15:35:39.437 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 15:35:39.490 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 53.599ms
+2025-11-23 15:35:39.541 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 15:35:39.541 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 15:35:39.555 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 15.0334ms
+2025-11-23 15:35:39.563 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 22.6185ms
+2025-11-23 15:35:39.581 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 15:35:39.588 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 15:35:39.615 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 15:35:39.618 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 15:35:39.652 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.2994ms
+2025-11-23 15:35:39.656 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 38.3682ms
+2025-11-23 15:35:39.779 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 15:35:39.812 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 32.2361ms
+2025-11-23 15:35:59.486 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Course/1/upload-video - multipart/form-data; boundary=----WebKitFormBoundaryLujKvgU9PwunsIcm 1570231
+2025-11-23 15:35:59.505 +05:30 [INF] CORS policy execution failed.
+2025-11-23 15:35:59.508 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-23 15:35:59.513 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.UploadVideo (LMS_SoulCode)'
+2025-11-23 15:35:59.541 +05:30 [INF] Route matched with {action = "UploadVideo", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadVideo(Int32, Microsoft.AspNetCore.Http.IFormFile) on controller LMS_SoulCode.Features.Course.Controllers.CourseController (LMS_SoulCode).
+2025-11-23 15:36:02.983 +05:30 [INF] Executed DbCommand (74ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryId], [c].[CreatedAt], [c].[Description], [c].[Difficulty], [c].[DurationHours], [c].[EnrolledCount], [c].[Instructor], [c].[IsActive], [c].[Lectures], [c].[Materials], [c].[Price], [c].[Rating], [c].[Tags], [c].[ThumbnailUrl], [c].[Title], [c].[UpdatedAt]
+FROM [Courses] AS [c]
+WHERE [c].[Id] = @__p_0
+2025-11-23 15:36:24.098 +05:30 [INF] Executed DbCommand (72ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CourseVideos] ([CourseId], [Title], [UploadedAt], [VideoUrl])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-11-23 15:36:24.103 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-11-23 15:36:24.105 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CourseController.UploadVideo (LMS_SoulCode) in 24560.5612ms
+2025-11-23 15:36:24.107 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.UploadVideo (LMS_SoulCode)'
+2025-11-23 15:36:24.110 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Course/1/upload-video - 200 null text/plain; charset=utf-8 24623.7438ms
+2025-11-23 15:38:08.089 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/Course/1/videos - null null
+2025-11-23 15:38:08.104 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetVideos (LMS_SoulCode)'
+2025-11-23 15:38:08.250 +05:30 [INF] Route matched with {action = "GetVideos", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVideos(Int32) on controller LMS_SoulCode.Features.Course.Controllers.CourseController (LMS_SoulCode).
+2025-11-23 15:38:08.339 +05:30 [INF] Executed DbCommand (69ms) [Parameters=[@__courseId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CourseId], [c].[Title], [c].[UploadedAt], [c].[VideoUrl]
+FROM [CourseVideos] AS [c]
+WHERE [c].[CourseId] = @__courseId_0
+2025-11-23 15:38:08.346 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.CourseVideos.Models.CourseVideo, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-23 15:38:08.358 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CourseController.GetVideos (LMS_SoulCode) in 101.4646ms
+2025-11-23 15:38:08.361 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetVideos (LMS_SoulCode)'
+2025-11-23 15:38:08.364 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/Course/1/videos - 200 null application/json; charset=utf-8 275.4163ms
+2025-11-23 15:46:10.025 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-23 15:46:10.413 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-23 15:46:10.518 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-23 15:46:10.521 +05:30 [INF] Hosting environment: Development
+2025-11-23 15:46:10.523 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-23 15:46:12.430 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 15:46:13.025 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 616.7631ms
+2025-11-23 15:46:13.031 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 15:46:13.071 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 15:46:13.611 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 15:46:13.615 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 544.4894ms
+2025-11-23 15:46:13.616 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-23 15:46:13.698 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 87.1947ms
+2025-11-23 15:46:13.698 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 668.4416ms
+2025-11-23 15:46:13.705 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 15:46:13.707 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 15:46:13.710 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 15:46:13.751 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.1795ms
+2025-11-23 15:46:13.802 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 15:46:14.012 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 210.3739ms
+2025-11-23 15:46:40.399 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Course/1/upload-video - multipart/form-data; boundary=----WebKitFormBoundaryMTGBA2BFfN6MixLi 1570231
+2025-11-23 15:46:40.442 +05:30 [INF] CORS policy execution failed.
+2025-11-23 15:46:40.444 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-23 15:46:40.451 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.UploadVideo (LMS_SoulCode)'
+2025-11-23 15:46:40.516 +05:30 [INF] Route matched with {action = "UploadVideo", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadVideo(Int32, Microsoft.AspNetCore.Http.IFormFile) on controller LMS_SoulCode.Features.Course.Controllers.CourseController (LMS_SoulCode).
+2025-11-23 15:46:48.434 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-23 15:46:48.460 +05:30 [WRN] No store type was specified for the decimal property 'Score' on entity type 'Certificate'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 15:46:48.463 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 15:46:52.140 +05:30 [INF] Executed DbCommand (2,193ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryId], [c].[CreatedAt], [c].[Description], [c].[Difficulty], [c].[DurationHours], [c].[EnrolledCount], [c].[Instructor], [c].[IsActive], [c].[Lectures], [c].[Materials], [c].[Price], [c].[Rating], [c].[Tags], [c].[ThumbnailUrl], [c].[Title], [c].[UpdatedAt]
+FROM [Courses] AS [c]
+WHERE [c].[Id] = @__p_0
+2025-11-23 15:46:56.559 +05:30 [INF] Executed DbCommand (1,173ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CourseVideos] ([CourseId], [Title], [UploadedAt], [VideoUrl])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-11-23 15:46:56.600 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-11-23 15:46:56.615 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CourseController.UploadVideo (LMS_SoulCode) in 16090.1858ms
+2025-11-23 15:46:56.620 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.UploadVideo (LMS_SoulCode)'
+2025-11-23 15:46:56.641 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Course/1/upload-video - 200 null text/plain; charset=utf-8 16242.3159ms
+2025-11-23 22:46:49.998 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-23 22:46:52.943 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-23 22:46:53.542 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-23 22:46:53.569 +05:30 [INF] Hosting environment: Development
+2025-11-23 22:46:53.597 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-23 22:46:54.811 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 22:46:55.854 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 1388.6423ms
+2025-11-23 22:46:55.887 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 22:46:55.888 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 22:46:55.949 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-23 22:46:56.028 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 22:46:56.171 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 142.8086ms
+2025-11-23 22:47:00.784 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 4901.3752ms
+2025-11-23 22:47:00.784 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 4896.5596ms
+2025-11-23 22:47:00.814 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 22:47:00.822 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 22:47:00.827 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 22:47:01.021 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 194.5375ms
+2025-11-23 22:47:01.138 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 22:47:01.477 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 339.9604ms
+2025-11-23 22:47:58.055 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-23 22:47:58.129 +05:30 [WRN] No store type was specified for the decimal property 'Score' on entity type 'Certificate'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 22:47:58.130 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 22:47:58.392 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-23 22:47:58.401 +05:30 [WRN] No store type was specified for the decimal property 'Score' on entity type 'Certificate'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 22:47:58.401 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 22:48:20.758 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-23 22:48:20.867 +05:30 [WRN] No store type was specified for the decimal property 'Score' on entity type 'Certificate'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 22:48:20.868 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 22:48:25.360 +05:30 [INF] Executed DbCommand (138ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-11-23 22:48:25.754 +05:30 [INF] Executed DbCommand (365ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-11-23 22:48:25.761 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-11-23 22:48:25.763 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-11-23 22:48:27.840 +05:30 [INF] Executed DbCommand (2,027ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-11-23 22:48:27.865 +05:30 [INF] Applying migration '20251123171804_CourseDocument'.
+2025-11-23 22:48:29.015 +05:30 [INF] Executed DbCommand (1,015ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [CourseDocuments] (
+    [Id] int NOT NULL IDENTITY,
+    [CourseId] int NOT NULL,
+    [DocName] nvarchar(max) NOT NULL,
+    [DocUrl] nvarchar(max) NOT NULL,
+    [UploadedAt] datetime2 NOT NULL,
+    CONSTRAINT [PK_CourseDocuments] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_CourseDocuments_Courses_CourseId] FOREIGN KEY ([CourseId]) REFERENCES [Courses] ([Id]) ON DELETE CASCADE
+);
+2025-11-23 22:48:29.206 +05:30 [INF] Executed DbCommand (189ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_CourseDocuments_CourseId] ON [CourseDocuments] ([CourseId]);
+2025-11-23 22:48:29.648 +05:30 [INF] Executed DbCommand (441ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20251123171804_CourseDocument', N'8.0.0');
+2025-11-23 22:48:39.940 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-23 22:48:40.711 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-23 22:48:40.944 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-23 22:48:40.952 +05:30 [INF] Hosting environment: Development
+2025-11-23 22:48:40.956 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-23 22:48:41.366 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 22:48:42.183 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 862.1302ms
+2025-11-23 22:48:42.188 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 22:48:42.278 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 22:48:42.326 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 22:48:42.349 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-23 22:48:42.367 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 89.3432ms
+2025-11-23 22:48:42.721 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 394.9811ms
+2025-11-23 22:48:42.721 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 539.7875ms
+2025-11-23 22:48:42.742 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 22:48:42.750 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 22:48:42.785 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 22:48:42.934 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 148.603ms
+2025-11-23 22:48:43.025 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 22:48:43.715 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 689.8588ms
+2025-11-23 23:00:06.442 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-23 23:00:07.247 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-23 23:00:07.598 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-23 23:00:07.621 +05:30 [INF] Hosting environment: Development
+2025-11-23 23:00:07.625 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-23 23:00:08.056 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 23:00:09.063 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 1034.4448ms
+2025-11-23 23:00:09.095 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 23:00:09.154 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 23:00:09.173 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 23:00:09.204 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-23 23:00:09.236 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 63.2162ms
+2025-11-23 23:00:09.472 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 318.2545ms
+2025-11-23 23:00:09.473 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 388.3504ms
+2025-11-23 23:00:09.500 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 23:00:09.517 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 23:00:09.528 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 23:00:09.628 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 99.5924ms
+2025-11-23 23:00:09.734 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 23:00:10.261 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 527.9596ms
+2025-11-23 23:02:34.414 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Course/1/upload-doc - multipart/form-data; boundary=----WebKitFormBoundaryvbvdtPeJNaN22m7H 101918
+2025-11-23 23:02:34.453 +05:30 [INF] CORS policy execution failed.
+2025-11-23 23:02:34.456 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-23 23:02:34.462 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.UploadDocument (LMS_SoulCode)'
+2025-11-23 23:02:34.743 +05:30 [INF] Route matched with {action = "UploadDocument", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadDocument(Int32, Microsoft.AspNetCore.Http.IFormFile) on controller LMS_SoulCode.Features.Course.Controllers.CourseController (LMS_SoulCode).
+2025-11-23 23:03:15.556 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-23 23:03:16.039 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-23 23:03:16.112 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-23 23:03:16.114 +05:30 [INF] Hosting environment: Development
+2025-11-23 23:03:16.116 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-23 23:03:16.900 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 23:03:17.319 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 449.1527ms
+2025-11-23 23:03:17.354 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 23:03:17.364 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 23:03:17.399 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 23:03:17.421 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-23 23:03:17.429 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 30.0561ms
+2025-11-23 23:03:17.568 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 204.1456ms
+2025-11-23 23:03:17.568 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 215.0927ms
+2025-11-23 23:03:17.580 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 23:03:17.581 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 23:03:17.583 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 23:03:17.637 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.5937ms
+2025-11-23 23:03:17.682 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 23:03:17.848 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 165.354ms
+2025-11-23 23:03:56.672 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Course/1/upload-doc - multipart/form-data; boundary=----WebKitFormBoundary3BKmWaXMQiZXRcEQ 101918
+2025-11-23 23:03:56.712 +05:30 [INF] CORS policy execution failed.
+2025-11-23 23:03:56.714 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-23 23:03:56.722 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.UploadDocument (LMS_SoulCode)'
+2025-11-23 23:03:56.842 +05:30 [INF] Route matched with {action = "UploadDocument", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadDocument(Int32, Microsoft.AspNetCore.Http.IFormFile) on controller LMS_SoulCode.Features.Course.Controllers.CourseController (LMS_SoulCode).
+2025-11-23 23:03:57.753 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-23 23:03:57.809 +05:30 [WRN] No store type was specified for the decimal property 'Score' on entity type 'Certificate'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 23:03:57.812 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 23:03:59.498 +05:30 [INF] Executed DbCommand (400ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryId], [c].[CreatedAt], [c].[Description], [c].[Difficulty], [c].[DurationHours], [c].[EnrolledCount], [c].[Instructor], [c].[IsActive], [c].[Lectures], [c].[Materials], [c].[Price], [c].[Rating], [c].[Tags], [c].[ThumbnailUrl], [c].[Title], [c].[UpdatedAt]
+FROM [Courses] AS [c]
+WHERE [c].[Id] = @__p_0
+2025-11-23 23:04:07.554 +05:30 [INF] Executed DbCommand (3,646ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CourseDocuments] ([CourseId], [DocName], [DocUrl], [UploadedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-11-23 23:04:07.596 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-11-23 23:04:07.609 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CourseController.UploadDocument (LMS_SoulCode) in 10757.3697ms
+2025-11-23 23:04:07.612 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.UploadDocument (LMS_SoulCode)'
+2025-11-23 23:04:07.630 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Course/1/upload-doc - 200 null text/plain; charset=utf-8 10958.2555ms
+2025-11-23 23:12:16.179 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-23 23:12:16.466 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-23 23:12:16.584 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-23 23:12:16.586 +05:30 [INF] Hosting environment: Development
+2025-11-23 23:12:16.587 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-23 23:12:17.794 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 23:12:18.019 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 231.8907ms
+2025-11-23 23:12:18.041 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 23:12:18.041 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 23:12:18.041 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 23:12:18.051 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 9.935ms
+2025-11-23 23:12:18.059 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-23 23:12:18.159 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 120.0922ms
+2025-11-23 23:12:18.159 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 120.0922ms
+2025-11-23 23:12:18.166 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 23:12:18.167 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 23:12:18.171 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 23:12:18.241 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 69.701ms
+2025-11-23 23:12:18.287 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 23:12:18.470 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 182.9505ms
+2025-11-23 23:12:32.489 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/Course/1/documents - null null
+2025-11-23 23:12:32.509 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetDocs (LMS_SoulCode)'
+2025-11-23 23:12:33.311 +05:30 [INF] Route matched with {action = "GetDocs", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDocs(Int32) on controller LMS_SoulCode.Features.Course.Controllers.CourseController (LMS_SoulCode).
+2025-11-23 23:12:36.025 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-23 23:12:36.081 +05:30 [WRN] No store type was specified for the decimal property 'Score' on entity type 'Certificate'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 23:12:36.087 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 23:12:44.117 +05:30 [INF] Executed DbCommand (6,622ms) [Parameters=[@__courseId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CourseId], [c].[DocName], [c].[DocUrl], [c].[UploadedAt]
+FROM [CourseDocuments] AS [c]
+WHERE [c].[CourseId] = @__courseId_0
+2025-11-23 23:12:44.229 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.CourseVideos.Models.CourseDocument, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-23 23:12:44.275 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CourseController.GetDocs (LMS_SoulCode) in 10947.3999ms
+2025-11-23 23:12:44.282 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetDocs (LMS_SoulCode)'
+2025-11-23 23:12:44.299 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/Course/1/documents - 200 null application/json; charset=utf-8 11809.459ms
+2025-11-23 23:14:24.155 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/CourseDocument/list/1 - null null
+2025-11-23 23:14:24.171 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetVideos (LMS_SoulCode)'
+2025-11-23 23:14:24.181 +05:30 [INF] Route matched with {action = "GetVideos", controller = "CourseDocument"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVideos(Int32) on controller LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController (LMS_SoulCode).
+2025-11-23 23:14:24.191 +05:30 [INF] Executed action LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetVideos (LMS_SoulCode) in 6.3645ms
+2025-11-23 23:14:24.194 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetVideos (LMS_SoulCode)'
+2025-11-23 23:14:24.200 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'LMS_SoulCode.Features.CourseVideos.Services.CourseDocumentService' while attempting to activate 'LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method61(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-23 23:14:24.248 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/CourseDocument/list/1 - 500 null text/plain; charset=utf-8 92.9675ms
+2025-11-23 23:18:27.574 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-23 23:18:28.081 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-23 23:18:28.193 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-23 23:18:28.198 +05:30 [INF] Hosting environment: Development
+2025-11-23 23:18:28.200 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-23 23:18:28.797 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 23:18:29.216 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 427.6451ms
+2025-11-23 23:18:29.242 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 23:18:29.255 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-23 23:18:29.262 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 23:18:29.292 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 23:18:29.368 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 76.5227ms
+2025-11-23 23:18:30.955 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 1714.1092ms
+2025-11-23 23:18:30.955 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 1692.9551ms
+2025-11-23 23:18:30.964 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 23:18:30.965 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 23:18:30.972 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 23:18:31.024 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.3179ms
+2025-11-23 23:18:31.061 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 23:18:31.198 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 137.3814ms
+2025-11-23 23:18:45.178 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/Course/1/documents - null null
+2025-11-23 23:18:45.211 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetDocs (LMS_SoulCode)'
+2025-11-23 23:18:45.359 +05:30 [INF] Route matched with {action = "GetDocs", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDocs(Int32) on controller LMS_SoulCode.Features.Course.Controllers.CourseController (LMS_SoulCode).
+2025-11-23 23:18:46.580 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-23 23:18:46.614 +05:30 [WRN] No store type was specified for the decimal property 'Score' on entity type 'Certificate'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 23:18:46.618 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 23:18:50.567 +05:30 [INF] Executed DbCommand (904ms) [Parameters=[@__courseId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CourseId], [c].[DocName], [c].[DocUrl], [c].[UploadedAt]
+FROM [CourseDocuments] AS [c]
+WHERE [c].[CourseId] = @__courseId_0
+2025-11-23 23:18:50.643 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.CourseVideos.Models.CourseDocument, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-23 23:18:50.669 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CourseController.GetDocs (LMS_SoulCode) in 5301.6604ms
+2025-11-23 23:18:50.673 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetDocs (LMS_SoulCode)'
+2025-11-23 23:18:50.687 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/Course/1/documents - 200 null application/json; charset=utf-8 5509.578ms
+2025-11-23 23:20:55.899 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 23:20:55.921 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 21.1704ms
+2025-11-23 23:20:55.983 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 23:20:55.983 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 23:20:55.989 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 23:20:56.004 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 21.0255ms
+2025-11-23 23:20:56.011 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 27.5586ms
+2025-11-23 23:20:56.017 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 30.3326ms
+2025-11-23 23:20:56.053 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 23:20:56.066 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 23:20:56.075 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 23:20:56.154 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 78.9278ms
+2025-11-23 23:20:56.208 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 23:20:56.258 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 50.4967ms
+2025-11-23 23:21:11.017 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/CourseDocument/list/1 - null null
+2025-11-23 23:21:11.022 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetVideos (LMS_SoulCode)'
+2025-11-23 23:21:11.030 +05:30 [INF] Route matched with {action = "GetVideos", controller = "CourseDocument"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVideos(Int32) on controller LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController (LMS_SoulCode).
+2025-11-23 23:21:11.041 +05:30 [INF] Executed action LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetVideos (LMS_SoulCode) in 7.9914ms
+2025-11-23 23:21:11.046 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetVideos (LMS_SoulCode)'
+2025-11-23 23:21:11.052 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'LMS_SoulCode.Features.CourseVideos.Services.CourseDocumentService' while attempting to activate 'LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method61(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-23 23:21:11.109 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/CourseDocument/list/1 - 500 null text/plain; charset=utf-8 92.8232ms
+2025-11-23 23:21:31.196 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 23:21:31.216 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 19.884ms
+2025-11-23 23:21:31.255 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 23:21:31.255 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 23:21:31.261 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 6.2094ms
+2025-11-23 23:21:31.277 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 22.7508ms
+2025-11-23 23:21:31.293 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 23:21:31.297 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 23:21:31.301 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 23:21:31.323 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 23:21:31.331 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 7.8365ms
+2025-11-23 23:21:31.346 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.2427ms
+2025-11-23 23:21:31.422 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 23:21:31.446 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.1459ms
+2025-11-23 23:21:43.456 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/CourseDocument/list/1 - null null
+2025-11-23 23:21:43.474 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetVideos (LMS_SoulCode)'
+2025-11-23 23:21:43.485 +05:30 [INF] Route matched with {action = "GetVideos", controller = "CourseDocument"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVideos(Int32) on controller LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController (LMS_SoulCode).
+2025-11-23 23:21:43.490 +05:30 [INF] Executed action LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetVideos (LMS_SoulCode) in 0.6338ms
+2025-11-23 23:21:43.494 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetVideos (LMS_SoulCode)'
+2025-11-23 23:21:43.498 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'LMS_SoulCode.Features.CourseVideos.Services.CourseDocumentService' while attempting to activate 'LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method69(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-23 23:21:43.509 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/CourseDocument/list/1 - 500 null text/plain; charset=utf-8 53.1471ms
+2025-11-23 23:22:00.260 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 23:22:00.276 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 16.9626ms
+2025-11-23 23:22:00.309 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 23:22:00.309 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 23:22:00.315 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 5.2191ms
+2025-11-23 23:22:00.319 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 9.2439ms
+2025-11-23 23:22:00.324 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 23:22:00.355 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 23:22:00.357 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 23:22:00.360 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 23:22:00.369 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 9.2598ms
+2025-11-23 23:22:00.378 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.9393ms
+2025-11-23 23:22:00.501 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 23:22:00.512 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.4336ms
+2025-11-23 23:22:32.355 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-23 23:22:32.588 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-23 23:22:32.673 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-23 23:22:32.675 +05:30 [INF] Hosting environment: Development
+2025-11-23 23:22:32.677 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-23 23:22:33.118 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 23:22:33.584 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 503.9175ms
+2025-11-23 23:22:33.620 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 23:22:33.620 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 23:22:33.620 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 23:22:33.682 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 62.9011ms
+2025-11-23 23:22:33.683 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-23 23:22:35.683 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 2063.5346ms
+2025-11-23 23:22:35.683 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 2063.5357ms
+2025-11-23 23:22:35.694 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 23:22:35.696 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 23:22:35.700 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 23:22:35.751 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.3816ms
+2025-11-23 23:22:35.848 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 23:22:36.047 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 198.6315ms
+2025-11-23 23:23:31.775 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/CourseDocument/list/1 - null null
+2025-11-23 23:23:31.795 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetVideos (LMS_SoulCode)'
+2025-11-23 23:23:31.840 +05:30 [INF] Route matched with {action = "GetVideos", controller = "CourseDocument"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVideos(Int32) on controller LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController (LMS_SoulCode).
+2025-11-23 23:23:33.535 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-23 23:23:33.592 +05:30 [WRN] No store type was specified for the decimal property 'Score' on entity type 'Certificate'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 23:23:33.595 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 23:23:35.392 +05:30 [INF] Executed DbCommand (148ms) [Parameters=[@__courseId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CourseId], [c].[DocName], [c].[DocUrl], [c].[UploadedAt]
+FROM [CourseDocuments] AS [c]
+WHERE [c].[CourseId] = @__courseId_0
+2025-11-23 23:23:35.496 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.CourseVideos.Models.CourseDocument, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-23 23:23:35.522 +05:30 [INF] Executed action LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetVideos (LMS_SoulCode) in 3673.9109ms
+2025-11-23 23:23:35.525 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetVideos (LMS_SoulCode)'
+2025-11-23 23:23:35.538 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/CourseDocument/list/1 - 200 null application/json; charset=utf-8 3764.2386ms
+2025-11-23 23:23:56.816 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/Course/1/documents - null null
+2025-11-23 23:23:56.824 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetDocs (LMS_SoulCode)'
+2025-11-23 23:23:56.836 +05:30 [INF] Route matched with {action = "GetDocs", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDocs(Int32) on controller LMS_SoulCode.Features.Course.Controllers.CourseController (LMS_SoulCode).
+2025-11-23 23:23:56.878 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@__courseId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CourseId], [c].[DocName], [c].[DocUrl], [c].[UploadedAt]
+FROM [CourseDocuments] AS [c]
+WHERE [c].[CourseId] = @__courseId_0
+2025-11-23 23:23:56.884 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.CourseVideos.Models.CourseDocument, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-23 23:23:56.886 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CourseController.GetDocs (LMS_SoulCode) in 47.1768ms
+2025-11-23 23:23:56.889 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetDocs (LMS_SoulCode)'
+2025-11-23 23:23:56.892 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/Course/1/documents - 200 null application/json; charset=utf-8 75.6523ms
+2025-11-23 23:25:14.327 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 23:25:14.358 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 30.7678ms
+2025-11-23 23:25:14.400 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 23:25:14.400 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 23:25:14.405 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 5.3131ms
+2025-11-23 23:25:14.412 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 12.3632ms
+2025-11-23 23:25:14.416 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 23:25:14.449 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 23:25:14.453 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 23:25:14.455 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 23:25:14.469 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 13.9107ms
+2025-11-23 23:25:14.498 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.3915ms
+2025-11-23 23:25:14.621 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 23:25:14.643 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 21.4179ms
+2025-11-23 23:27:31.807 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 23:27:31.833 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 26.5811ms
+2025-11-23 23:27:31.900 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/swagger-ui.css - null null
+2025-11-23 23:27:31.925 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/swagger-ui-bundle.js - null null
+2025-11-23 23:27:31.904 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 23:27:31.919 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 23:27:31.925 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/swagger-ui-standalone-preset.js - null null
+2025-11-23 23:27:31.970 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 66.3001ms
+2025-11-23 23:27:32.069 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-11-23 23:27:31.979 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 59.3936ms
+2025-11-23 23:27:31.948 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 23:27:32.064 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-11-23 23:27:32.093 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 23:27:32.093 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-11-23 23:27:32.094 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 169.4188ms
+2025-11-23 23:27:32.100 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 23:27:32.106 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 158.0595ms
+2025-11-23 23:27:32.109 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/swagger-ui.css - 200 144929 text/css 208.8786ms
+2025-11-23 23:27:32.115 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 190.6541ms
+2025-11-23 23:27:32.136 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 23:27:32.158 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.0494ms
+2025-11-23 23:27:32.270 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 23:27:32.282 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/favicon-32x32.png - null null
+2025-11-23 23:27:32.288 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-11-23 23:27:32.293 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/favicon-32x32.png - 200 628 image/png 10.4894ms
+2025-11-23 23:27:32.297 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 26.403ms
+2025-11-23 23:27:42.559 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/CourseDocument/list/1 - null null
+2025-11-23 23:27:42.565 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetVideos (LMS_SoulCode)'
+2025-11-23 23:27:42.588 +05:30 [INF] Route matched with {action = "GetVideos", controller = "CourseDocument"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVideos(Int32) on controller LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController (LMS_SoulCode).
+2025-11-23 23:27:42.713 +05:30 [INF] Executed action LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetVideos (LMS_SoulCode) in 118.581ms
+2025-11-23 23:27:42.718 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetVideos (LMS_SoulCode)'
+2025-11-23 23:27:42.722 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.MissingMethodException: Attempted to invoke a deleted method implementation. This can happen when a method is deleted or its name or signature is changed while the application is running.
+   at LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetVideos(Int32 courseId)
+   at lambda_method62(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-23 23:27:42.776 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/CourseDocument/list/1 - 500 null text/plain; charset=utf-8 216.692ms
+2025-11-23 23:29:19.446 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 23:29:19.463 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 16.7383ms
+2025-11-23 23:29:19.495 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 23:29:19.497 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 23:29:19.510 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 14.7175ms
+2025-11-23 23:29:19.538 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 41.1319ms
+2025-11-23 23:29:19.549 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 23:29:19.560 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 23:29:19.566 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 23:29:19.567 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 23:29:19.571 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 4.5407ms
+2025-11-23 23:29:19.581 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.0171ms
+2025-11-23 23:29:19.715 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 23:29:19.736 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/CourseDocument/list/{courseId}" for actions - LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetVideos (LMS_SoulCode),LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetDocs (LMS_SoulCode). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-23 23:29:19.743 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 28.4479ms
+2025-11-23 23:29:21.635 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 23:29:21.644 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 9.4609ms
+2025-11-23 23:29:21.669 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/swagger-ui.css - null null
+2025-11-23 23:29:21.673 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 23:29:21.678 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/swagger-ui-bundle.js - null null
+2025-11-23 23:29:21.677 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-11-23 23:29:21.691 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/swagger-ui-standalone-preset.js - null null
+2025-11-23 23:29:21.724 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/swagger-ui.css - 200 144929 text/css 54.5279ms
+2025-11-23 23:29:21.691 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 17.6014ms
+2025-11-23 23:29:21.678 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 23:29:21.691 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 23:29:21.794 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-11-23 23:29:21.795 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-11-23 23:29:21.817 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 23:29:21.822 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 143.8688ms
+2025-11-23 23:29:21.828 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 136.8ms
+2025-11-23 23:29:21.840 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 161.5967ms
+2025-11-23 23:29:21.850 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 158.6265ms
+2025-11-23 23:29:21.859 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 23:29:21.869 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 23:29:21.900 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.236ms
+2025-11-23 23:29:21.935 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 23:29:21.946 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/CourseDocument/list/{courseId}" for actions - LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetVideos (LMS_SoulCode),LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetDocs (LMS_SoulCode). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-23 23:29:21.949 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/favicon-32x32.png - null null
+2025-11-23 23:29:21.952 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 16.8633ms
+2025-11-23 23:29:21.960 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-11-23 23:29:21.973 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/favicon-32x32.png - 200 628 image/png 24.1765ms
+2025-11-23 23:30:02.748 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-23 23:30:02.966 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-23 23:30:03.065 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-23 23:30:03.069 +05:30 [INF] Hosting environment: Development
+2025-11-23 23:30:03.071 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-23 23:30:04.818 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 23:30:05.405 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 623.1222ms
+2025-11-23 23:30:05.433 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 23:30:05.434 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 23:30:05.513 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 23:30:05.530 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-23 23:30:05.539 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 107.8496ms
+2025-11-23 23:30:07.366 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 1852.6874ms
+2025-11-23 23:30:07.366 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 1934.5921ms
+2025-11-23 23:30:07.376 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 23:30:07.377 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 23:30:07.381 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 23:30:07.425 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.9476ms
+2025-11-23 23:30:07.702 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 23:30:07.863 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 161.4258ms
+2025-11-23 23:30:45.048 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/CourseDocument/list/1 - null null
+2025-11-23 23:30:45.066 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetDocs (LMS_SoulCode)'
+2025-11-23 23:30:45.114 +05:30 [INF] Route matched with {action = "GetDocs", controller = "CourseDocument"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDocs(Int32) on controller LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController (LMS_SoulCode).
+2025-11-23 23:30:46.232 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-23 23:30:46.283 +05:30 [WRN] No store type was specified for the decimal property 'Score' on entity type 'Certificate'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 23:30:46.287 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-23 23:30:48.950 +05:30 [INF] Executed DbCommand (372ms) [Parameters=[@__courseId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CourseId], [c].[DocName], [c].[DocUrl], [c].[UploadedAt]
+FROM [CourseDocuments] AS [c]
+WHERE [c].[CourseId] = @__courseId_0
+2025-11-23 23:30:49.061 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.CourseVideos.Models.CourseDocument, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-23 23:30:49.089 +05:30 [INF] Executed action LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetDocs (LMS_SoulCode) in 3965.6007ms
+2025-11-23 23:30:49.094 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetDocs (LMS_SoulCode)'
+2025-11-23 23:30:49.114 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/CourseDocument/list/1 - 200 null application/json; charset=utf-8 4067.8387ms
+2025-11-23 23:31:13.078 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Course/1/upload-doc - multipart/form-data; boundary=----WebKitFormBoundary7FqCdkW1tmmsx4Mg 101918
+2025-11-23 23:31:13.106 +05:30 [INF] CORS policy execution failed.
+2025-11-23 23:31:13.108 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-23 23:31:13.114 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.UploadDocument (LMS_SoulCode)'
+2025-11-23 23:31:13.125 +05:30 [INF] Route matched with {action = "UploadDocument", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadDocument(Int32, Microsoft.AspNetCore.Http.IFormFile) on controller LMS_SoulCode.Features.Course.Controllers.CourseController (LMS_SoulCode).
+2025-11-23 23:31:13.640 +05:30 [INF] Executed DbCommand (263ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryId], [c].[CreatedAt], [c].[Description], [c].[Difficulty], [c].[DurationHours], [c].[EnrolledCount], [c].[Instructor], [c].[IsActive], [c].[Lectures], [c].[Materials], [c].[Price], [c].[Rating], [c].[Tags], [c].[ThumbnailUrl], [c].[Title], [c].[UpdatedAt]
+FROM [Courses] AS [c]
+WHERE [c].[Id] = @__p_0
+2025-11-23 23:31:19.562 +05:30 [INF] Executed DbCommand (1,324ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CourseDocuments] ([CourseId], [DocName], [DocUrl], [UploadedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-11-23 23:31:19.625 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-11-23 23:31:19.631 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CourseController.UploadDocument (LMS_SoulCode) in 6501.6998ms
+2025-11-23 23:31:19.636 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.UploadDocument (LMS_SoulCode)'
+2025-11-23 23:31:19.645 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Course/1/upload-doc - 200 null text/plain; charset=utf-8 6566.0979ms
+2025-11-23 23:31:31.129 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/Course/1/documents - null null
+2025-11-23 23:31:31.136 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetDocs (LMS_SoulCode)'
+2025-11-23 23:31:31.157 +05:30 [INF] Route matched with {action = "GetDocs", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDocs(Int32) on controller LMS_SoulCode.Features.Course.Controllers.CourseController (LMS_SoulCode).
+2025-11-23 23:31:31.371 +05:30 [INF] Executed DbCommand (126ms) [Parameters=[@__courseId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CourseId], [c].[DocName], [c].[DocUrl], [c].[UploadedAt]
+FROM [CourseDocuments] AS [c]
+WHERE [c].[CourseId] = @__courseId_0
+2025-11-23 23:31:31.382 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.CourseVideos.Models.CourseDocument, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-23 23:31:31.385 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CourseController.GetDocs (LMS_SoulCode) in 216.6777ms
+2025-11-23 23:31:31.389 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetDocs (LMS_SoulCode)'
+2025-11-23 23:31:31.392 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/Course/1/documents - 200 null application/json; charset=utf-8 262.5174ms
+2025-11-23 23:31:38.075 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/CourseDocument/list/1 - null null
+2025-11-23 23:31:38.079 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetDocs (LMS_SoulCode)'
+2025-11-23 23:31:38.094 +05:30 [INF] Route matched with {action = "GetDocs", controller = "CourseDocument"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDocs(Int32) on controller LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController (LMS_SoulCode).
+2025-11-23 23:31:38.278 +05:30 [INF] Executed DbCommand (174ms) [Parameters=[@__courseId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CourseId], [c].[DocName], [c].[DocUrl], [c].[UploadedAt]
+FROM [CourseDocuments] AS [c]
+WHERE [c].[CourseId] = @__courseId_0
+2025-11-23 23:31:38.283 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.CourseVideos.Models.CourseDocument, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-23 23:31:38.286 +05:30 [INF] Executed action LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetDocs (LMS_SoulCode) in 186.5773ms
+2025-11-23 23:31:38.287 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.CourseVideos.Controllers.CourseDocumentController.GetDocs (LMS_SoulCode)'
+2025-11-23 23:31:38.289 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/CourseDocument/list/1 - 200 null application/json; charset=utf-8 214.2683ms
+2025-11-23 23:33:15.995 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-23 23:33:16.260 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-23 23:33:16.349 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-23 23:33:16.355 +05:30 [INF] Hosting environment: Development
+2025-11-23 23:33:16.356 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-23 23:33:17.008 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-23 23:33:17.524 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 536.8784ms
+2025-11-23 23:33:17.553 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-23 23:33:17.553 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-23 23:33:17.553 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-23 23:33:17.592 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-23 23:33:17.601 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 49.2248ms
+2025-11-23 23:33:17.785 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 233.5588ms
+2025-11-23 23:33:17.785 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 238.2295ms
+2025-11-23 23:33:17.844 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-23 23:33:17.847 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-23 23:33:17.862 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-23 23:33:17.952 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 89.9143ms
+2025-11-23 23:33:18.079 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-23 23:33:18.491 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 411.2731ms

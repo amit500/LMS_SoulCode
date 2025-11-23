@@ -1,5 +1,5 @@
 ﻿using LMS_SoulCode.Features.UserPermissions.PermissionHandler;
-using LMS_SoulCode.Features.Course.Models;
+using LMS_SoulCode.Features.Course.DTOs;
 using LMS_SoulCode.Features.Course.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -61,6 +61,24 @@ namespace LMS_SoulCode.Features.Course.Controllers
         public async Task<IActionResult> GetVideos(int courseId)
         {
             var videos = await _courseService.GetCourseVideosAsync(courseId);
+            return Ok(videos);
+        }
+
+
+        [HttpPost("{courseId}/upload-doc")]
+        public async Task<IActionResult> UploadDocument(int courseId, IFormFile file)
+        {
+            if (file == null || file.Length == 0)
+                return BadRequest("No file selected.");
+
+            await _courseService.UploadDocumentAsync(courseId, file);
+            return Ok("Document uploaded successfully.");
+        }
+
+        [HttpGet("{courseId}/documents")]
+        public async Task<IActionResult> GetDocs(int courseId)
+        {
+            var videos = await _courseService.GetCourseDocumentAsync(courseId);
             return Ok(videos);
         }
 

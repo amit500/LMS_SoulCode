@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using LMS_SoulCode.Features.UserPermissions.Controllers;
-using LMS_SoulCode.Features.UserPermissions.Entities;
 using LMS_SoulCode.Features.UserPermissions.Models;
+using LMS_SoulCode.Features.UserPermissions.DTOs;
 
 namespace LMS_SoulCode.Features.UserPermissions.Validators
 {

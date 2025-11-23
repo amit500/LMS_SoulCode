@@ -1,4 +1,4 @@
-﻿using LMS_SoulCode.Features.UserPermissions.Entities;
+﻿using LMS_SoulCode.Features.UserPermissions.Models;
 using LMS_SoulCode.Features.UserPermissions.Repositories;
 
 namespace LMS_SoulCode.Features.UserPermissions.Services

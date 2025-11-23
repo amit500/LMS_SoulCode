@@ -39,10 +39,8 @@ namespace LMS_SoulCode.Features.Security.Controllers
             using var ms = new MemoryStream();
             await file.CopyToAsync(ms);
             var fileBytes = ms.ToArray();
-
             // 🔹 2. Encrypt file content
             string encryptedData = _crypto.EncryptBytes(fileBytes);
-
             // 🔹 3. Identify folder based on file extension
             string ext = Path.GetExtension(file.FileName).ToLower();
             string folderName = ext switch

@@ -1,5 +1,4 @@
-﻿using LMS_SoulCode.Features.SubscribedCourse.Entities;
-using LMS_SoulCode.Features.UserPermissions.Entities;
+﻿using LMS_SoulCode.Features.SubscribedCourse.Models;
 
 namespace LMS_SoulCode.Features.SubscribedCourse.Repositories
 {

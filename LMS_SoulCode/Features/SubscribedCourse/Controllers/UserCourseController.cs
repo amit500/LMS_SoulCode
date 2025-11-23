@@ -1,4 +1,4 @@
-﻿using LMS_SoulCode.Features.Auth.Entities;
+﻿using LMS_SoulCode.Features.Auth.Models;
 using LMS_SoulCode.Features.SubscribedCourse.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

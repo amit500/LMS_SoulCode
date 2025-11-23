@@ -1,6 +1,6 @@
 ﻿using LMS_SoulCode.Data;
-using LMS_SoulCode.Features.Course.Entities;
-using LMS_SoulCode.Features.CourseVideos.Entities;
+using LMS_SoulCode.Features.Course.Models;
+using LMS_SoulCode.Features.CourseVideos.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace LMS_SoulCode.Features.CourseVideos.Repositories

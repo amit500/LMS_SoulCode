@@ -1,10 +1,12 @@
-﻿using CourseEntity = LMS_SoulCode.Features.Course.Entities.Course;
-using LMS_SoulCode.Features.Course.Models;
+﻿using CourseEntity = LMS_SoulCode.Features.Course.Models.Course;
+using LMS_SoulCode.Features.Course.DTOs;
 using LMS_SoulCode.Features.Course.Repositories;
 using Microsoft.AspNetCore.Cors.Infrastructure;
-using LMS_SoulCode.Features.CourseVideos.Entities;
+using LMS_SoulCode.Features.CourseVideos.Models;
 using Microsoft.EntityFrameworkCore;
-using LMS_SoulCode.Features.Course.Entities;
+using LMS_SoulCode.Features.Course.DTOs;
+using BCrypt.Net;
+using LMS_SoulCode.Features.Security.Services;
 namespace LMS_SoulCode.Features.Course.Services
 {
     public interface ICourseService
@@ -12,7 +14,9 @@ namespace LMS_SoulCode.Features.Course.Services
         Task<IEnumerable<CourseResponse>> GetAllAsync();
         Task AddAsync(CourseRequest request);
         Task<bool> UploadVideoAsync(int courseId, IFormFile file);
+        Task<bool> UploadDocumentAsync(int courseId, IFormFile file);
         Task<IEnumerable<CourseVideo>> GetCourseVideosAsync(int courseId);
+        Task<IEnumerable<CourseDocument>> GetCourseDocumentAsync(int courseId);
         Task<CourseEntity?> GetByIdAsync(int id);
 
     }
@@ -20,11 +24,13 @@ namespace LMS_SoulCode.Features.Course.Services
     {
         private readonly ICourseRepository _repository;
         private readonly IWebHostEnvironment _env;
+        private readonly CryptographyService _crypto;
 
-        public CourseService(ICourseRepository repository, IWebHostEnvironment env)
+        public CourseService(ICourseRepository repository, IWebHostEnvironment env, CryptographyService crypto)
         {
             _repository = repository;
             _env = env;
+            _crypto = crypto;
         }
 
         public async Task<IEnumerable<CourseResponse>> GetAllAsync()
@@ -64,6 +70,38 @@ namespace LMS_SoulCode.Features.Course.Services
             await _repository.AddAsync(course);
         }
 
+        //public async Task<bool> UploadVideoAsync(int courseId, IFormFile file)
+        //{
+        //    var course = await _repository.GetByIdAsync(courseId);
+        //    if (course == null)
+        //        throw new Exception("Course not found");
+
+        //    var rootPath = _env.WebRootPath ?? Path.Combine(_env.ContentRootPath, "wwwroot");
+        //    var folderPath = Path.Combine(rootPath, "uploads", "courses", courseId.ToString());
+        //    if (!Directory.Exists(folderPath))
+        //        Directory.CreateDirectory(folderPath);
+
+        //    var fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+        //    var filePath = Path.Combine(folderPath, fileName);
+
+        //    using (var stream = new FileStream(filePath, FileMode.Create))
+        //    {
+        //        await file.CopyToAsync(stream);
+        //    }
+
+        //    var video = new CourseVideo
+        //    {
+        //        CourseId = courseId,
+        //        Title = Path.GetFileNameWithoutExtension(file.FileName),
+        //        VideoUrl = $"/uploads/courses/{courseId}/{fileName}"
+        //    };
+
+        //    await _repository.AddVideoAsync(video);
+        //    //await _repository.SaveChangesAsync();
+
+        //    return true;
+        //}
+
         public async Task<bool> UploadVideoAsync(int courseId, IFormFile file)
         {
             var course = await _repository.GetByIdAsync(courseId);
@@ -72,17 +110,28 @@ namespace LMS_SoulCode.Features.Course.Services
 
             var rootPath = _env.WebRootPath ?? Path.Combine(_env.ContentRootPath, "wwwroot");
             var folderPath = Path.Combine(rootPath, "uploads", "courses", courseId.ToString());
+
             if (!Directory.Exists(folderPath))
                 Directory.CreateDirectory(folderPath);
 
-            var fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+            var fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName) + ".enc";
             var filePath = Path.Combine(folderPath, fileName);
 
-            using (var stream = new FileStream(filePath, FileMode.Create))
+            // 1. Read file
+            byte[] fileBytes;
+            using (var ms = new MemoryStream())
             {
-                await file.CopyToAsync(stream);
+                await file.CopyToAsync(ms);
+                fileBytes = ms.ToArray();
             }
 
+            // 2. Encrypt → Base64 (string)
+            string encryptedBase64 = _crypto.EncryptBytes(fileBytes);
+
+            // 3. Save encrypted as TEXT
+            await File.WriteAllTextAsync(filePath, encryptedBase64);
+
+            // 4. Save record
             var video = new CourseVideo
             {
                 CourseId = courseId,
@@ -91,13 +140,56 @@ namespace LMS_SoulCode.Features.Course.Services
             };
 
             await _repository.AddVideoAsync(video);
-            //await _repository.SaveChangesAsync();
+
+            return true;
+        }
+
+        public async Task<bool> UploadDocumentAsync(int courseId, IFormFile file)
+        {
+            var course = await _repository.GetByIdAsync(courseId);
+            if (course == null)
+                throw new Exception("Course not found");
+
+            var rootPath = _env.WebRootPath ?? Path.Combine(_env.ContentRootPath, "wwwroot");
+            var folderPath = Path.Combine(rootPath, "uploads", "courses","docs", courseId.ToString());
+
+            if (!Directory.Exists(folderPath))
+                Directory.CreateDirectory(folderPath);
+
+            var fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName) + ".enc";
+            var filePath = Path.Combine(folderPath, fileName);
+
+            // 1. Read file
+            byte[] fileBytes;
+            using (var ms = new MemoryStream())
+            {
+                await file.CopyToAsync(ms);
+                fileBytes = ms.ToArray();
+            }
+
+            // 2. Encrypt → Base64 (string)
+            string encryptedBase64 = _crypto.EncryptBytes(fileBytes);
+
+            // 3. Save encrypted as TEXT
+            await File.WriteAllTextAsync(filePath, encryptedBase64);
+
+            // 4. Save record
+            var docs = new CourseDocument
+            {
+                CourseId = courseId,
+                DocName = Path.GetFileNameWithoutExtension(file.FileName),
+                DocUrl = $"/uploads/courses/docs/{courseId}/{fileName}"
+            };
+
+            await _repository.AddDocsAsync(docs);
 
             return true;
         }
 
         public async Task<IEnumerable<CourseVideo>> GetCourseVideosAsync(int courseId)
              => await _repository.GetVideosByCourseIdAsync(courseId);
+        public async Task<IEnumerable<CourseDocument>> GetCourseDocumentAsync(int courseId)
+             => await _repository.GetDocsByCourseIdAsync(courseId);
         
         public async Task<CourseEntity?> GetByIdAsync(int id)
            => await _repository.GetByIdAsync(id);

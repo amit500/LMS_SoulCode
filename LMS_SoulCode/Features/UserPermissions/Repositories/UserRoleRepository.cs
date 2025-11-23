@@ -1,5 +1,5 @@
 ﻿using LMS_SoulCode.Data;
-using LMS_SoulCode.Features.UserPermissions.Entities;
+using LMS_SoulCode.Features.UserPermissions.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace LMS_SoulCode.Features.UserPermissions.Repositories

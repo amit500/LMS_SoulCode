@@ -1,12 +1,11 @@
 ﻿using LMS_SoulCode.Features.UserPermissions.Services;
-using LMS_SoulCode.Features.UserPermissions.Models;
+using LMS_SoulCode.Features.UserPermissions.DTOs;
 using LMS_SoulCode.Features.UserPermissions.Validators;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
-using RoleRequest= LMS_SoulCode.Features.UserPermissions.Models.RoleRequest;
-using CreateRoleRequest = LMS_SoulCode.Features.UserPermissions.Models.CreateRoleRequest;
+using RoleRequest= LMS_SoulCode.Features.UserPermissions.DTOs.RoleRequest;
+using CreateRoleRequest = LMS_SoulCode.Features.UserPermissions.DTOs.CreateRoleRequest;
 using Microsoft.AspNetCore.Authorization;
-using LMS_SoulCode.Features.UserPermissions.Entities;
 
 //using UpdateRoleRequest = LMS_SoulCode.Features.UserPermissions.Models.UpdateRoleRequest;
 namespace LMS_SoulCode.Features.UserPermissions.Controllers

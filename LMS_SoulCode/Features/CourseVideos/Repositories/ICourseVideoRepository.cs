@@ -1,4 +1,4 @@
-﻿using LMS_SoulCode.Features.CourseVideos.Entities;
+﻿using LMS_SoulCode.Features.CourseVideos.Models;
 
 namespace LMS_SoulCode.Features.CourseVideos.Repositories
 {

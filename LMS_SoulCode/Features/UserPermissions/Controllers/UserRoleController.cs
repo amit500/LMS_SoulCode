@@ -1,5 +1,5 @@
-﻿using LMS_SoulCode.Features.UserPermissions.Entities;
-using LMS_SoulCode.Features.UserPermissions.Models;
+﻿using LMS_SoulCode.Features.UserPermissions.Models;
+using LMS_SoulCode.Features.UserPermissions.DTOs;
 using LMS_SoulCode.Features.UserPermissions.Services;
 using Microsoft.AspNetCore.Mvc;
 

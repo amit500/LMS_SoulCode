@@ -1,4 +1,4 @@
-﻿using LMS_SoulCode.Features.Auth.Entities;
+﻿using LMS_SoulCode.Features.Auth.Models;
 
 namespace LMS_SoulCode.Features.Auth.Repositories
 {

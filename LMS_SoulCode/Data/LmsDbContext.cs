@@ -1,9 +1,10 @@
-﻿using LMS_SoulCode.Features.Auth.Entities;
-using LMS_SoulCode.Features.UserPermissions.Entities;
-using LMS_SoulCode.Features.Course.Entities;
-using LMS_SoulCode.Features.CourseVideos.Entities;
+﻿using LMS_SoulCode.Features.Auth.Models;
+using LMS_SoulCode.Features.UserPermissions.Models;
+using LMS_SoulCode.Features.Course.Models;
+using LMS_SoulCode.Features.CourseVideos.Models;
 using Microsoft.EntityFrameworkCore;
-using LMS_SoulCode.Features.SubscribedCourse.Entities;
+using LMS_SoulCode.Features.SubscribedCourse.Models;
+using LMS_SoulCode.Features.Certificates.Models;
 
 namespace LMS_SoulCode.Data
 {
@@ -22,8 +23,10 @@ namespace LMS_SoulCode.Data
         public DbSet<Category> Categories { get; set; }
         public DbSet<Course> Courses { get; set; }
         public DbSet<CourseVideo> CourseVideos { get; set; }
+        public DbSet<CourseDocument> CourseDocuments { get; set; }
         public DbSet<UserCourse> UserCourses { get; set; } = null!;
         public DbSet<UserVideoProgress> UserVideoProgresses { get; set; }
+        public DbSet<Certificate> Certificates { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

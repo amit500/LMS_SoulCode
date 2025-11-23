@@ -2,10 +2,10 @@
 using LMS_SoulCode.Features.Auth.Models;
 using LMS_SoulCode.Features.Auth.Services;
 using LMS_SoulCode.Features.Auth.Validators;
-using AuthModel = LMS_SoulCode.Features.Auth.Models.LoginRequest;
-using RegisterModel = LMS_SoulCode.Features.Auth.Models.RegisterRequest;
-using ForgotPasswordModel = LMS_SoulCode.Features.Auth.Models.ForgotPasswordRequest;
-using ResetPasswordModel = LMS_SoulCode.Features.Auth.Models.ResetPasswordRequest;
+using AuthModel = LMS_SoulCode.Features.Auth.DTOs.LoginRequest;
+using RegisterModel = LMS_SoulCode.Features.Auth.DTOs.RegisterRequest;
+using ForgotPasswordModel = LMS_SoulCode.Features.Auth.DTOs.ForgotPasswordRequest;
+using ResetPasswordModel = LMS_SoulCode.Features.Auth.DTOs.ResetPasswordRequest;
 
 namespace LMS_SoulCode.Features.Auth.Controllers
 {

@@ -11,6 +11,8 @@ using LMS_SoulCode.Features.SubscribedCourse.Services;
 using LMS_SoulCode.Features.Security.Services;
 using LMS_SoulCode.Features.Reports.Services;
 using LMS_SoulCode.Features.UserPermissions.PermissionHandler;
+using LMS_SoulCode.Features.Certificates.Repositories;
+using LMS_SoulCode.Features.Certificates.Services;
 
 
 namespace LMS_SoulCode.RepositoryMapping
@@ -41,6 +43,13 @@ namespace LMS_SoulCode.RepositoryMapping
             services.AddScoped<CryptographyService>();
             services.AddScoped<CourseReportService>();
             services.AddScoped<PermissionHelper>();
+            services.AddScoped<ICertificateRepository, CertificateRepository>();
+            services.AddScoped<ICertificateService, CertificateService>();
+            services.AddScoped<CourseDocumentService>();
+            services.AddScoped<ICourseDocumentRepository, CourseDocumentRepository>();
+            
+
+
 
         }
     }

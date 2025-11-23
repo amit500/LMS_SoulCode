@@ -1,5 +1,5 @@
-﻿using LMS_SoulCode.Features.CourseVideos.Entities;
-using CourseEntity= LMS_SoulCode.Features.Course.Entities.Course;
+﻿using LMS_SoulCode.Features.CourseVideos.Models;
+using CourseEntity= LMS_SoulCode.Features.Course.Models.Course;
 
 namespace LMS_SoulCode.Features.Course.Repositories
 {
@@ -13,6 +13,8 @@ namespace LMS_SoulCode.Features.Course.Repositories
 
         //Course Video Connection
         Task AddVideoAsync(CourseVideo video);
+        Task AddDocsAsync(CourseDocument docs);
         Task<IEnumerable<CourseVideo>> GetVideosByCourseIdAsync(int courseId);
+        Task<IEnumerable<CourseDocument>> GetDocsByCourseIdAsync(int courseId);
     }
 }

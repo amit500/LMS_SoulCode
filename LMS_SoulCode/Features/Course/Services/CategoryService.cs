@@ -1,5 +1,5 @@
-﻿using LMS_SoulCode.Features.Course.Entities;
-using CategoryEntity= LMS_SoulCode.Features.Course.Entities.Category;
+﻿using LMS_SoulCode.Features.Course.Models;
+using CategoryEntity= LMS_SoulCode.Features.Course.Models.Category;
 using LMS_SoulCode.Features.Course.Repositories;
 
 namespace LMS_SoulCode.Features.Course.Services
