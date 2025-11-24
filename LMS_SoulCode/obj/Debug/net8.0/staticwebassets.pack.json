@@ -1,6 +1,18 @@
 {
   "Files": [
     {
+      "Id": "D:\\AbhishekDotNet\\LMS_SoulCode\\LMS_SoulCode\\wwwroot\\certificates\\certificate_58E52FF3.pdf",
+      "PackagePath": "staticwebassets\\certificates\\certificate_58E52FF3.pdf"
+    },
+    {
+      "Id": "D:\\AbhishekDotNet\\LMS_SoulCode\\LMS_SoulCode\\wwwroot\\certificates\\certificate_704F2697.pdf.enc",
+      "PackagePath": "staticwebassets\\certificates\\certificate_704F2697.pdf.enc"
+    },
+    {
+      "Id": "D:\\AbhishekDotNet\\LMS_SoulCode\\LMS_SoulCode\\wwwroot\\certificates\\certificate_FE6B8830.pdf.enc",
+      "PackagePath": "staticwebassets\\certificates\\certificate_FE6B8830.pdf.enc"
+    },
+    {
       "Id": "D:\\AbhishekDotNet\\LMS_SoulCode\\LMS_SoulCode\\wwwroot\\uploads\\AbhiLakeAlpi.jpg.enc",
       "PackagePath": "staticwebassets\\uploads\\AbhiLakeAlpi.jpg.enc"
     },

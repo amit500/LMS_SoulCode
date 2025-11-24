@@ -18,6 +18,8 @@ namespace LMS_SoulCode.Features.Course.Services
         Task<IEnumerable<CourseVideo>> GetCourseVideosAsync(int courseId);
         Task<IEnumerable<CourseDocument>> GetCourseDocumentAsync(int courseId);
         Task<CourseEntity?> GetByIdAsync(int id);
+        Task<List<CourseEntity>> GetCourseByCateIdAsync(int id);
+
 
     }
     public class CourseService : ICourseService
@@ -194,5 +196,8 @@ namespace LMS_SoulCode.Features.Course.Services
         public async Task<CourseEntity?> GetByIdAsync(int id)
            => await _repository.GetByIdAsync(id);
 
+        public async Task<List<CourseEntity>> GetCourseByCateIdAsync(int categoryId)
+           => await _repository.GetCoursesByCateIdAsync(categoryId);
+        
     }
 }

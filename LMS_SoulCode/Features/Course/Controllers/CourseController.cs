@@ -44,6 +44,15 @@ namespace LMS_SoulCode.Features.Course.Controllers
 
             return Ok(courses);
         }
+        [HttpGet("categoryId")]
+        public async Task<IActionResult> GetCourseByCategoryId(int categoryId)
+        {
+            var courses = await _courseService.GetCourseByCateIdAsync(categoryId);
+            if (courses == null)
+                return NotFound(new { message = "course is not found" });
+
+            return Ok(courses);
+        }
 
         //Course Video
 

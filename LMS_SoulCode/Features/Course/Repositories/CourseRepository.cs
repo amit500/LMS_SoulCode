@@ -19,7 +19,12 @@ namespace LMS_SoulCode.Features.Course.Repositories
         public async Task<IEnumerable<CourseEntity>> GetAllAsync() => await _context.Courses.ToListAsync();
 
         public async Task<CourseEntity?> GetByIdAsync(int id) => await _context.Courses.FindAsync(id);
-
+        public async Task<List<CourseEntity>> GetCoursesByCateIdAsync(int categoryId)
+        {
+            return await _context.Courses
+                .Where(c => c.CategoryId == categoryId && c.IsActive==true)
+                .ToListAsync();
+        }
         public async Task AddAsync(CourseEntity course)
         {
             await _context.Courses.AddAsync(course);

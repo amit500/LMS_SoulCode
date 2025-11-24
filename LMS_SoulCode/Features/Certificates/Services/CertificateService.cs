@@ -6,6 +6,8 @@ using System.Reflection.Metadata;
 using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
+using BCrypt.Net;
+using LMS_SoulCode.Features.Security.Services;
 
 namespace LMS_SoulCode.Features.Certificates.Services
 {
@@ -22,12 +24,14 @@ namespace LMS_SoulCode.Features.Certificates.Services
         private readonly ICertificateRepository _repo;
         private readonly IWebHostEnvironment _env; // for saving local files
         private readonly IHttpContextAccessor _http; // to build absolute url if needed
+        private readonly CryptographyService _crypto;
 
-        public CertificateService(ICertificateRepository repo, IWebHostEnvironment env, IHttpContextAccessor http)
+        public CertificateService(ICertificateRepository repo, IWebHostEnvironment env, IHttpContextAccessor http, CryptographyService crypto)
         {
             _repo = repo;
             _env = env;
             _http = http;
+            _crypto = crypto;
         }
 
         public async Task<CertificateDto> GenerateCertificateAsync(CreateCertificateRequest request)
@@ -48,13 +52,14 @@ namespace LMS_SoulCode.Features.Certificates.Services
 
             // 3) generate pdf bytes
             var pdfBytes = GeneratePdfBytes(cert);
+            string encryptedBase64 = _crypto.EncryptBytes(pdfBytes);
 
             // 4) save file (local example)
             var uploads = Path.Combine(_env.WebRootPath ?? "wwwroot", "certificates");
             if (!Directory.Exists(uploads)) Directory.CreateDirectory(uploads);
-            var fileName = $"certificate_{cert.CertificateCode}.pdf";
+            var fileName = $"certificate_{cert.CertificateCode}.pdf.enc";
             var fullPath = Path.Combine(uploads, fileName);
-            //await File.WriteAllBytesAsync(fullPath, pdfBytes);
+            await File.WriteAllBytesAsync(fullPath, pdfBytes);
 
             cert.FilePath = $"/certificates/{fileName}"; // relative url; use blob url if stored in cloud
 
@@ -94,14 +99,21 @@ namespace LMS_SoulCode.Features.Certificates.Services
         {
             var cert = await _repo.GetByIdAsync(id);
             if (cert == null) return null;
+
             var path = Path.Combine(_env.WebRootPath ?? "wwwroot", cert.FilePath.TrimStart('/'));
-            if (!File.Exists(path)) return null;
-            var bytes = await File.ReadAllBytesAsync(path);
-            return new FileContentResult(bytes, "application/pdf")
+            if (!System.IO.File.Exists(path)) return null;
+
+            byte[] encryptedBytes = await System.IO.File.ReadAllBytesAsync(path);
+            string encryptedBase64 = Convert.ToBase64String(encryptedBytes);
+
+            byte[] plainBytes = _crypto.DecryptBytes(encryptedBase64);
+
+            return new FileContentResult(plainBytes, "application/pdf")
             {
-                FileDownloadName = Path.GetFileName(path)
+                FileDownloadName = Path.GetFileName(path).Replace(".enc", "")
             };
         }
+
 
         // helpers
         private string GenerateShortCode()
@@ -143,61 +155,42 @@ namespace LMS_SoulCode.Features.Certificates.Services
 
         private byte[] GeneratePdfBytes(Certificate cert)
         {
-            // Simple QuestPDF document
-            var doc = QuestPDF.Fluent.Document.Create(container =>
+            var document = QuestPDF.Fluent.Document.Create(container =>
             {
                 container.Page(page =>
                 {
-                    page.Margin(40);
                     page.Size(PageSizes.A4);
+                    page.Margin(50);
                     page.PageColor(Colors.White);
                     page.DefaultTextStyle(x => x.FontSize(14));
 
                     page.Header()
-                        .Height(80)
-                        .AlignCenter()
-                        .Row(row =>
-                        {
-                            row.RelativeItem().AlignCenter().Text("Institute Name").FontSize(20).SemiBold();
-                        });
+                        .Text("Certificate of Completion")
+                        .FontSize(24)
+                        .Bold()
+                        .AlignCenter();
 
-                    page.Content()
-                        .PaddingVertical(10)
-                        .Column(col =>
-                        {
-                            col.Item().AlignCenter().Text("Certificate of Completion").FontSize(24).SemiBold();
-                            col.Item().Height(20);
-                            col.Item().AlignCenter().Text($"This is to certify that").FontSize(14);
-                            col.Item().Height(10);
-                            col.Item().AlignCenter().Text($"[Student Name]") // replace with real user name if available
-                                .FontSize(18).Bold();
-                            col.Item().Height(10);
-                            col.Item().AlignCenter().Text($"has successfully completed the course").FontSize(14);
-                            col.Item().Height(8);
-                            col.Item().AlignCenter().Text($"[Course Title]").FontSize(16).SemiBold();
-                            col.Item().Height(20);
-                            col.Item().AlignCenter().Text($"Score: {cert.Score ?? 0}").FontSize(12);
-                            col.Item().Height(20);
-                            col.Item().AlignCenter().Text($"Issued on: {cert.IssuedAt:yyyy-MM-dd}").FontSize(12);
-                            col.Item().Height(30);
-
-                            col.Item().Row(r =>
-                            {
-                                //r.RelativeColumn().AlignLeft().Text("Instructor Signature").FontSize(12);
-                                //r.RelativeColumn().AlignRight().Text($"Certificate ID: {cert.CertificateCode}").FontSize(10);
-                            });
-                        });
+                    page.Content().Column(col =>
+                    {
+                        col.Item().Text($"This is to certify that").AlignCenter();
+                        col.Item().Text("[Student Name]").FontSize(20).Bold().AlignCenter();
+                        col.Item().Text("has successfully completed the course").AlignCenter();
+                        col.Item().Text("[Course Title]").FontSize(18).SemiBold().AlignCenter();
+                        col.Item().Text($"Score: {cert.Score ?? 0}").AlignCenter();
+                        col.Item().Text($"Issued On: {cert.IssuedAt:yyyy-MM-dd}").AlignCenter();
+                        col.Item().Text($"Certificate Code: {cert.CertificateCode}").AlignCenter();
+                    });
 
                     page.Footer()
-                        .Height(40)
                         .AlignCenter()
-                        .Text($"Verify: {cert.VerificationUrl}").FontSize(9);
+                        .Text("Verification URL: http://localhost:5209/verify/" + cert.CertificateCode)
+                        .FontSize(10);
                 });
             });
 
-            var bytes = doc.GeneratePdf();
-            return bytes;
+            return document.GeneratePdf();
         }
+
     }
 
 }

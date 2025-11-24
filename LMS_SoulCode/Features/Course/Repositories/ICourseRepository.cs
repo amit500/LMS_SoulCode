@@ -7,6 +7,7 @@ namespace LMS_SoulCode.Features.Course.Repositories
     {
         Task<IEnumerable<CourseEntity>> GetAllAsync();
         Task<CourseEntity?> GetByIdAsync(int id);
+        Task<List<CourseEntity>> GetCoursesByCateIdAsync(int categoryId);
         Task AddAsync(CourseEntity course);
         Task UpdateAsync(CourseEntity course);
         Task DeleteAsync(CourseEntity course);

@@ -234,6 +234,22 @@
   },
   {
     "ContainingType": "LMS_SoulCode.Features.Course.Controllers.CourseController",
+    "Method": "GetCourseByCategoryId",
+    "RelativePath": "api/Course/{categoryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LMS_SoulCode.Features.Course.Controllers.CourseController",
     "Method": "GetDocs",
     "RelativePath": "api/Course/{courseId}/documents",
     "HttpMethod": "GET",

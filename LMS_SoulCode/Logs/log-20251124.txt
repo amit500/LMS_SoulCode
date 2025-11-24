@@ -1,0 +1,859 @@
+2025-11-24 20:37:10.727 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-24 20:37:12.194 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-24 20:37:12.739 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-24 20:37:12.742 +05:30 [INF] Hosting environment: Development
+2025-11-24 20:37:12.743 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-24 20:37:22.098 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-24 20:37:33.317 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 11437.5653ms
+2025-11-24 20:37:33.336 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-24 20:37:33.372 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 20:37:33.431 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-24 20:37:33.437 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-24 20:37:33.515 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 143.298ms
+2025-11-24 20:37:36.069 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 2638.0331ms
+2025-11-24 20:37:36.069 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 2740.32ms
+2025-11-24 20:37:36.614 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-24 20:37:36.615 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-24 20:37:36.620 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-24 20:37:36.730 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 109.7205ms
+2025-11-24 20:37:36.794 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-24 20:37:37.620 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 826.0147ms
+2025-11-24 20:42:55.277 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - application/json 50
+2025-11-24 20:42:55.952 +05:30 [INF] CORS policy execution failed.
+2025-11-24 20:42:55.953 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-24 20:42:56.153 +05:30 [INF] Executing endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-24 20:42:56.762 +05:30 [INF] Route matched with {action = "Generate", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Generate(LMS_SoulCode.Features.Certificates.DTOs.CreateCertificateRequest) on controller CertificatesController (LMS_SoulCode).
+2025-11-24 20:44:45.524 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-24 20:44:46.191 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-24 20:44:46.262 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-24 20:44:46.265 +05:30 [INF] Hosting environment: Development
+2025-11-24 20:44:46.267 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-24 20:44:47.462 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-24 20:44:48.713 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 1366.997ms
+2025-11-24 20:44:48.809 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-24 20:44:48.809 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-24 20:44:48.809 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 20:44:48.838 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-24 20:44:48.843 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 35.5558ms
+2025-11-24 20:44:56.429 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 7619.9943ms
+2025-11-24 20:44:56.429 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 7621.8457ms
+2025-11-24 20:44:56.438 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-24 20:44:56.440 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-24 20:44:56.446 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-24 20:44:56.504 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 58.3893ms
+2025-11-24 20:44:56.609 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-24 20:44:56.810 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 201.2281ms
+2025-11-24 20:46:04.817 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - application/json 50
+2025-11-24 20:46:04.858 +05:30 [INF] CORS policy execution failed.
+2025-11-24 20:46:04.861 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-24 20:46:04.947 +05:30 [INF] Executing endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-24 20:46:05.008 +05:30 [INF] Route matched with {action = "Generate", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Generate(LMS_SoulCode.Features.Certificates.DTOs.CreateCertificateRequest) on controller CertificatesController (LMS_SoulCode).
+2025-11-24 20:54:22.909 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-24 20:54:23.433 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-24 20:54:23.547 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-24 20:54:23.551 +05:30 [INF] Hosting environment: Development
+2025-11-24 20:54:23.554 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-24 20:54:24.077 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-24 20:54:24.668 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 615.3461ms
+2025-11-24 20:54:25.452 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 20:54:25.460 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 8.4224ms
+2025-11-24 20:54:25.590 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-24 20:54:25.592 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-24 20:54:25.605 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-24 20:54:28.354 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 2763.3908ms
+2025-11-24 20:54:28.354 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 2761.7497ms
+2025-11-24 20:54:28.362 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-24 20:54:28.363 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-24 20:54:28.367 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-24 20:54:28.576 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 209.2639ms
+2025-11-24 20:54:28.661 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-24 20:54:28.894 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 233.0564ms
+2025-11-24 20:54:52.878 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-24 20:54:52.909 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 31.8504ms
+2025-11-24 20:54:52.957 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-24 20:54:52.959 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-24 20:54:52.959 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 20:54:52.968 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 10.8606ms
+2025-11-24 20:54:52.968 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 9.9433ms
+2025-11-24 20:54:52.972 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 12.3559ms
+2025-11-24 20:54:53.027 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-24 20:54:53.031 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-24 20:54:53.035 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-24 20:54:53.058 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.9256ms
+2025-11-24 20:54:53.106 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-24 20:54:53.130 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.2198ms
+2025-11-24 20:55:22.613 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - application/json 53
+2025-11-24 20:55:22.648 +05:30 [INF] CORS policy execution failed.
+2025-11-24 20:55:22.653 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-24 20:55:22.658 +05:30 [INF] Executing endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-24 20:55:22.703 +05:30 [INF] Route matched with {action = "Generate", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Generate(LMS_SoulCode.Features.Certificates.DTOs.CreateCertificateRequest) on controller CertificatesController (LMS_SoulCode).
+2025-11-24 20:55:37.752 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-24 20:55:37.826 +05:30 [WRN] No store type was specified for the decimal property 'Score' on entity type 'Certificate'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-24 20:55:37.828 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-24 20:55:44.375 +05:30 [INF] Executed DbCommand (2,879ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime2), @p5='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Certificates] ([CertificateCode], [CourseId], [FilePath], [IsRevoked], [IssuedAt], [Score], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2025-11-24 20:55:44.447 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Certificates.DTOs.CertificateDto'.
+2025-11-24 20:55:44.515 +05:30 [INF] Executed action CertificatesController.Generate (LMS_SoulCode) in 21422.5898ms
+2025-11-24 20:55:44.519 +05:30 [INF] Executed endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-24 20:55:44.528 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - 200 null application/json; charset=utf-8 21915.6642ms
+2025-11-24 20:57:02.388 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - application/json 53
+2025-11-24 20:57:02.400 +05:30 [INF] CORS policy execution failed.
+2025-11-24 20:57:02.401 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-24 20:57:02.403 +05:30 [INF] Executing endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-24 20:57:02.404 +05:30 [INF] Route matched with {action = "Generate", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Generate(LMS_SoulCode.Features.Certificates.DTOs.CreateCertificateRequest) on controller CertificatesController (LMS_SoulCode).
+2025-11-24 20:59:24.229 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-24 20:59:24.253 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 23.6605ms
+2025-11-24 20:59:24.260 +05:30 [INF] Executed DbCommand (402ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime2), @p5='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Certificates] ([CertificateCode], [CourseId], [FilePath], [IsRevoked], [IssuedAt], [Score], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2025-11-24 20:59:24.266 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Certificates.DTOs.CertificateDto'.
+2025-11-24 20:59:24.270 +05:30 [INF] Executed action CertificatesController.Generate (LMS_SoulCode) in 141862.9976ms
+2025-11-24 20:59:24.272 +05:30 [INF] Executed endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-24 20:59:24.274 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - 200 null application/json; charset=utf-8 141886.2984ms
+2025-11-24 20:59:24.504 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-24 20:59:24.507 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-24 20:59:24.537 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 34.0678ms
+2025-11-24 20:59:24.558 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 51.5037ms
+2025-11-24 20:59:24.631 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-24 20:59:24.623 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-24 20:59:24.641 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-24 20:59:24.639 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 20:59:24.707 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 68.6471ms
+2025-11-24 20:59:24.803 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 162.0911ms
+2025-11-24 20:59:24.974 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-24 20:59:25.006 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 32.6456ms
+2025-11-24 21:00:51.739 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - application/json 53
+2025-11-24 21:00:51.754 +05:30 [INF] CORS policy execution failed.
+2025-11-24 21:00:51.758 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-24 21:00:51.766 +05:30 [INF] Executing endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-24 21:00:51.773 +05:30 [INF] Route matched with {action = "Generate", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Generate(LMS_SoulCode.Features.Certificates.DTOs.CreateCertificateRequest) on controller CertificatesController (LMS_SoulCode).
+2025-11-24 21:00:57.835 +05:30 [INF] Executed DbCommand (185ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime2), @p5='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Certificates] ([CertificateCode], [CourseId], [FilePath], [IsRevoked], [IssuedAt], [Score], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2025-11-24 21:00:57.851 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Certificates.DTOs.CertificateDto'.
+2025-11-24 21:00:57.858 +05:30 [INF] Executed action CertificatesController.Generate (LMS_SoulCode) in 6081.84ms
+2025-11-24 21:00:57.862 +05:30 [INF] Executed endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-24 21:00:57.865 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - 200 null application/json; charset=utf-8 6126.2582ms
+2025-11-24 21:14:01.357 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-24 21:14:01.677 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 321.4946ms
+2025-11-24 21:14:02.201 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-24 21:14:02.201 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-24 21:14:02.214 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 12.902ms
+2025-11-24 21:14:02.239 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-24 21:14:02.221 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 19.9322ms
+2025-11-24 21:14:02.273 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-24 21:14:02.282 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-24 21:14:02.315 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 21:14:02.345 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 31.1841ms
+2025-11-24 21:14:02.411 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 128.8947ms
+2025-11-24 21:14:02.499 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-24 21:14:02.664 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 165.1152ms
+2025-11-24 21:14:28.617 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - application/json 53
+2025-11-24 21:14:28.627 +05:30 [INF] CORS policy execution failed.
+2025-11-24 21:14:28.628 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-24 21:14:28.631 +05:30 [INF] Executing endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-24 21:14:28.715 +05:30 [INF] Route matched with {action = "Generate", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Generate(LMS_SoulCode.Features.Certificates.DTOs.CreateCertificateRequest) on controller CertificatesController (LMS_SoulCode).
+2025-11-24 21:14:28.889 +05:30 [INF] Executed action CertificatesController.Generate (LMS_SoulCode) in 168.6198ms
+2025-11-24 21:14:28.920 +05:30 [INF] Executed endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-24 21:14:28.929 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.TypeLoadException: Could not load type '<>f__AnonymousType13`4' from assembly 'LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at LMS_SoulCode.Features.Certificates.Services.CertificateService..ctor
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method130(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-24 21:14:29.195 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - 500 null text/plain; charset=utf-8 578.3884ms
+2025-11-24 21:15:01.773 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - application/json 53
+2025-11-24 21:15:01.781 +05:30 [INF] CORS policy execution failed.
+2025-11-24 21:15:01.782 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-24 21:15:01.784 +05:30 [INF] Executing endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-24 21:15:01.786 +05:30 [INF] Route matched with {action = "Generate", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Generate(LMS_SoulCode.Features.Certificates.DTOs.CreateCertificateRequest) on controller CertificatesController (LMS_SoulCode).
+2025-11-24 21:15:01.793 +05:30 [INF] Executed action CertificatesController.Generate (LMS_SoulCode) in 3.2758ms
+2025-11-24 21:15:01.796 +05:30 [INF] Executed endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-24 21:15:01.799 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.TypeLoadException: Could not load type '<>f__AnonymousType13`4' from assembly 'LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at LMS_SoulCode.Features.Certificates.Services.CertificateService..ctor
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method130(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-24 21:15:01.818 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - 500 null text/plain; charset=utf-8 45.174ms
+2025-11-24 21:18:32.212 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-24 21:18:32.314 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 101.371ms
+2025-11-24 21:18:32.353 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-24 21:18:32.353 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-24 21:18:32.374 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 20.8914ms
+2025-11-24 21:18:32.379 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 25.2895ms
+2025-11-24 21:18:32.385 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-24 21:18:32.393 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-24 21:18:32.404 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 21:18:32.410 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-24 21:18:32.414 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 10.4173ms
+2025-11-24 21:18:32.425 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.5826ms
+2025-11-24 21:18:32.557 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-24 21:18:32.722 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 164.6963ms
+2025-11-24 21:19:14.756 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - application/json 53
+2025-11-24 21:19:14.785 +05:30 [INF] CORS policy execution failed.
+2025-11-24 21:19:14.803 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-24 21:19:14.805 +05:30 [INF] Executing endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-24 21:19:14.813 +05:30 [INF] Route matched with {action = "Generate", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Generate(LMS_SoulCode.Features.Certificates.DTOs.CreateCertificateRequest) on controller CertificatesController (LMS_SoulCode).
+2025-11-24 21:19:14.818 +05:30 [INF] Executed action CertificatesController.Generate (LMS_SoulCode) in 1.3634ms
+2025-11-24 21:19:14.821 +05:30 [INF] Executed endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-24 21:19:14.824 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.TypeLoadException: Could not load type '<>f__AnonymousType13`4' from assembly 'LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at LMS_SoulCode.Features.Certificates.Services.CertificateService..ctor
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method138(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-24 21:19:14.833 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - 500 null text/plain; charset=utf-8 77.6086ms
+2025-11-24 21:22:34.355 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-24 21:22:34.966 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-24 21:22:35.141 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-24 21:22:35.143 +05:30 [INF] Hosting environment: Development
+2025-11-24 21:22:35.145 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-24 21:22:35.652 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-24 21:22:37.023 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 1383.6467ms
+2025-11-24 21:22:37.039 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-24 21:22:37.039 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-24 21:22:37.049 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 21:22:37.058 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-24 21:22:37.062 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 12.1369ms
+2025-11-24 21:22:40.234 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 3208.7899ms
+2025-11-24 21:22:40.234 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 3204.4846ms
+2025-11-24 21:22:40.249 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-24 21:22:40.252 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-24 21:22:40.260 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-24 21:22:40.471 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 211.2084ms
+2025-11-24 21:22:40.550 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-24 21:22:40.733 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 182.5901ms
+2025-11-24 21:24:29.090 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - application/json 53
+2025-11-24 21:24:29.122 +05:30 [INF] CORS policy execution failed.
+2025-11-24 21:24:29.124 +05:30 [INF] Request origin http://localhost:5209 does not have permission to access the resource.
+2025-11-24 21:24:29.131 +05:30 [INF] Executing endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-24 21:24:29.190 +05:30 [INF] Route matched with {action = "Generate", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Generate(LMS_SoulCode.Features.Certificates.DTOs.CreateCertificateRequest) on controller CertificatesController (LMS_SoulCode).
+2025-11-24 21:24:39.422 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-24 21:24:39.471 +05:30 [WRN] No store type was specified for the decimal property 'Score' on entity type 'Certificate'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-24 21:24:39.476 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-24 21:24:48.791 +05:30 [INF] Executed DbCommand (4,170ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime2), @p5='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Certificates] ([CertificateCode], [CourseId], [FilePath], [IsRevoked], [IssuedAt], [Score], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2025-11-24 21:24:48.843 +05:30 [INF] Executing OkObjectResult, writing value of type 'LMS_SoulCode.Features.Certificates.DTOs.CertificateDto'.
+2025-11-24 21:24:48.857 +05:30 [INF] Executed action CertificatesController.Generate (LMS_SoulCode) in 19659.7523ms
+2025-11-24 21:24:48.861 +05:30 [INF] Executed endpoint 'CertificatesController.Generate (LMS_SoulCode)'
+2025-11-24 21:24:48.872 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5209/api/Certificates/generate - 200 null application/json; charset=utf-8 19782.1146ms
+2025-11-24 21:59:49.587 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-24 21:59:50.511 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 930.5516ms
+2025-11-24 21:59:50.777 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 21:59:50.830 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - null null
+2025-11-24 21:59:50.846 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - null null
+2025-11-24 21:59:50.871 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 92.5417ms
+2025-11-24 21:59:51.098 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - 404 0 null 267.9204ms
+2025-11-24 21:59:51.223 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - 404 0 null 376.9189ms
+2025-11-24 21:59:51.266 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css, Response status code: 404
+2025-11-24 21:59:51.358 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js, Response status code: 404
+2025-11-24 21:59:51.397 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - null null
+2025-11-24 21:59:51.689 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - 200 null text/javascript; charset=UTF-8 292.546ms
+2025-11-24 21:59:51.862 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-24 21:59:52.115 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 252.5308ms
+2025-11-24 22:00:03.785 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-24 22:00:03.805 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 20.3995ms
+2025-11-24 22:01:45.840 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-24 22:01:46.119 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 278.2676ms
+2025-11-24 22:01:46.206 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-24 22:01:46.236 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - null null
+2025-11-24 22:01:46.240 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - null null
+2025-11-24 22:01:46.254 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - 404 0 null 18.8076ms
+2025-11-24 22:01:46.260 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - 404 0 null 22.4527ms
+2025-11-24 22:01:46.340 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js, Response status code: 404
+2025-11-24 22:01:46.480 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css, Response status code: 404
+2025-11-24 22:01:46.352 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 139.1658ms
+2025-11-24 22:01:46.495 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - null null
+2025-11-24 22:01:46.495 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - null null
+2025-11-24 22:01:46.695 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - 404 0 null 199.6717ms
+2025-11-24 22:01:46.556 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - null null
+2025-11-24 22:01:46.615 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 22:01:46.755 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js, Response status code: 404
+2025-11-24 22:01:46.686 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-24 22:01:46.932 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 316.9337ms
+2025-11-24 22:01:46.744 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - 404 0 null 249.0237ms
+2025-11-24 22:01:46.915 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - 200 null text/javascript; charset=UTF-8 358.6552ms
+2025-11-24 22:01:46.974 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 287.6737ms
+2025-11-24 22:01:47.006 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css, Response status code: 404
+2025-11-24 22:01:47.021 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 22:01:47.043 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - null null
+2025-11-24 22:01:47.058 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 36.8686ms
+2025-11-24 22:01:47.154 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - 200 null text/javascript; charset=UTF-8 111.142ms
+2025-11-24 22:01:47.341 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - null null
+2025-11-24 22:01:47.346 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - null null
+2025-11-24 22:01:47.351 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 22:01:47.551 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - 404 0 null 209.2025ms
+2025-11-24 22:01:47.577 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - 404 0 null 231.3806ms
+2025-11-24 22:01:47.612 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 260.9385ms
+2025-11-24 22:01:47.654 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css, Response status code: 404
+2025-11-24 22:01:47.696 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js, Response status code: 404
+2025-11-24 22:01:47.759 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - null null
+2025-11-24 22:01:47.763 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-24 22:01:47.862 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - 200 null text/javascript; charset=UTF-8 103.7985ms
+2025-11-24 22:01:48.000 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 237.2994ms
+2025-11-24 22:01:48.096 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-24 22:01:48.270 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 174.7078ms
+2025-11-24 22:01:49.149 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-24 22:01:49.188 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.5291ms
+2025-11-24 22:01:55.051 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-24 22:01:55.080 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 29.1408ms
+2025-11-24 22:02:07.204 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-24 22:02:07.215 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 10.6641ms
+2025-11-24 22:35:28.925 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-24 22:35:29.752 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 831.4199ms
+2025-11-24 22:35:29.901 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - null null
+2025-11-24 22:35:30.013 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 22:35:30.062 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - 404 0 null 161.3983ms
+2025-11-24 22:35:30.128 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 115.5104ms
+2025-11-24 22:35:30.100 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - null null
+2025-11-24 22:35:30.259 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css, Response status code: 404
+2025-11-24 22:35:30.265 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - null null
+2025-11-24 22:35:30.363 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - 404 0 null 263.098ms
+2025-11-24 22:35:30.480 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js, Response status code: 404
+2025-11-24 22:35:30.684 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - 200 null text/javascript; charset=UTF-8 418.8822ms
+2025-11-24 22:35:32.626 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-24 22:35:32.823 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 196.5896ms
+2025-11-24 22:36:33.538 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Certificates/Certificate/1 - null null
+2025-11-24 22:36:33.966 +05:30 [INF] Executing endpoint 'CertificatesController.GetByUserId (LMS_SoulCode)'
+2025-11-24 22:36:34.661 +05:30 [INF] Route matched with {action = "GetByUserId", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetByUserId(Int32) on controller CertificatesController (LMS_SoulCode).
+2025-11-24 22:36:40.904 +05:30 [INF] Executed DbCommand (2,821ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CertificateCode], [c].[CourseId], [c].[FilePath], [c].[IsRevoked], [c].[IssuedAt], [c].[Score], [c].[UserId]
+FROM [Certificates] AS [c]
+WHERE [c].[UserId] = @__userId_0
+ORDER BY [c].[IssuedAt] DESC
+2025-11-24 22:36:41.035 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.Certificates.DTOs.CertificateDto, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-24 22:36:41.075 +05:30 [INF] Executed action CertificatesController.GetByUserId (LMS_SoulCode) in 6402.7634ms
+2025-11-24 22:36:41.088 +05:30 [INF] Executed endpoint 'CertificatesController.GetByUserId (LMS_SoulCode)'
+2025-11-24 22:36:41.105 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Certificates/Certificate/1 - 200 null application/json; charset=utf-8 7566.683ms
+2025-11-24 22:36:59.318 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Certificates/Certificate/1004 - null null
+2025-11-24 22:36:59.337 +05:30 [INF] Executing endpoint 'CertificatesController.GetByUserId (LMS_SoulCode)'
+2025-11-24 22:36:59.344 +05:30 [INF] Route matched with {action = "GetByUserId", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetByUserId(Int32) on controller CertificatesController (LMS_SoulCode).
+2025-11-24 22:36:59.628 +05:30 [INF] Executed DbCommand (122ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CertificateCode], [c].[CourseId], [c].[FilePath], [c].[IsRevoked], [c].[IssuedAt], [c].[Score], [c].[UserId]
+FROM [Certificates] AS [c]
+WHERE [c].[UserId] = @__userId_0
+ORDER BY [c].[IssuedAt] DESC
+2025-11-24 22:36:59.734 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.Certificates.DTOs.CertificateDto, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-24 22:36:59.749 +05:30 [INF] Executed action CertificatesController.GetByUserId (LMS_SoulCode) in 393.1263ms
+2025-11-24 22:36:59.759 +05:30 [INF] Executed endpoint 'CertificatesController.GetByUserId (LMS_SoulCode)'
+2025-11-24 22:36:59.768 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Certificates/Certificate/1004 - 200 null application/json; charset=utf-8 449.7167ms
+2025-11-24 22:37:43.654 +05:30 [INF] Request starting HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/Certificates/8/revoke - null 0
+2025-11-24 22:37:43.725 +05:30 [INF] CORS policy execution failed.
+2025-11-24 22:37:43.740 +05:30 [INF] Request origin https://keratometric-autotypic-collin.ngrok-free.dev does not have permission to access the resource.
+2025-11-24 22:37:43.754 +05:30 [INF] Executing endpoint 'CertificatesController.Revoke (LMS_SoulCode)'
+2025-11-24 22:37:43.776 +05:30 [INF] Route matched with {action = "Revoke", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Revoke(Int32) on controller CertificatesController (LMS_SoulCode).
+2025-11-24 22:37:43.848 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-11-24 22:37:43.852 +05:30 [INF] Executed action CertificatesController.Revoke (LMS_SoulCode) in 62.3255ms
+2025-11-24 22:37:43.857 +05:30 [INF] Executed endpoint 'CertificatesController.Revoke (LMS_SoulCode)'
+2025-11-24 22:37:43.863 +05:30 [INF] Request finished HTTP/1.1 POST http://keratometric-autotypic-collin.ngrok-free.dev/api/Certificates/8/revoke - 204 null null 208.8127ms
+2025-11-24 22:41:01.864 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Certificates/8/download - null null
+2025-11-24 22:41:01.894 +05:30 [INF] Executing endpoint 'CertificatesController.Download (LMS_SoulCode)'
+2025-11-24 22:41:01.909 +05:30 [INF] Route matched with {action = "Download", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Download(Int32) on controller CertificatesController (LMS_SoulCode).
+2025-11-24 22:41:33.247 +05:30 [INF] Executed DbCommand (359ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CertificateCode], [c].[CourseId], [c].[FilePath], [c].[IsRevoked], [c].[IssuedAt], [c].[Score], [c].[UserId]
+FROM [Certificates] AS [c]
+WHERE [c].[Id] = @__id_0
+2025-11-24 22:41:56.503 +05:30 [INF] Executing FileContentResult, sending file with download name 'certificate_FE6B8830.pdf.enc' ...
+2025-11-24 22:41:56.531 +05:30 [INF] Executed action CertificatesController.Download (LMS_SoulCode) in 54613.8024ms
+2025-11-24 22:41:56.535 +05:30 [INF] Executed endpoint 'CertificatesController.Download (LMS_SoulCode)'
+2025-11-24 22:41:56.538 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Certificates/8/download - 200 35385 application/pdf 54674.4502ms
+2025-11-24 22:48:29.354 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 22:48:29.413 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 59.3504ms
+2025-11-24 22:48:33.421 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-24 22:48:33.658 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 237.6176ms
+2025-11-24 22:48:33.877 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - null null
+2025-11-24 22:48:33.894 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - null null
+2025-11-24 22:48:34.063 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - 404 0 null 186.5172ms
+2025-11-24 22:48:34.088 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 22:48:34.240 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - 404 0 null 345.9372ms
+2025-11-24 22:48:34.390 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css, Response status code: 404
+2025-11-24 22:48:34.425 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 338.3282ms
+2025-11-24 22:48:34.452 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js, Response status code: 404
+2025-11-24 22:48:34.514 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - null null
+2025-11-24 22:48:34.776 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - 200 null text/javascript; charset=UTF-8 261.6339ms
+2025-11-24 22:48:36.664 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-24 22:48:36.782 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 117.9423ms
+2025-11-24 22:48:51.300 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Certificates/8/download - null null
+2025-11-24 22:48:51.322 +05:30 [INF] Executing endpoint 'CertificatesController.Download (LMS_SoulCode)'
+2025-11-24 22:48:51.347 +05:30 [INF] Route matched with {action = "Download", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Download(Int32) on controller CertificatesController (LMS_SoulCode).
+2025-11-24 22:48:57.918 +05:30 [INF] Executed DbCommand (223ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CertificateCode], [c].[CourseId], [c].[FilePath], [c].[IsRevoked], [c].[IssuedAt], [c].[Score], [c].[UserId]
+FROM [Certificates] AS [c]
+WHERE [c].[Id] = @__id_0
+2025-11-24 22:48:58.468 +05:30 [INF] Executed action CertificatesController.Download (LMS_SoulCode) in 7112.467ms
+2025-11-24 22:48:58.481 +05:30 [INF] Executed endpoint 'CertificatesController.Download (LMS_SoulCode)'
+2025-11-24 22:48:58.494 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Security.Cryptography.AuthenticationTagMismatchException: The computed authentication tag did not match the input authentication tag.
+   at System.Security.Cryptography.AeadCommon.Decrypt(SafeKeyHandle keyHandle, ReadOnlySpan`1 nonce, ReadOnlySpan`1 associatedData, ReadOnlySpan`1 ciphertext, ReadOnlySpan`1 tag, Span`1 plaintext, Boolean clearPlaintextOnFailure)
+   at System.Security.Cryptography.AesGcm.Decrypt(Byte[] nonce, Byte[] ciphertext, Byte[] tag, Byte[] plaintext, Byte[] associatedData)
+   at LMS_SoulCode.Features.Security.Services.CryptographyService.DecryptBytes(String encrypted)
+   at LMS_SoulCode.Features.Certificates.Services.CertificateService.GetPdfAsync(Int32 id)
+   at CertificatesController.Download(Int32 id)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-24 22:48:58.667 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Certificates/8/download - 500 null text/plain; charset=utf-8 7366.4141ms
+2025-11-24 22:49:06.731 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Certificates/8/download - null null
+2025-11-24 22:49:06.810 +05:30 [INF] Executing endpoint 'CertificatesController.Download (LMS_SoulCode)'
+2025-11-24 22:49:06.819 +05:30 [INF] Route matched with {action = "Download", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Download(Int32) on controller CertificatesController (LMS_SoulCode).
+2025-11-24 22:49:30.575 +05:30 [INF] Executed DbCommand (288ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CertificateCode], [c].[CourseId], [c].[FilePath], [c].[IsRevoked], [c].[IssuedAt], [c].[Score], [c].[UserId]
+FROM [Certificates] AS [c]
+WHERE [c].[Id] = @__id_0
+2025-11-24 22:49:53.135 +05:30 [INF] Executed action CertificatesController.Download (LMS_SoulCode) in 46308.1973ms
+2025-11-24 22:49:53.143 +05:30 [INF] Executed endpoint 'CertificatesController.Download (LMS_SoulCode)'
+2025-11-24 22:49:53.150 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Security.Cryptography.AuthenticationTagMismatchException: The computed authentication tag did not match the input authentication tag.
+   at System.Security.Cryptography.AeadCommon.Decrypt(SafeKeyHandle keyHandle, ReadOnlySpan`1 nonce, ReadOnlySpan`1 associatedData, ReadOnlySpan`1 ciphertext, ReadOnlySpan`1 tag, Span`1 plaintext, Boolean clearPlaintextOnFailure)
+   at System.Security.Cryptography.AesGcm.Decrypt(Byte[] nonce, Byte[] ciphertext, Byte[] tag, Byte[] plaintext, Byte[] associatedData)
+   at LMS_SoulCode.Features.Security.Services.CryptographyService.DecryptBytes(String encrypted)
+   at LMS_SoulCode.Features.Certificates.Services.CertificateService.GetPdfAsync(Int32 id)
+   at CertificatesController.Download(Int32 id)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-24 22:49:53.181 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Certificates/8/download - 500 null text/plain; charset=utf-8 46450.9506ms
+2025-11-24 22:53:05.951 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-24 22:53:06.072 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 122.7216ms
+2025-11-24 22:53:06.255 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 22:53:06.375 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - null null
+2025-11-24 22:53:06.328 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - null null
+2025-11-24 22:53:06.741 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 486.8294ms
+2025-11-24 22:53:06.767 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - 404 0 null 391.9597ms
+2025-11-24 22:53:06.787 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - 404 0 null 458.3315ms
+2025-11-24 22:53:06.909 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css, Response status code: 404
+2025-11-24 22:53:06.924 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js, Response status code: 404
+2025-11-24 22:53:07.021 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - null null
+2025-11-24 22:53:07.144 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - 200 null text/javascript; charset=UTF-8 122.8542ms
+2025-11-24 22:53:07.559 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-24 22:53:07.607 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 47.8135ms
+2025-11-24 22:53:21.942 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Certificates/8/download - null null
+2025-11-24 22:53:21.957 +05:30 [INF] Executing endpoint 'CertificatesController.Download (LMS_SoulCode)'
+2025-11-24 22:53:21.986 +05:30 [INF] Route matched with {action = "Download", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Download(Int32) on controller CertificatesController (LMS_SoulCode).
+2025-11-24 22:53:32.969 +05:30 [INF] Executed DbCommand (95ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CertificateCode], [c].[CourseId], [c].[FilePath], [c].[IsRevoked], [c].[IssuedAt], [c].[Score], [c].[UserId]
+FROM [Certificates] AS [c]
+WHERE [c].[Id] = @__id_0
+2025-11-24 22:54:12.877 +05:30 [INF] Executed action CertificatesController.Download (LMS_SoulCode) in 50881.4111ms
+2025-11-24 22:54:12.884 +05:30 [INF] Executed endpoint 'CertificatesController.Download (LMS_SoulCode)'
+2025-11-24 22:54:12.890 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Security.Cryptography.AuthenticationTagMismatchException: The computed authentication tag did not match the input authentication tag.
+   at System.Security.Cryptography.AeadCommon.Decrypt(SafeKeyHandle keyHandle, ReadOnlySpan`1 nonce, ReadOnlySpan`1 associatedData, ReadOnlySpan`1 ciphertext, ReadOnlySpan`1 tag, Span`1 plaintext, Boolean clearPlaintextOnFailure)
+   at System.Security.Cryptography.AesGcm.Decrypt(Byte[] nonce, Byte[] ciphertext, Byte[] tag, Byte[] plaintext, Byte[] associatedData)
+   at LMS_SoulCode.Features.Security.Services.CryptographyService.DecryptBytes(String encrypted)
+   at LMS_SoulCode.Features.Certificates.Services.CertificateService.GetPdfAsync(Int32 id)
+   at CertificatesController.Download(Int32 id)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-24 22:54:12.917 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Certificates/8/download - 500 null text/plain; charset=utf-8 50975.446ms
+2025-11-24 22:54:28.981 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Certificates/8/download - null null
+2025-11-24 22:54:29.030 +05:30 [INF] Executing endpoint 'CertificatesController.Download (LMS_SoulCode)'
+2025-11-24 22:54:29.035 +05:30 [INF] Route matched with {action = "Download", controller = "Certificates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Download(Int32) on controller CertificatesController (LMS_SoulCode).
+2025-11-24 22:54:39.586 +05:30 [INF] Executed DbCommand (94ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CertificateCode], [c].[CourseId], [c].[FilePath], [c].[IsRevoked], [c].[IssuedAt], [c].[Score], [c].[UserId]
+FROM [Certificates] AS [c]
+WHERE [c].[Id] = @__id_0
+2025-11-24 22:54:49.790 +05:30 [INF] Executed action CertificatesController.Download (LMS_SoulCode) in 20745.9279ms
+2025-11-24 22:54:49.798 +05:30 [INF] Executed endpoint 'CertificatesController.Download (LMS_SoulCode)'
+2025-11-24 22:54:49.805 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Security.Cryptography.AuthenticationTagMismatchException: The computed authentication tag did not match the input authentication tag.
+   at System.Security.Cryptography.AeadCommon.Decrypt(SafeKeyHandle keyHandle, ReadOnlySpan`1 nonce, ReadOnlySpan`1 associatedData, ReadOnlySpan`1 ciphertext, ReadOnlySpan`1 tag, Span`1 plaintext, Boolean clearPlaintextOnFailure)
+   at System.Security.Cryptography.AesGcm.Decrypt(Byte[] nonce, Byte[] ciphertext, Byte[] tag, Byte[] plaintext, Byte[] associatedData)
+   at LMS_SoulCode.Features.Security.Services.CryptographyService.DecryptBytes(String encrypted)
+   at LMS_SoulCode.Features.Certificates.Services.CertificateService.GetPdfAsync(Int32 id)
+   at CertificatesController.Download(Int32 id)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-24 22:54:49.839 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Certificates/8/download - 500 null text/plain; charset=utf-8 20857.4851ms
+2025-11-24 22:57:32.078 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-24 22:57:32.944 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-24 22:57:33.328 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-24 22:57:33.330 +05:30 [INF] Hosting environment: Development
+2025-11-24 22:57:33.332 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-24 22:57:35.091 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-24 22:57:36.648 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 1580.9498ms
+2025-11-24 22:57:36.756 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-24 22:57:36.758 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 22:57:36.780 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-24 22:57:36.832 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-24 22:57:36.834 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 70.9086ms
+2025-11-24 22:57:41.572 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 4817.8173ms
+2025-11-24 22:57:41.572 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 4809.0827ms
+2025-11-24 22:57:41.599 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-24 22:57:41.605 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-24 22:57:41.623 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-24 22:57:41.936 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 312.7031ms
+2025-11-24 22:57:42.121 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-24 22:57:42.515 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 393.7154ms
+2025-11-24 23:29:23.906 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-24 23:29:24.315 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-24 23:29:24.467 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-24 23:29:24.469 +05:30 [INF] Hosting environment: Development
+2025-11-24 23:29:24.471 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-24 23:29:29.876 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-24 23:29:30.793 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 940.2652ms
+2025-11-24 23:29:30.847 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 23:29:30.849 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-24 23:29:30.847 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-24 23:29:30.906 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 59.8131ms
+2025-11-24 23:29:30.912 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-24 23:29:31.109 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 259.8802ms
+2025-11-24 23:29:31.109 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 263.1991ms
+2025-11-24 23:29:31.150 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-24 23:29:31.158 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-24 23:29:31.165 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-24 23:29:31.485 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 321.9721ms
+2025-11-24 23:29:31.979 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-24 23:29:32.211 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 232.1229ms
+2025-11-24 23:29:44.600 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/Category/list - null null
+2025-11-24 23:29:44.658 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CategoryController.GetAll (LMS_SoulCode)'
+2025-11-24 23:29:44.721 +05:30 [INF] Route matched with {action = "GetAll", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller LMS_SoulCode.Features.Course.Controllers.CategoryController (LMS_SoulCode).
+2025-11-24 23:29:46.746 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-24 23:29:46.791 +05:30 [WRN] No store type was specified for the decimal property 'Score' on entity type 'Certificate'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-24 23:29:46.794 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-24 23:29:49.388 +05:30 [INF] Executed DbCommand (184ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+2025-11-24 23:29:49.514 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.Course.Models.Category, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-24 23:29:49.533 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CategoryController.GetAll (LMS_SoulCode) in 4801.793ms
+2025-11-24 23:29:49.538 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CategoryController.GetAll (LMS_SoulCode)'
+2025-11-24 23:29:49.561 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/Category/list - 200 null application/json; charset=utf-8 4960.836ms
+2025-11-24 23:31:04.424 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/Course/3 - null null
+2025-11-24 23:31:04.459 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+LMS_SoulCode.Features.Course.Controllers.CourseController.GetCourseByCategoryId (LMS_SoulCode)
+LMS_SoulCode.Features.Course.Controllers.CourseController.GetById (LMS_SoulCode)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-24 23:31:04.541 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/Course/3 - 500 null text/plain; charset=utf-8 117.1371ms
+2025-11-24 23:32:42.468 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/api/Course/3 - null null
+2025-11-24 23:32:42.484 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+LMS_SoulCode.Features.Course.Controllers.CourseController.GetCourseByCategoryId (LMS_SoulCode)
+LMS_SoulCode.Features.Course.Controllers.CourseController.GetById (LMS_SoulCode)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-24 23:32:42.490 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/api/Course/3 - 500 null text/plain; charset=utf-8 22.3148ms
+2025-11-24 23:39:15.952 +05:30 [INF] User profile is available. Using 'C:\Users\Abhishek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-24 23:39:17.347 +05:30 [INF] Now listening on: http://localhost:5209
+2025-11-24 23:39:17.680 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-24 23:39:17.686 +05:30 [INF] Hosting environment: Development
+2025-11-24 23:39:17.689 +05:30 [INF] Content root path: D:\AbhishekDotNet\LMS_SoulCode\LMS_SoulCode
+2025-11-24 23:39:28.697 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/index.html - null null
+2025-11-24 23:39:31.212 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/index.html - 200 null text/html;charset=utf-8 2934.715ms
+2025-11-24 23:39:31.678 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - null null
+2025-11-24 23:39:31.686 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 23:39:31.686 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - null null
+2025-11-24 23:39:31.713 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-11-24 23:39:31.716 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 29.1563ms
+2025-11-24 23:39:36.150 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.css - 404 0 null 4473.2874ms
+2025-11-24 23:39:36.150 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger-ui/custom.js - 404 0 null 4464.1159ms
+2025-11-24 23:39:36.172 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.css, Response status code: 404
+2025-11-24 23:39:36.178 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5209/swagger-ui/custom.js, Response status code: 404
+2025-11-24 23:39:36.218 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/_vs/browserLink - null null
+2025-11-24 23:39:36.710 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/_vs/browserLink - 200 null text/javascript; charset=UTF-8 492.404ms
+2025-11-24 23:39:36.840 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - null null
+2025-11-24 23:39:37.486 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5209/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 645.9721ms
+2025-11-24 23:43:37.208 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-24 23:43:37.331 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 125.3998ms
+2025-11-24 23:43:38.058 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - null null
+2025-11-24 23:43:38.091 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - 404 0 null 33.5925ms
+2025-11-24 23:43:38.155 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css, Response status code: 404
+2025-11-24 23:43:38.175 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - null null
+2025-11-24 23:43:38.175 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 23:43:38.202 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - 404 0 null 25.1117ms
+2025-11-24 23:43:38.210 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 34.465ms
+2025-11-24 23:43:38.219 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js, Response status code: 404
+2025-11-24 23:43:38.292 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - null null
+2025-11-24 23:43:38.356 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - 200 null text/javascript; charset=UTF-8 63.8121ms
+2025-11-24 23:43:38.591 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-24 23:43:38.659 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 67.818ms
+2025-11-24 23:43:49.601 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Course/3 - null null
+2025-11-24 23:43:49.674 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+LMS_SoulCode.Features.Course.Controllers.CourseController.GetCourseByCategoryId (LMS_SoulCode)
+LMS_SoulCode.Features.Course.Controllers.CourseController.GetById (LMS_SoulCode)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-24 23:43:49.856 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Course/3 - 500 null text/plain; charset=utf-8 255.149ms
+2025-11-24 23:45:01.391 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-24 23:45:01.615 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 224.8675ms
+2025-11-24 23:45:01.782 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - null null
+2025-11-24 23:45:01.824 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - 404 0 null 42.124ms
+2025-11-24 23:45:01.848 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - null null
+2025-11-24 23:45:01.849 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 23:45:01.962 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css, Response status code: 404
+2025-11-24 23:45:01.982 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - 404 0 null 133.26ms
+2025-11-24 23:45:01.998 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 148.4895ms
+2025-11-24 23:45:02.017 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js, Response status code: 404
+2025-11-24 23:45:02.058 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - null null
+2025-11-24 23:45:02.127 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - 200 null text/javascript; charset=UTF-8 69.0376ms
+2025-11-24 23:45:02.327 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-24 23:45:02.426 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 101.665ms
+2025-11-24 23:45:14.809 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-24 23:45:14.832 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 23.0858ms
+2025-11-24 23:45:14.983 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/swagger-ui.css - null null
+2025-11-24 23:45:15.024 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - null null
+2025-11-24 23:45:15.000 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 23:45:15.067 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - 404 0 null 44.2552ms
+2025-11-24 23:45:15.121 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 121.3115ms
+2025-11-24 23:45:14.999 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/swagger-ui-bundle.js - null null
+2025-11-24 23:45:15.172 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js, Response status code: 404
+2025-11-24 23:45:14.995 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - null null
+2025-11-24 23:45:15.046 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/swagger-ui-standalone-preset.js - null null
+2025-11-24 23:45:15.169 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-11-24 23:45:15.226 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - 404 0 null 231.0136ms
+2025-11-24 23:45:15.258 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-11-24 23:45:15.264 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/swagger-ui.css - 200 144929 text/css 280.6622ms
+2025-11-24 23:45:15.277 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css, Response status code: 404
+2025-11-24 23:45:15.283 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 237.9243ms
+2025-11-24 23:45:15.294 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-11-24 23:45:15.326 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 327.16ms
+2025-11-24 23:45:15.539 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - null null
+2025-11-24 23:45:15.583 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.5525ms
+2025-11-24 23:45:15.768 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-24 23:45:15.813 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 44.7775ms
+2025-11-24 23:45:15.824 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/favicon-32x32.png - null null
+2025-11-24 23:45:15.872 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-11-24 23:45:15.893 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/favicon-32x32.png - 200 628 image/png 69.0746ms
+2025-11-24 23:45:32.814 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Course/3/categoryId?categoryId=3 - null null
+2025-11-24 23:45:32.845 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetCourseByCategoryId (LMS_SoulCode)'
+2025-11-24 23:45:33.060 +05:30 [INF] Route matched with {action = "GetCourseByCategoryId", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourseByCategoryId(Int32) on controller LMS_SoulCode.Features.Course.Controllers.CourseController (LMS_SoulCode).
+2025-11-24 23:45:58.288 +05:30 [WRN] The foreign key property 'UserRole.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-11-24 23:45:58.387 +05:30 [WRN] No store type was specified for the decimal property 'Score' on entity type 'Certificate'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-24 23:45:58.396 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Course'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-11-24 23:46:08.994 +05:30 [INF] Executed DbCommand (4,493ms) [Parameters=[@__categoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[CreatedAt], [c].[Description], [c].[Difficulty], [c].[DurationHours], [c].[EnrolledCount], [c].[Instructor], [c].[IsActive], [c].[Lectures], [c].[Materials], [c].[Price], [c].[Rating], [c].[Tags], [c].[ThumbnailUrl], [c].[Title], [c].[UpdatedAt]
+FROM [Courses] AS [c]
+WHERE [c].[CategoryId] = @__categoryId_0
+2025-11-24 23:46:14.805 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.Course.Models.Course, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-24 23:46:14.860 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CourseController.GetCourseByCategoryId (LMS_SoulCode) in 41781.5643ms
+2025-11-24 23:46:14.865 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetCourseByCategoryId (LMS_SoulCode)'
+2025-11-24 23:46:14.884 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Course/3/categoryId?categoryId=3 - 200 null application/json; charset=utf-8 42069.8572ms
+2025-11-24 23:48:47.760 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-24 23:48:47.808 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 48.2202ms
+2025-11-24 23:48:48.180 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - null null
+2025-11-24 23:48:48.191 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - 404 0 null 10.3657ms
+2025-11-24 23:48:48.200 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 23:48:48.201 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - null null
+2025-11-24 23:48:48.249 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css, Response status code: 404
+2025-11-24 23:48:48.280 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 81.3884ms
+2025-11-24 23:48:48.440 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - 404 0 null 240.0296ms
+2025-11-24 23:48:48.494 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js, Response status code: 404
+2025-11-24 23:48:48.557 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - null null
+2025-11-24 23:48:48.631 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.1144ms
+2025-11-24 23:48:48.952 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-24 23:48:49.190 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 238.3448ms
+2025-11-24 23:50:09.940 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-24 23:50:09.985 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 51.1956ms
+2025-11-24 23:50:10.159 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/swagger-ui.css - null null
+2025-11-24 23:50:10.188 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - null null
+2025-11-24 23:50:10.230 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/swagger-ui-bundle.js - null null
+2025-11-24 23:50:10.257 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - 404 0 null 68.7419ms
+2025-11-24 23:50:10.230 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - null null
+2025-11-24 23:50:10.248 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 23:50:10.417 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css, Response status code: 404
+2025-11-24 23:50:10.425 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - 404 0 null 194.8717ms
+2025-11-24 23:50:10.438 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 189.6737ms
+2025-11-24 23:50:10.470 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js, Response status code: 404
+2025-11-24 23:50:10.261 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/swagger-ui-standalone-preset.js - null null
+2025-11-24 23:50:10.315 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-11-24 23:50:10.502 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-11-24 23:50:10.550 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-11-24 23:50:10.551 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/swagger-ui.css - 200 144929 text/css 391.9093ms
+2025-11-24 23:50:10.555 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 324.3239ms
+2025-11-24 23:50:10.558 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 301.2002ms
+2025-11-24 23:50:10.619 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - null null
+2025-11-24 23:50:10.659 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.5225ms
+2025-11-24 23:50:11.187 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-24 23:50:11.223 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/favicon-32x32.png - null null
+2025-11-24 23:50:11.261 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-11-24 23:50:11.274 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/favicon-32x32.png - 200 628 image/png 54.6889ms
+2025-11-24 23:50:11.280 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 93.422ms
+2025-11-24 23:50:26.376 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Course/3/categoryId?categoryId=3 - null null
+2025-11-24 23:50:26.392 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetCourseByCategoryId (LMS_SoulCode)'
+2025-11-24 23:50:26.420 +05:30 [INF] Route matched with {action = "GetCourseByCategoryId", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourseByCategoryId(Int32) on controller LMS_SoulCode.Features.Course.Controllers.CourseController (LMS_SoulCode).
+2025-11-24 23:50:38.160 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[@__categoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[CreatedAt], [c].[Description], [c].[Difficulty], [c].[DurationHours], [c].[EnrolledCount], [c].[Instructor], [c].[IsActive], [c].[Lectures], [c].[Materials], [c].[Price], [c].[Rating], [c].[Tags], [c].[ThumbnailUrl], [c].[Title], [c].[UpdatedAt]
+FROM [Courses] AS [c]
+WHERE [c].[CategoryId] = @__categoryId_0 AND [c].[IsActive] = CAST(1 AS bit)
+2025-11-24 23:50:38.171 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.Course.Models.Course, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-24 23:50:38.183 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CourseController.GetCourseByCategoryId (LMS_SoulCode) in 11756.8197ms
+2025-11-24 23:50:38.187 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetCourseByCategoryId (LMS_SoulCode)'
+2025-11-24 23:50:38.189 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Course/3/categoryId?categoryId=3 - 200 null application/json; charset=utf-8 11813.1993ms
+2025-11-24 23:51:16.662 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Category/list - null null
+2025-11-24 23:51:16.684 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CategoryController.GetAll (LMS_SoulCode)'
+2025-11-24 23:51:16.705 +05:30 [INF] Route matched with {action = "GetAll", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller LMS_SoulCode.Features.Course.Controllers.CategoryController (LMS_SoulCode).
+2025-11-24 23:51:17.493 +05:30 [INF] Executed DbCommand (501ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+2025-11-24 23:51:17.523 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.Course.Models.Category, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-24 23:51:17.559 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CategoryController.GetAll (LMS_SoulCode) in 841.0423ms
+2025-11-24 23:51:17.570 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CategoryController.GetAll (LMS_SoulCode)'
+2025-11-24 23:51:17.587 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Category/list - 200 null application/json; charset=utf-8 925.3649ms
+2025-11-24 23:51:38.094 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Course/3/categoryId?categoryId=3 - null null
+2025-11-24 23:51:38.138 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetCourseByCategoryId (LMS_SoulCode)'
+2025-11-24 23:51:38.150 +05:30 [INF] Route matched with {action = "GetCourseByCategoryId", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourseByCategoryId(Int32) on controller LMS_SoulCode.Features.Course.Controllers.CourseController (LMS_SoulCode).
+2025-11-24 23:56:59.040 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Course/3/categoryId?categoryId=3 - null null
+2025-11-24 23:56:59.086 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetCourseByCategoryId (LMS_SoulCode)'
+2025-11-24 23:56:59.091 +05:30 [INF] Route matched with {action = "GetCourseByCategoryId", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourseByCategoryId(Int32) on controller LMS_SoulCode.Features.Course.Controllers.CourseController (LMS_SoulCode).
+2025-11-24 23:57:04.149 +05:30 [INF] Executed DbCommand (47ms) [Parameters=[@__categoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[CreatedAt], [c].[Description], [c].[Difficulty], [c].[DurationHours], [c].[EnrolledCount], [c].[Instructor], [c].[IsActive], [c].[Lectures], [c].[Materials], [c].[Price], [c].[Rating], [c].[Tags], [c].[ThumbnailUrl], [c].[Title], [c].[UpdatedAt]
+FROM [Courses] AS [c]
+WHERE [c].[CategoryId] = @__categoryId_0 AND [c].[IsActive] = CAST(1 AS bit)
+2025-11-24 23:57:04.160 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.Course.Models.Course, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-24 23:57:04.162 +05:30 [INF] Executed DbCommand (119ms) [Parameters=[@__categoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[CreatedAt], [c].[Description], [c].[Difficulty], [c].[DurationHours], [c].[EnrolledCount], [c].[Instructor], [c].[IsActive], [c].[Lectures], [c].[Materials], [c].[Price], [c].[Rating], [c].[Tags], [c].[ThumbnailUrl], [c].[Title], [c].[UpdatedAt]
+FROM [Courses] AS [c]
+WHERE [c].[CategoryId] = @__categoryId_0 AND [c].[IsActive] = CAST(1 AS bit)
+2025-11-24 23:57:04.174 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.Course.Models.Course, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-24 23:57:04.179 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CourseController.GetCourseByCategoryId (LMS_SoulCode) in 5082.798ms
+2025-11-24 23:57:04.184 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetCourseByCategoryId (LMS_SoulCode)'
+2025-11-24 23:57:04.188 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Course/3/categoryId?categoryId=3 - 200 null application/json; charset=utf-8 5150.7178ms
+2025-11-24 23:57:04.192 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CourseController.GetCourseByCategoryId (LMS_SoulCode) in 326033.9973ms
+2025-11-24 23:57:04.202 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetCourseByCategoryId (LMS_SoulCode)'
+2025-11-24 23:57:04.205 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Course/3/categoryId?categoryId=3 - 499 null application/json; charset=utf-8 326110.3767ms
+2025-11-24 23:58:40.614 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Course/3/categoryId?categoryId=3 - null null
+2025-11-24 23:58:40.663 +05:30 [INF] Executing endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetCourseByCategoryId (LMS_SoulCode)'
+2025-11-24 23:58:40.671 +05:30 [INF] Route matched with {action = "GetCourseByCategoryId", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourseByCategoryId(Int32) on controller LMS_SoulCode.Features.Course.Controllers.CourseController (LMS_SoulCode).
+2025-11-24 23:59:19.555 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__categoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryId], [c].[CreatedAt], [c].[Description], [c].[Difficulty], [c].[DurationHours], [c].[EnrolledCount], [c].[Instructor], [c].[IsActive], [c].[Lectures], [c].[Materials], [c].[Price], [c].[Rating], [c].[Tags], [c].[ThumbnailUrl], [c].[Title], [c].[UpdatedAt]
+FROM [Courses] AS [c]
+WHERE [c].[CategoryId] = @__categoryId_0 AND [c].[IsActive] = CAST(1 AS bit)
+2025-11-24 23:59:19.564 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LMS_SoulCode.Features.Course.Models.Course, LMS_SoulCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-24 23:59:19.569 +05:30 [INF] Executed action LMS_SoulCode.Features.Course.Controllers.CourseController.GetCourseByCategoryId (LMS_SoulCode) in 38886.4596ms
+2025-11-24 23:59:19.576 +05:30 [INF] Executed endpoint 'LMS_SoulCode.Features.Course.Controllers.CourseController.GetCourseByCategoryId (LMS_SoulCode)'
+2025-11-24 23:59:19.580 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/api/Course/3/categoryId?categoryId=3 - 200 null application/json; charset=utf-8 38966.136ms
+2025-11-24 23:59:53.374 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - null null
+2025-11-24 23:59:53.569 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/index.html - 200 null text/html;charset=utf-8 195.8779ms
+2025-11-24 23:59:53.834 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - null null
+2025-11-24 23:59:53.872 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-24 23:59:53.869 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - null null
+2025-11-24 23:59:53.925 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css - 404 0 null 90.8886ms
+2025-11-24 23:59:53.970 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 98.5719ms
+2025-11-24 23:59:53.982 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js - 404 0 null 113.1836ms
+2025-11-24 23:59:53.995 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.css, Response status code: 404
+2025-11-24 23:59:54.055 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger-ui/custom.js, Response status code: 404
+2025-11-24 23:59:54.069 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - null null
+2025-11-24 23:59:54.288 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/_vs/browserLink - 200 null text/javascript; charset=UTF-8 218.7721ms
+2025-11-24 23:59:54.564 +05:30 [INF] Request starting HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - null null
+2025-11-24 23:59:54.646 +05:30 [INF] Request finished HTTP/1.1 GET http://keratometric-autotypic-collin.ngrok-free.dev/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 83.0922ms
