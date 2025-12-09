@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using LMS_SoulCode.Features.Security.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LMS_SoulCode.Features.Security.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class CryptoController : ControllerBase

@@ -1,6 +1,7 @@
 ﻿using LMS_SoulCode.Features.Auth.Models;
 using LMS_SoulCode.Data;
 using Microsoft.EntityFrameworkCore;
+using LMS_SoulCode.Features.Auth.DTOs;
 
 namespace LMS_SoulCode.Features.Auth.Repositories
 {
@@ -32,6 +33,26 @@ namespace LMS_SoulCode.Features.Auth.Repositories
             await _context.Users.AddAsync(user);
             await _context.SaveChangesAsync();
         }
+        public async Task<IEnumerable<UserDto>> GetAllUserAsync()
+        {
+            return await _context.UserRoles
+                .Include(ur => ur.User)
+                .Include(ur => ur.Role)
+                .OrderByDescending(ur => ur.User.Id)
+                .Select(ur => new UserDto
+                {
+                    Id = ur.User.Id,
+                    UserName = ur.User.UserName,
+                    FirstName = ur.User.FirstName,
+                    LastName = ur.User.LastName,
+                    Mobile = ur.User.Mobile,
+                    Email = ur.User.Email,
+                    UserRole = ur.Role.Name,
+                    CreatedAt = ur.User.CreatedAt
+                })
+                .ToListAsync();
+        }
+
 
         public async Task<string?> GenerateResetTokenAsync(string email)
         {

@@ -6,9 +6,11 @@ using AuthModel = LMS_SoulCode.Features.Auth.DTOs.LoginRequest;
 using RegisterModel = LMS_SoulCode.Features.Auth.DTOs.RegisterRequest;
 using ForgotPasswordModel = LMS_SoulCode.Features.Auth.DTOs.ForgotPasswordRequest;
 using ResetPasswordModel = LMS_SoulCode.Features.Auth.DTOs.ResetPasswordRequest;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LMS_SoulCode.Features.Auth.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
@@ -23,6 +25,8 @@ namespace LMS_SoulCode.Features.Auth.Controllers
         {
             _auth = auth;
         }
+
+        [AllowAnonymous]
 
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] AuthModel request)
@@ -42,6 +46,8 @@ namespace LMS_SoulCode.Features.Auth.Controllers
             }
         }
 
+        [AllowAnonymous]
+
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterModel request)
         {
@@ -59,6 +65,7 @@ namespace LMS_SoulCode.Features.Auth.Controllers
                 return BadRequest(ex.Message);
             }
         }
+        [AllowAnonymous]
 
         [HttpPost("forgot-password")]
         public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordModel request)
@@ -77,6 +84,7 @@ namespace LMS_SoulCode.Features.Auth.Controllers
                 return BadRequest($"Password reset failed: {ex.Message}");
             }
         }
+        [AllowAnonymous]
 
         [HttpPost("reset-password")]
         public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordModel request)

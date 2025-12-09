@@ -3,9 +3,11 @@ using CreatePermissionRequest = LMS_SoulCode.Features.UserPermissions.DTOs.Creat
 using LMS_SoulCode.Features.UserPermissions.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Security;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LMS_SoulCode.Features.UserPermissions.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class PermissionController : ControllerBase

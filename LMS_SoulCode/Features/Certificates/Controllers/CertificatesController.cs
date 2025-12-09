@@ -1,7 +1,8 @@
 ﻿using LMS_SoulCode.Features.Certificates.DTOs;
 using LMS_SoulCode.Features.Certificates.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-
+[Authorize]
 [ApiController]
 [Route("api/[controller]")]
 public class CertificatesController : ControllerBase

@@ -47,8 +47,9 @@ namespace LMS_SoulCode.RepositoryMapping
             services.AddScoped<ICertificateService, CertificateService>();
             services.AddScoped<CourseDocumentService>();
             services.AddScoped<ICourseDocumentRepository, CourseDocumentRepository>();
-            
+            services.AddScoped<IUserService, UserService>();
 
+            
 
 
         }

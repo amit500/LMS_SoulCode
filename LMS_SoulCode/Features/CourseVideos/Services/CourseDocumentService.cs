@@ -1,6 +1,7 @@
-﻿using LMS_SoulCode.Features.Course.Models;
-using LMS_SoulCode.Features.CourseVideos.Models;
+﻿using LMS_SoulCode.Features.CourseVideos.Models;
 using LMS_SoulCode.Features.CourseVideos.Repositories;
+using LMS_SoulCode.Features.Common;
+using StatusCodes = LMS_SoulCode.Features.Common.StatusCodes;
 
 namespace LMS_SoulCode.Features.CourseVideos.Services
 {
@@ -15,10 +16,13 @@ namespace LMS_SoulCode.Features.CourseVideos.Services
             _env = env;
         }
 
-        public async Task<IEnumerable<CourseDocument>> GetByCourseAsync(int courseId)
+        public async Task<ApiResponse<IEnumerable<CourseDocument>>> GetByCourseAsync(int courseId)
         {
-            return await _repository.GetByCourseIdAsync(courseId);
-        }
+            var docs = await _repository.GetByCourseIdAsync(courseId);
+            if (docs == null || !docs.Any())
+                return ApiResponse<IEnumerable<CourseDocument>>.Fail("No documents found for this course", StatusCodes.NotFound);
 
+            return ApiResponse<IEnumerable<CourseDocument>>.Success(docs, "Documents retrieved successfully");
+        }
     }
 }

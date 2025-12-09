@@ -1,55 +1,72 @@
 ﻿using LMS_SoulCode.Features.Course.Models;
-using CategoryEntity= LMS_SoulCode.Features.Course.Models.Category;
+using CategoryEntity = LMS_SoulCode.Features.Course.Models.Category;
 using LMS_SoulCode.Features.Course.Repositories;
+using LMS_SoulCode.Features.Common;
+using StatusCodes = LMS_SoulCode.Features.Common.StatusCodes;
 
 namespace LMS_SoulCode.Features.Course.Services
 {
     public interface ICategoryService
     {
-        Task<IEnumerable<CategoryEntity>> GetAllAsync();
-        Task<CategoryEntity?> GetByIdAsync(int id);
-        Task<CategoryEntity> CreateAsync(string name);
-        Task UpdateAsync(int id, string newName);
-        Task DeleteAsync(int id);
+        Task<ApiResponse<IEnumerable<CategoryEntity>>> GetAllAsync();
+        Task<ApiResponse<CategoryEntity?>> GetByIdAsync(int id);
+        Task<ApiResponse<CategoryEntity>> CreateAsync(string name);
+        Task<ApiResponse<string>> UpdateAsync(int id, string newName);
+        Task<ApiResponse<string>> DeleteAsync(int id);
     }
+
     public class CategoryService : ICategoryService
     {
         private readonly ICategoryRepository _category;
 
-        public CategoryService(ICategoryRepository cateogryRepo)
-            => _category = cateogryRepo;
-
-
-        public async Task<IEnumerable<CategoryEntity>> GetAllAsync()
-            => await _category.GetAllAsync();
-
-        public async Task<CategoryEntity?> GetByIdAsync(int id)
-            => await _category.GetByIdAsync(id);
-
-        public async Task<Category> CreateAsync(string name)
+        public CategoryService(ICategoryRepository categoryRepo)
         {
-            var category = new Category { CategoryName = name };
-            await _category.AddAsync(category);
-            return category;
+            _category = categoryRepo;
         }
 
-        public async Task UpdateAsync(int id, string newName)
+        public async Task<ApiResponse<IEnumerable<CategoryEntity>>> GetAllAsync()
+        {
+            var data = await _category.GetAllAsync();
+            return ApiResponse<IEnumerable<CategoryEntity>>.Success(data, Messages.Success);
+        }
+        public async Task<ApiResponse<CategoryEntity?>> GetByIdAsync(int id)
         {
             var category = await _category.GetByIdAsync(id);
+
             if (category == null)
-                throw new Exception("Category not found");
+                return ApiResponse<CategoryEntity?>.Fail(Messages.NotFound, StatusCodes.NotFound);
+
+            return ApiResponse<CategoryEntity?>.Success(category, Messages.Success);
+        }
+        public async Task<ApiResponse<CategoryEntity>> CreateAsync(string name)
+        {
+            var category = new CategoryEntity { CategoryName = name };
+            await _category.AddAsync(category);
+
+            return ApiResponse<CategoryEntity>.Success(category, Messages.Created);
+        }
+        public async Task<ApiResponse<string>> UpdateAsync(int id, string newName)
+        {
+            var category = await _category.GetByIdAsync(id);
+
+            if (category == null)
+                return ApiResponse<string>.Fail(Messages.NotFound, StatusCodes.NotFound);
 
             category.CategoryName = newName;
             await _category.UpdateAsync(category);
-        }
 
-        public async Task DeleteAsync(int id)
+            return ApiResponse<string>.Success("Category updated", Messages.Updated);
+        }
+        public async Task<ApiResponse<string>> DeleteAsync(int id)
         {
             var category = await _category.GetByIdAsync(id);
+
             if (category == null)
-                throw new Exception("Category not found");
+                return ApiResponse<string>.Fail(Messages.NotFound, StatusCodes.NotFound);
 
             await _category.DeleteAsync(category);
+
+            return ApiResponse<string>.Success("Category deleted", Messages.Deleted);
         }
     }
 }

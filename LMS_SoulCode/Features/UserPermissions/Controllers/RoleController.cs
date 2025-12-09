@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 //using UpdateRoleRequest = LMS_SoulCode.Features.UserPermissions.Models.UpdateRoleRequest;
 namespace LMS_SoulCode.Features.UserPermissions.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class RoleController : ControllerBase

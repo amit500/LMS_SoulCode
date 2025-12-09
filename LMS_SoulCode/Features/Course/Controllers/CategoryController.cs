@@ -1,13 +1,11 @@
 ﻿using LMS_SoulCode.Features.Course.DTOs;
-using LMS_SoulCode.Features.Course.Models;
-using CreatePermissionRequest = LMS_SoulCode.Features.Course.DTOs.CategoryRequest;
 using LMS_SoulCode.Features.Course.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Security;
-using LMS_SoulCode.Features.Auth.Models;
 
 namespace LMS_SoulCode.Features.Course.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class CategoryController : ControllerBase
@@ -20,45 +18,38 @@ namespace LMS_SoulCode.Features.Course.Controllers
         [HttpGet("list")]
         public async Task<IActionResult> GetAll()
         {
-            var categories = await _categoryService.GetAllAsync();
-            return Ok(categories);
+            var response = await _categoryService.GetAllAsync();
+            return StatusCode(response.Code, response);
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var category = await _categoryService.GetByIdAsync(id);
-            if (category == null)
-                return NotFound(new { message = "Category not found" });
-
-            return Ok(category);
+            var response = await _categoryService.GetByIdAsync(id);
+            return StatusCode(response.Code, response);
         }
 
         [HttpPost("create")]
         public async Task<IActionResult> Create([FromBody] CategoryRequest request)
         {
-            var category = await _categoryService.CreateAsync(request.CategoryName);
-            var response = new CategoryResponse(category.Id, "Category created successfully!");
+            var response = await _categoryService.CreateAsync(request.CategoryName);
 
-            return CreatedAtAction(nameof(GetById), new { id = category.Id }, response);
+            // Return 201 Created
+            return StatusCode(response.Code, response);
         }
 
         [HttpPut("update/{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] CategoryRequest request)
         {
-            await _categoryService.UpdateAsync(id, request.CategoryName);
-            var response = new CategoryResponse(id, "Category updated successfully!");
-
-            return Ok(response);
+            var response = await _categoryService.UpdateAsync(id, request.CategoryName);
+            return StatusCode(response.Code, response);
         }
 
         [HttpDelete("delete/{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            await _categoryService.DeleteAsync(id);
-            var response = new CategoryResponse(id, "Category deleted successfully!");
-
-            return Ok(response);
+            var response = await _categoryService.DeleteAsync(id);
+            return StatusCode(response.Code, response);
         }
     }
 }

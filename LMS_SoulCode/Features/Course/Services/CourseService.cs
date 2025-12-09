@@ -1,27 +1,26 @@
 ﻿using CourseEntity = LMS_SoulCode.Features.Course.Models.Course;
 using LMS_SoulCode.Features.Course.DTOs;
 using LMS_SoulCode.Features.Course.Repositories;
-using Microsoft.AspNetCore.Cors.Infrastructure;
 using LMS_SoulCode.Features.CourseVideos.Models;
-using Microsoft.EntityFrameworkCore;
-using LMS_SoulCode.Features.Course.DTOs;
-using BCrypt.Net;
+using LMS_SoulCode.Features.Common;
+using Microsoft.AspNetCore.Http;
 using LMS_SoulCode.Features.Security.Services;
+using StatusCodes = LMS_SoulCode.Features.Common.StatusCodes;
+
 namespace LMS_SoulCode.Features.Course.Services
 {
     public interface ICourseService
     {
-        Task<IEnumerable<CourseResponse>> GetAllAsync();
-        Task AddAsync(CourseRequest request);
-        Task<bool> UploadVideoAsync(int courseId, IFormFile file);
-        Task<bool> UploadDocumentAsync(int courseId, IFormFile file);
-        Task<IEnumerable<CourseVideo>> GetCourseVideosAsync(int courseId);
-        Task<IEnumerable<CourseDocument>> GetCourseDocumentAsync(int courseId);
-        Task<CourseEntity?> GetByIdAsync(int id);
-        Task<List<CourseEntity>> GetCourseByCateIdAsync(int id);
-
-
+        Task<ApiResponse<IEnumerable<CourseResponse>>> GetAllAsync();
+        Task<ApiResponse<CourseResponse>> GetByIdAsync(int id);
+        Task<ApiResponse<CourseResponse>> AddAsync(CourseRequest request);
+        Task<ApiResponse<IEnumerable<CourseResponse>>> GetCourseByCategoryIdAsync(int categoryId);
+        Task<ApiResponse<string>> UploadVideoAsync(int courseId, IFormFile file);
+        Task<ApiResponse<string>> UploadDocumentAsync(int courseId, IFormFile file);
+        Task<ApiResponse<IEnumerable<CourseVideo>>> GetCourseVideosAsync(int courseId);
+        Task<ApiResponse<IEnumerable<CourseDocument>>> GetCourseDocumentsAsync(int courseId);
     }
+
     public class CourseService : ICourseService
     {
         private readonly ICourseRepository _repository;
@@ -35,10 +34,10 @@ namespace LMS_SoulCode.Features.Course.Services
             _crypto = crypto;
         }
 
-        public async Task<IEnumerable<CourseResponse>> GetAllAsync()
+        public async Task<ApiResponse<IEnumerable<CourseResponse>>> GetAllAsync()
         {
             var courses = await _repository.GetAllAsync();
-            return courses.Select(c => new CourseResponse
+            var response = courses.Select(c => new CourseResponse
             {
                 Id = c.Id,
                 Title = c.Title,
@@ -50,9 +49,34 @@ namespace LMS_SoulCode.Features.Course.Services
                 Price = c.Price,
                 IsActive = c.IsActive
             });
+
+            return ApiResponse<IEnumerable<CourseResponse>>.Success(response, Messages.Success);
         }
 
-        public async Task AddAsync(CourseRequest request)
+        public async Task<ApiResponse<CourseResponse>> GetByIdAsync(int id)
+        {
+            var course = await _repository.GetByIdAsync(id);
+
+            if (course == null)
+                return ApiResponse<CourseResponse>.Fail(Messages.NotFound, StatusCodes.NotFound);
+
+            var response = new CourseResponse
+            {
+                Id = course.Id,
+                Title = course.Title,
+                Description = course.Description,
+                Instructor = course.Instructor,
+                Difficulty = course.Difficulty,
+                DurationHours = course.DurationHours,
+                Rating = course.Rating,
+                Price = course.Price,
+                IsActive = course.IsActive
+            };
+
+            return ApiResponse<CourseResponse>.Success(response, Messages.Success);
+        }
+
+        public async Task<ApiResponse<CourseResponse>> AddAsync(CourseRequest request)
         {
             var course = new CourseEntity
             {
@@ -70,56 +94,63 @@ namespace LMS_SoulCode.Features.Course.Services
             };
 
             await _repository.AddAsync(course);
+
+            var response = new CourseResponse
+            {
+                Id = course.Id,
+                Title = course.Title,
+                Description = course.Description,
+                Instructor = course.Instructor,
+                Difficulty = course.Difficulty,
+                DurationHours = course.DurationHours,
+                Rating = course.Rating,
+                Price = course.Price,
+                IsActive = course.IsActive
+            };
+
+            return ApiResponse<CourseResponse>.Success(response, Messages.Created);
         }
 
-        //public async Task<bool> UploadVideoAsync(int courseId, IFormFile file)
-        //{
-        //    var course = await _repository.GetByIdAsync(courseId);
-        //    if (course == null)
-        //        throw new Exception("Course not found");
-
-        //    var rootPath = _env.WebRootPath ?? Path.Combine(_env.ContentRootPath, "wwwroot");
-        //    var folderPath = Path.Combine(rootPath, "uploads", "courses", courseId.ToString());
-        //    if (!Directory.Exists(folderPath))
-        //        Directory.CreateDirectory(folderPath);
-
-        //    var fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
-        //    var filePath = Path.Combine(folderPath, fileName);
-
-        //    using (var stream = new FileStream(filePath, FileMode.Create))
-        //    {
-        //        await file.CopyToAsync(stream);
-        //    }
-
-        //    var video = new CourseVideo
-        //    {
-        //        CourseId = courseId,
-        //        Title = Path.GetFileNameWithoutExtension(file.FileName),
-        //        VideoUrl = $"/uploads/courses/{courseId}/{fileName}"
-        //    };
-
-        //    await _repository.AddVideoAsync(video);
-        //    //await _repository.SaveChangesAsync();
-
-        //    return true;
-        //}
-
-        public async Task<bool> UploadVideoAsync(int courseId, IFormFile file)
+        public async Task<ApiResponse<IEnumerable<CourseResponse>>> GetCourseByCategoryIdAsync(int categoryId)
         {
+            var courses = await _repository.GetCoursesByCateIdAsync(categoryId);
+
+            if (courses == null || !courses.Any())
+                return ApiResponse<IEnumerable<CourseResponse>>.Fail("No courses found for this category", StatusCodes.NotFound);
+
+            var response = courses.Select(c => new CourseResponse
+            {
+                Id = c.Id,
+                Title = c.Title,
+                Description = c.Description,
+                Instructor = c.Instructor,
+                Difficulty = c.Difficulty,
+                DurationHours = c.DurationHours,
+                Rating = c.Rating,
+                Price = c.Price,
+                IsActive = c.IsActive
+            });
+
+            return ApiResponse<IEnumerable<CourseResponse>>.Success(response, Messages.Success);
+        }
+
+        public async Task<ApiResponse<string>> UploadVideoAsync(int courseId, IFormFile file)
+        {
+            if (file == null || file.Length == 0)
+                return ApiResponse<string>.Fail("No file selected", StatusCodes.BadRequest);
+
             var course = await _repository.GetByIdAsync(courseId);
             if (course == null)
-                throw new Exception("Course not found");
+                return ApiResponse<string>.Fail(Messages.NotFound, StatusCodes.NotFound);
 
             var rootPath = _env.WebRootPath ?? Path.Combine(_env.ContentRootPath, "wwwroot");
             var folderPath = Path.Combine(rootPath, "uploads", "courses", courseId.ToString());
-
             if (!Directory.Exists(folderPath))
                 Directory.CreateDirectory(folderPath);
 
-            var fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName) + ".enc";
+            var fileName = Guid.NewGuid() + Path.GetExtension(file.FileName) + ".enc";
             var filePath = Path.Combine(folderPath, fileName);
 
-            // 1. Read file
             byte[] fileBytes;
             using (var ms = new MemoryStream())
             {
@@ -127,13 +158,9 @@ namespace LMS_SoulCode.Features.Course.Services
                 fileBytes = ms.ToArray();
             }
 
-            // 2. Encrypt → Base64 (string)
             string encryptedBase64 = _crypto.EncryptBytes(fileBytes);
-
-            // 3. Save encrypted as TEXT
             await File.WriteAllTextAsync(filePath, encryptedBase64);
 
-            // 4. Save record
             var video = new CourseVideo
             {
                 CourseId = courseId,
@@ -143,25 +170,26 @@ namespace LMS_SoulCode.Features.Course.Services
 
             await _repository.AddVideoAsync(video);
 
-            return true;
+            return ApiResponse<string>.Success("Video uploaded successfully", Messages.Created);
         }
 
-        public async Task<bool> UploadDocumentAsync(int courseId, IFormFile file)
+        public async Task<ApiResponse<string>> UploadDocumentAsync(int courseId, IFormFile file)
         {
+            if (file == null || file.Length == 0)
+                return ApiResponse<string>.Fail("No file selected", StatusCodes.BadRequest);
+
             var course = await _repository.GetByIdAsync(courseId);
             if (course == null)
-                throw new Exception("Course not found");
+                return ApiResponse<string>.Fail(Messages.NotFound, StatusCodes.NotFound);
 
             var rootPath = _env.WebRootPath ?? Path.Combine(_env.ContentRootPath, "wwwroot");
-            var folderPath = Path.Combine(rootPath, "uploads", "courses","docs", courseId.ToString());
-
+            var folderPath = Path.Combine(rootPath, "uploads", "courses", "docs", courseId.ToString());
             if (!Directory.Exists(folderPath))
                 Directory.CreateDirectory(folderPath);
 
-            var fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName) + ".enc";
+            var fileName = Guid.NewGuid() + Path.GetExtension(file.FileName) + ".enc";
             var filePath = Path.Combine(folderPath, fileName);
 
-            // 1. Read file
             byte[] fileBytes;
             using (var ms = new MemoryStream())
             {
@@ -169,35 +197,31 @@ namespace LMS_SoulCode.Features.Course.Services
                 fileBytes = ms.ToArray();
             }
 
-            // 2. Encrypt → Base64 (string)
             string encryptedBase64 = _crypto.EncryptBytes(fileBytes);
-
-            // 3. Save encrypted as TEXT
             await File.WriteAllTextAsync(filePath, encryptedBase64);
 
-            // 4. Save record
-            var docs = new CourseDocument
+            var doc = new CourseDocument
             {
                 CourseId = courseId,
                 DocName = Path.GetFileNameWithoutExtension(file.FileName),
                 DocUrl = $"/uploads/courses/docs/{courseId}/{fileName}"
             };
 
-            await _repository.AddDocsAsync(docs);
+            await _repository.AddDocsAsync(doc);
 
-            return true;
+            return ApiResponse<string>.Success("Document uploaded successfully", Messages.Created);
         }
 
-        public async Task<IEnumerable<CourseVideo>> GetCourseVideosAsync(int courseId)
-             => await _repository.GetVideosByCourseIdAsync(courseId);
-        public async Task<IEnumerable<CourseDocument>> GetCourseDocumentAsync(int courseId)
-             => await _repository.GetDocsByCourseIdAsync(courseId);
-        
-        public async Task<CourseEntity?> GetByIdAsync(int id)
-           => await _repository.GetByIdAsync(id);
+        public async Task<ApiResponse<IEnumerable<CourseVideo>>> GetCourseVideosAsync(int courseId)
+        {
+            var videos = await _repository.GetVideosByCourseIdAsync(courseId);
+            return ApiResponse<IEnumerable<CourseVideo>>.Success(videos, Messages.Success);
+        }
 
-        public async Task<List<CourseEntity>> GetCourseByCateIdAsync(int categoryId)
-           => await _repository.GetCoursesByCateIdAsync(categoryId);
-        
+        public async Task<ApiResponse<IEnumerable<CourseDocument>>> GetCourseDocumentsAsync(int courseId)
+        {
+            var docs = await _repository.GetDocsByCourseIdAsync(courseId);
+            return ApiResponse<IEnumerable<CourseDocument>>.Success(docs, Messages.Success);
+        }
     }
 }

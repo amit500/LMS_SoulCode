@@ -1,20 +1,17 @@
 ﻿using LMS_SoulCode.Features.Auth.DTOs;
 using LMS_SoulCode.Features.Auth.Repositories;
-using LMS_SoulCode.Features.Auth.Services;
 using LMS_SoulCode.Features.Auth.Models;
-using AuthModel = LMS_SoulCode.Features.Auth.DTOs.LoginRequest;
-using RegisterModel = LMS_SoulCode.Features.Auth.DTOs.RegisterRequest;
-using ForgotPasswordModel = LMS_SoulCode.Features.Auth.DTOs.ForgotPasswordRequest;
-using ResetPasswordModel = LMS_SoulCode.Features.Auth.DTOs.ResetPasswordRequest;
+using LMS_SoulCode.Features.Common;
+using StatusCodes = LMS_SoulCode.Features.Common.StatusCodes;
 
 namespace LMS_SoulCode.Features.Auth.Services
 {
     public interface IAuthService
     {
-        Task<LoginResponse> LoginAsync(AuthModel request);
-        Task<LoginResponse> RegisterAsync(RegisterModel request);
-        Task<ForgotPasswordResponse> ForgotPasswordAsync(ForgotPasswordModel request);
-        Task<ResetPasswordResponse> ResetPasswordAsync(ResetPasswordModel request);
+        Task<ApiResponse<LoginResponse>> LoginAsync(LoginRequest request);
+        Task<ApiResponse<LoginResponse>> RegisterAsync(RegisterRequest request);
+        Task<ApiResponse<ForgotPasswordResponse>> ForgotPasswordAsync(ForgotPasswordRequest request);
+        Task<ApiResponse<ResetPasswordResponse>> ResetPasswordAsync(ResetPasswordRequest request);
     }
 
     public class AuthService : IAuthService
@@ -22,6 +19,7 @@ namespace LMS_SoulCode.Features.Auth.Services
         private readonly IUserRepository _users;
         private readonly JwtTokenService _jwt;
         private readonly IEmailService _emailService;
+
         public AuthService(IUserRepository users, JwtTokenService jwt, IEmailService emailService)
         {
             _users = users;
@@ -29,31 +27,37 @@ namespace LMS_SoulCode.Features.Auth.Services
             _emailService = emailService;
         }
 
-        public async Task<LoginResponse> LoginAsync(AuthModel request)
+        public async Task<ApiResponse<LoginResponse>> LoginAsync(LoginRequest request)
         {
             var user = await _users.GetByUsernameOrEmailAsync(request.Email);
 
             if (user == null || !BCrypt.Net.BCrypt.Verify(request.Password, user.PasswordHash))
-                throw new Exception("Invalid username or password");
+                return ApiResponse<LoginResponse>.Fail("Invalid credentials", StatusCodes.Unauthorized);
 
             var (token, expires) = _jwt.CreateToken(user);
-            var userDto = new UserDto
-            {
-                Id = user.Id,
-                UserName = user.UserName,
-                FirstName = user.FirstName,
-                LastName = user.LastName,
-                Mobile = user.Mobile,
-                Email = user.Email,
-                CreatedAt = user.CreatedAt
-            };
-            return new LoginResponse(token, expires, userDto);
+
+            var dto = new LoginResponse(
+                token,
+                expires,
+                new UserDto
+                {
+                    Id = user.Id,
+                    UserName = user.UserName,
+                    FirstName = user.FirstName,
+                    LastName = user.LastName,
+                    Mobile = user.Mobile,
+                    Email = user.Email,
+                    CreatedAt = user.CreatedAt
+                }
+            );
+
+            return ApiResponse<LoginResponse>.Success(dto, "Login successful");
         }
 
-        public async Task<LoginResponse> RegisterAsync(RegisterModel request)
+        public async Task<ApiResponse<LoginResponse>> RegisterAsync(RegisterRequest request)
         {
             if (await _users.IsEmailTakenAsync(request.Email))
-                throw new InvalidOperationException("User already exists");
+                return ApiResponse<LoginResponse>.Fail("Email already exists", StatusCodes.BadRequest);
 
             var user = new User
             {
@@ -62,78 +66,75 @@ namespace LMS_SoulCode.Features.Auth.Services
                 LastName = request.LastName,
                 PasswordHash = BCrypt.Net.BCrypt.HashPassword(request.Password),
                 Mobile = request.Mobile,
-                Email = request.Email,
-                RefreshToken = Guid.NewGuid().ToString(),
-                RefreshTokenExpiry = DateTime.UtcNow.AddDays(7)
+                Email = request.Email
             };
 
             await _users.AddAsync(user);
 
             var (token, expires) = _jwt.CreateToken(user);
-            var userDto = new UserDto
-            {
-                Id = user.Id,
-                UserName = user.UserName,
-                FirstName = user.FirstName,
-                LastName = user.LastName,
-                Mobile = user.Mobile,
-                Email = user.Email,
-                CreatedAt = user.CreatedAt
-            };
-            return new LoginResponse(token, expires, userDto);
+
+            var dto = new LoginResponse(
+                token,
+                expires,
+                new UserDto
+                {
+                    Id = user.Id,
+                    UserName = user.UserName,
+                    FirstName = user.FirstName,
+                    LastName = user.LastName,
+                    Mobile = user.Mobile,
+                    Email = user.Email,
+                    CreatedAt = user.CreatedAt
+                }
+            );
+
+            return ApiResponse<LoginResponse>.Success(dto, "User created successfully");
         }
 
-        public async Task<ForgotPasswordResponse> ForgotPasswordAsync(ForgotPasswordModel request)
+        public async Task<ApiResponse<ForgotPasswordResponse>> ForgotPasswordAsync(ForgotPasswordRequest request)
         {
             var user = await _users.GetByUsernameOrEmailAsync(request.Email);
+
             if (user == null)
-                throw new Exception("User not found");
+                return ApiResponse<ForgotPasswordResponse>.Fail("Email not found", StatusCodes.NotFound);
 
             var resetToken = await _users.GenerateResetTokenAsync(request.Email);
             if (resetToken == null)
-                throw new Exception("Failed to generate reset token");
+                return ApiResponse<ForgotPasswordResponse>.Fail("Unable to create reset token", StatusCodes.ServerError);
 
-            var tokenExpiry = DateTime.UtcNow.AddHours(1);
+            var dto = new ForgotPasswordResponse(
+                resetToken,
+                DateTime.UtcNow.AddHours(1)
+            );
 
-            var resetLink = $"https://example.com/reset-password?email={request.Email}&token={resetToken}";
-
-                    var body = $@"
-                Hi {user.UserName},<br><br>
-                Click the link below to reset your password:<br>
-                <a href='{resetLink}'>Reset Password</a><br><br>
-                This link will expire in 1 hour.<br><br>
-                Thanks,<br>
-                LMS SoulCode Team
-            ";
-
-            await _emailService.SendEmailAsync(request.Email, "Reset your password", body);
-
-            return new ForgotPasswordResponse(resetToken, tokenExpiry);
+            return ApiResponse<ForgotPasswordResponse>.Success(dto, "Reset token generated");
         }
 
-        public async Task<ResetPasswordResponse> ResetPasswordAsync(ResetPasswordModel request)
+        public async Task<ApiResponse<ResetPasswordResponse>> ResetPasswordAsync(ResetPasswordRequest request)
         {
             var user = await _users.GetUserByResetTokenAsync(request.Token);
+
             if (user == null)
-                throw new Exception("Invalid or expired reset token");
+                return ApiResponse<ResetPasswordResponse>.Fail("Invalid or expired token", StatusCodes.BadRequest);
 
             user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(request.NewPassword);
             user.ResetToken = null;
             user.ResetTokenExpiry = null;
 
-            var newRefreshToken = Guid.NewGuid().ToString();
-            user.RefreshToken = newRefreshToken;
-            user.RefreshTokenExpiry = DateTime.UtcNow.AddDays(7);
-
             await _users.UpdatePasswordAsync(user);
 
-            var (newAccessToken, _) = _jwt.CreateToken(user);
+            var refreshToken = Guid.NewGuid().ToString();
+            user.RefreshToken = refreshToken;
 
-            return new ResetPasswordResponse(
-                "Password reset successful. You are now logged in.",
-                newAccessToken,
-                newRefreshToken
+            var (newAccess, _) = _jwt.CreateToken(user);
+
+            var dto = new ResetPasswordResponse(
+                "Password updated successfully",
+                newAccess,
+                refreshToken
             );
+
+            return ApiResponse<ResetPasswordResponse>.Success(dto, "Password updated");
         }
     }
 }

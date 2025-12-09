@@ -6,6 +6,7 @@ using System.Security.Claims;
 
 namespace LMS_SoulCode.Features.SubscribedCourse.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     [Authorize] // must be authenticated

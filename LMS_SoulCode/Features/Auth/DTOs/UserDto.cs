@@ -8,6 +8,7 @@
         public string LastName { get; set; } = null!;
         public string Mobile { get; set; } = null!;
         public string Email { get; set; } = null!;
+        public string UserRole { get; set; } = null!;
         public DateTime CreatedAt { get; set; }
     }
 }

@@ -1,8 +1,10 @@
 ﻿using LMS_SoulCode.Features.Reports.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LMS_SoulCode.Features.Reports.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/reports")]
     public class ReportsController : ControllerBase
